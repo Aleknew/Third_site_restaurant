@@ -26,7 +26,9 @@
       <nav class="main-nav" id="mobile-menu" data-nav aria-label="Navegacion principal">
         <a href="#experiencia">Experiencia</a>
         <a href="#menu">Menu</a>
+        <a href="#opiniones">Opiniones</a>
         <a href="#ambiente">Ambiente</a>
+        <a href="#ubicacion">Ubicacion</a>
         <a href="#contacto">Contacto</a>
       </nav>
 
@@ -43,8 +45,8 @@
     </header>
 
     <main id="inicio">
-      <section class="hero section-shell">
-        <div class="hero-copy">
+      <section class="hero section-shell" data-reveal>
+        <div class="hero-copy" data-reveal>
           <p class="eyebrow">Restaurante espanol en Calella</p>
           <h1>Buena mesa, momentos memorables.</h1>
           <p class="hero-text">
@@ -59,10 +61,10 @@
           </div>
         </div>
 
-        <div class="hero-media" aria-label="Plato mediterraneo servido en Rio de Gusto">
+        <div class="hero-media" aria-label="Platos destacados de Rio de Gusto">
           <img
-            src="https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"
-            alt="Plato mediterraneo con verduras, salsa y presentacion elegante"
+            src="assets/menu-combos-dishes.png"
+            alt="Collage de platos combinados de Rio de Gusto"
           />
           <div class="hero-card">
             <span>Cocina abierta</span>
@@ -71,7 +73,7 @@
         </div>
       </section>
 
-      <section class="intro-band" id="experiencia">
+      <section class="intro-band" id="experiencia" data-reveal>
         <div class="section-shell intro-grid">
           <div>
             <p class="eyebrow">Nuestra esencia</p>
@@ -85,32 +87,32 @@
         </div>
       </section>
 
-      <section class="section-shell feature-grid">
-        <article class="feature">
+      <section class="section-shell feature-grid" data-reveal>
+        <article class="feature" data-reveal>
           <span class="feature-icon">01</span>
           <h3>Producto de mercado</h3>
           <p>Pescados, verduras y carnes seleccionadas cada semana con criterio de temporada.</p>
         </article>
-        <article class="feature">
+        <article class="feature" data-reveal>
           <span class="feature-icon">02</span>
           <h3>Ritmo mediterraneo</h3>
           <p>Una carta flexible para comidas luminosas, cenas largas y sobremesas cuidadas.</p>
         </article>
-        <article class="feature">
+        <article class="feature" data-reveal>
           <span class="feature-icon">03</span>
           <h3>Detalles refinados</h3>
           <p>Texturas naturales, vajilla sobria y pequenos acentos dorados en cada experiencia.</p>
         </article>
       </section>
 
-      <section class="section-shell menu-section" id="menu">
+      <section class="section-shell menu-section" id="menu" data-reveal>
         <div class="section-heading">
           <p class="eyebrow">Menu completo</p>
           <h2>La carta de Rio de Gusto.</h2>
         </div>
 
         <div class="menu-catalog">
-          <div class="menu-group">
+          <div class="menu-group" data-reveal>
             <div class="menu-group-heading">
               <span>Plats combinats</span>
               <p>Con patatas fritas; ensalada disponible como alternativa.</p>
@@ -160,7 +162,7 @@
             </div>
           </div>
 
-          <div class="menu-group tapas-group">
+          <div class="menu-group tapas-group" data-reveal>
             <div class="menu-group-heading">
               <span>Tapes</span>
               <p>Tapas clasicas para compartir antes de la comida o con una copa.</p>
@@ -227,7 +229,12 @@
           </div>
         </div>
 
-        <figure class="full-menu">
+        <div class="full-menu-heading" data-reveal>
+          <p class="eyebrow">Carta completa</p>
+          <button class="menu-open" type="button" data-open-menu>Ver menú en grande</button>
+        </div>
+
+        <figure class="full-menu" data-reveal>
           <img
             src="assets/full-menu-rio-de-gusto.png"
             alt="Menu completo de Rio de Gusto con ensaladas, sopas, pizza, pasta, combinadas, principales y cocktails"
@@ -237,13 +244,14 @@
 
       <section class="reviews-section" id="opiniones">
         <div class="section-shell">
-          <div class="section-heading">
+          <div class="section-heading" data-reveal>
             <p class="eyebrow">Opiniones de Google</p>
             <h2>Lo que dicen nuestros clientes.</h2>
+            <p class="reviews-summary">Google · 4.8/5 · Restaurante Rio de Gusto</p>
           </div>
 
           <div class="reviews-grid">
-            <article class="review-card">
+            <article class="review-card" data-reveal>
               <div class="review-stars" aria-label="5 de 5 estrellas">★★★★★</div>
               <p>“Buen precio y buen servicio. Recomiendo.”</p>
               <footer>
@@ -252,7 +260,7 @@
               </footer>
             </article>
 
-            <article class="review-card">
+            <article class="review-card" data-reveal>
               <div class="review-stars" aria-label="5 de 5 estrellas">★★★★★</div>
               <p>“Espectacular menús, la comida está buenísima.”</p>
               <footer>
@@ -261,7 +269,7 @@
               </footer>
             </article>
 
-            <article class="review-card">
+            <article class="review-card" data-reveal>
               <div class="review-stars" aria-label="5 de 5 estrellas">★★★★★</div>
               <p>“El servicio es muy amable y la comida está llena de sabor.”</p>
               <footer>
@@ -282,7 +290,20 @@
         </div>
       </section>
 
-      <section class="atmosphere" id="ambiente">
+      <section class="facade-section" data-reveal>
+        <div class="section-shell facade-heading">
+          <p class="eyebrow">Rio de Gusto desde la calle</p>
+          <h2>Un rincón cálido en el centro de Calella.</h2>
+        </div>
+        <figure class="facade-photo">
+          <img
+            src="assets/restaurant-facade.png"
+            alt="Fachada iluminada del restaurante Rio de Gusto en Calella"
+          />
+        </figure>
+      </section>
+
+      <section class="atmosphere" id="ambiente" data-reveal>
         <div class="section-shell atmosphere-grid">
           <div class="atmosphere-copy">
             <p class="eyebrow">Ambiente en Calella</p>
@@ -295,19 +316,19 @@
           <div class="image-stack">
             <img
               class="stack-large"
-              src="https://images.unsplash.com/photo-1559329007-40df8a9345d8?auto=format&amp;fit=crop&amp;w=1000&amp;q=85"
-              alt="Interior de restaurante elegante con mesas preparadas"
+              src="assets/terrace-ambiente.png"
+              alt="Terraza de Rio de Gusto iluminada por la noche en Calella"
             />
             <img
               class="stack-small"
-              src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&amp;fit=crop&amp;w=700&amp;q=85"
+              src="assets/wine-glasses.jpg"
               alt="Copas de vino servidas en una mesa de restaurante"
             />
           </div>
         </div>
       </section>
 
-      <section class="reservation section-shell" id="contacto">
+      <section class="reservation section-shell" id="contacto" data-reveal>
         <div class="reservation-panel">
           <p class="eyebrow">Reservas</p>
           <h2>Tu mesa en Rio de Gusto.</h2>
@@ -336,10 +357,20 @@
         </div>
       </section>
 
-      <section class="map-section" aria-label="Ubicacion de Rio de Gusto en Calella">
+      <section class="map-section" id="ubicacion" aria-label="Ubicacion de Rio de Gusto en Calella" data-reveal>
         <div class="section-shell map-heading">
-          <p class="eyebrow">Ubicacion</p>
-          <h2>Nos encontramos en Calella.</h2>
+          <div>
+            <p class="eyebrow">Ubicacion</p>
+            <h2>Nos encontramos en Calella.</h2>
+          </div>
+          <a
+            class="map-link"
+            href="https://www.google.com/maps/dir/?api=1&amp;destination=41.6185178,2.6654402"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Cómo llegar
+          </a>
         </div>
         <div class="map-frame">
           <iframe
@@ -352,6 +383,14 @@
         </div>
       </section>
     </main>
+
+    <div class="menu-modal" data-menu-modal aria-hidden="true">
+      <div class="menu-modal-backdrop" data-close-menu></div>
+      <div class="menu-modal-panel" role="dialog" aria-modal="true" aria-label="Menu completo de Rio de Gusto">
+        <button class="menu-modal-close" type="button" data-close-menu>×</button>
+        <img src="assets/full-menu-rio-de-gusto.png" alt="Menu completo de Rio de Gusto ampliado" />
+      </div>
+    </div>
 
     <footer class="site-footer">
       <div class="section-shell footer-inner">
