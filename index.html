@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Rio de Gusto es un restaurante espanol en Calella con cocina mediterranea, producto local y una experiencia elegante y acogedora."
+    />
+    <title>Rio de Gusto | Restaurante en Calella</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&amp;family=Playfair+Display:wght@500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#inicio" aria-label="Rio de Gusto inicio">
+        <span class="brand-logo" aria-hidden="true"></span>
+        <span class="sr-only">Rio de Gusto</span>
+      </a>
+
+      <nav class="main-nav" id="mobile-menu" data-nav aria-label="Navegacion principal">
+        <a href="#experiencia">Experiencia</a>
+        <a href="#menu">Menu</a>
+        <a href="#ambiente">Ambiente</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <a class="header-cta" href="https://wa.me/34600000000?text=Hola%20Rio%20de%20Gusto%2C%20quiero%20reservar%20una%20mesa." target="_blank" rel="noreferrer">
+        Reservar
+      </a>
+
+      <button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">Abrir menu</span>
+      </button>
+    </header>
+
+    <main id="inicio">
+      <section class="hero section-shell">
+        <div class="hero-copy">
+          <p class="eyebrow">Restaurante espanol en Calella</p>
+          <h1>Buena mesa, momentos memorables.</h1>
+          <p class="hero-text">
+            Cocina mediterranea con alma espanola, producto de temporada y una
+            atmosfera serena para disfrutar sin prisa.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="https://wa.me/34600000000?text=Hola%20Rio%20de%20Gusto%2C%20quiero%20reservar%20una%20mesa." target="_blank" rel="noreferrer">
+              Reservar por WhatsApp
+            </a>
+            <a class="button secondary" href="#menu">Ver menu</a>
+          </div>
+        </div>
+
+        <div class="hero-media" aria-label="Plato mediterraneo servido en Rio de Gusto">
+          <img
+            src="https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"
+            alt="Plato mediterraneo con verduras, salsa y presentacion elegante"
+          />
+          <div class="hero-card">
+            <span>Cocina abierta</span>
+            <strong>Producto local · Vino · Brasa suave</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-band" id="experiencia">
+        <div class="section-shell intro-grid">
+          <div>
+            <p class="eyebrow">Nuestra esencia</p>
+            <h2>Elegancia tranquila, sabor autentico.</h2>
+          </div>
+          <p>
+            Rio de Gusto nace para reunir lo mejor de la costa catalana y la
+            tradicion espanola: platos honestos, servicio cercano y una sala
+            pensada para conversar, celebrar y volver.
+          </p>
+        </div>
+      </section>
+
+      <section class="section-shell feature-grid">
+        <article class="feature">
+          <span class="feature-icon">01</span>
+          <h3>Producto de mercado</h3>
+          <p>Pescados, verduras y carnes seleccionadas cada semana con criterio de temporada.</p>
+        </article>
+        <article class="feature">
+          <span class="feature-icon">02</span>
+          <h3>Ritmo mediterraneo</h3>
+          <p>Una carta flexible para comidas luminosas, cenas largas y sobremesas cuidadas.</p>
+        </article>
+        <article class="feature">
+          <span class="feature-icon">03</span>
+          <h3>Detalles refinados</h3>
+          <p>Texturas naturales, vajilla sobria y pequenos acentos dorados en cada experiencia.</p>
+        </article>
+      </section>
+
+      <section class="section-shell menu-section" id="menu">
+        <div class="section-heading">
+          <p class="eyebrow">Menu completo</p>
+          <h2>La carta de Rio de Gusto.</h2>
+        </div>
+
+        <div class="menu-catalog">
+          <div class="menu-group">
+            <div class="menu-group-heading">
+              <span>Plats combinats</span>
+              <p>Con patatas fritas; ensalada disponible como alternativa.</p>
+            </div>
+
+            <div class="dish-grid">
+              <article class="dish-card">
+                <span class="dish-photo dish-combo frankfurt" role="img" aria-label="Frankfurt con patatas y huevo"></span>
+                <div>
+                  <h3>Frankfurt, patates i ou</h3>
+                  <p>Frankfurt, patatas y huevo · Frankfurt, fries and egg</p>
+                </div>
+                <strong>7.95€</strong>
+              </article>
+              <article class="dish-card">
+                <span class="dish-photo dish-combo chicken" role="img" aria-label="Pechuga de pollo con patatas"></span>
+                <div>
+                  <h3>Pit de pollastre i patates</h3>
+                  <p>Pechuga de pollo y patatas · Chicken breast and fries</p>
+                </div>
+                <strong>7.95€</strong>
+              </article>
+              <article class="dish-card">
+                <span class="dish-photo dish-combo loin" role="img" aria-label="Lomo con patatas"></span>
+                <div>
+                  <h3>Llom i patates</h3>
+                  <p>Lomo y patatas · Pork loin and fries</p>
+                </div>
+                <strong>7.95€</strong>
+              </article>
+              <article class="dish-card">
+                <span class="dish-photo dish-combo steak" role="img" aria-label="Bistec con patatas"></span>
+                <div>
+                  <h3>Bistec i patates</h3>
+                  <p>Bistec y patatas · Steak and fries</p>
+                </div>
+                <strong>8.95€</strong>
+              </article>
+              <article class="dish-card">
+                <span class="dish-photo dish-combo burger" role="img" aria-label="Hamburguesa con patatas y huevo"></span>
+                <div>
+                  <h3>Hamburguesa, patates i ou</h3>
+                  <p>Hamburguesa, patatas y huevo · Hamburger, fries and egg</p>
+                </div>
+                <strong>7.95€</strong>
+              </article>
+            </div>
+          </div>
+
+          <div class="menu-group tapas-group">
+            <div class="menu-group-heading">
+              <span>Tapes</span>
+              <p>Tapas clasicas para compartir antes de la comida o con una copa.</p>
+            </div>
+
+            <div class="dish-grid">
+              <article class="dish-card">
+                <span class="dish-photo dish-tapas fries" role="img" aria-label="Patatas fritas"></span>
+                <div>
+                  <h3>Patates fregides</h3>
+                  <p>Patatas fritas · Fries</p>
+                </div>
+                <strong>3.90€</strong>
+              </article>
+              <article class="dish-card">
+                <span class="dish-photo dish-tapas bravas" role="img" aria-label="Patatas bravas con salsa"></span>
+                <div>
+                  <h3>Patates braves</h3>
+                  <p>Patatas bravas · Fried potatoes with sauce</p>
+                </div>
+                <strong>4.40€</strong>
+              </article>
+              <article class="dish-card">
+                <span class="dish-photo dish-tapas croquettes" role="img" aria-label="Croquetas de jamon o pollo"></span>
+                <div>
+                  <h3>Croquetes</h3>
+                  <p>Pernil o pollastre · Jamon o pollo · Ham or chicken</p>
+                </div>
+                <strong>5.90€</strong>
+              </article>
+              <article class="dish-card">
+                <span class="dish-photo dish-tapas tortilla" role="img" aria-label="Tortilla espanola"></span>
+                <div>
+                  <h3>Truita de patates o carbasso</h3>
+                  <p>Tortilla de patatas o calabacin · Spanish omelette</p>
+                </div>
+                <strong>4€</strong>
+              </article>
+              <article class="dish-card">
+                <span class="dish-photo dish-tapas iberian" role="img" aria-label="Surtido iberico"></span>
+                <div>
+                  <h3>Assortiment iberic</h3>
+                  <p>Surtido iberico · Iberian assortment</p>
+                </div>
+                <strong>12€</strong>
+              </article>
+              <article class="dish-card">
+                <span class="dish-photo dish-tapas anchovies" role="img" aria-label="Boquerones en vinagre"></span>
+                <div>
+                  <h3>Seitons en vinagre</h3>
+                  <p>Boquerones en vinagre · Pickled anchovies</p>
+                </div>
+                <strong>6.90€</strong>
+              </article>
+              <article class="dish-card">
+                <span class="dish-photo dish-tapas mussels" role="img" aria-label="Mejillones en escabeche"></span>
+                <div>
+                  <h3>Musclos en escabetx</h3>
+                  <p>Mejillones en escabeche · Pickled mussels</p>
+                </div>
+                <strong>5.30€</strong>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <figure class="full-menu">
+          <img
+            src="assets/full-menu-rio-de-gusto.png"
+            alt="Menu completo de Rio de Gusto con ensaladas, sopas, pizza, pasta, combinadas, principales y cocktails"
+          />
+        </figure>
+      </section>
+
+      <section class="reviews-section" id="opiniones">
+        <div class="section-shell">
+          <div class="section-heading">
+            <p class="eyebrow">Opiniones de Google</p>
+            <h2>Lo que dicen nuestros clientes.</h2>
+          </div>
+
+          <div class="reviews-grid">
+            <article class="review-card">
+              <div class="review-stars" aria-label="5 de 5 estrellas">★★★★★</div>
+              <p>“Buen precio y buen servicio. Recomiendo.”</p>
+              <footer>
+                <strong>Marta L.</strong>
+                <span>Google · noviembre 2025</span>
+              </footer>
+            </article>
+
+            <article class="review-card">
+              <div class="review-stars" aria-label="5 de 5 estrellas">★★★★★</div>
+              <p>“Espectacular menús, la comida está buenísima.”</p>
+              <footer>
+                <strong>Juana Espada</strong>
+                <span>Google · noviembre 2025</span>
+              </footer>
+            </article>
+
+            <article class="review-card">
+              <div class="review-stars" aria-label="5 de 5 estrellas">★★★★★</div>
+              <p>“El servicio es muy amable y la comida está llena de sabor.”</p>
+              <footer>
+                <strong>Leanne Mann</strong>
+                <span>Google · septiembre 2025</span>
+              </footer>
+            </article>
+          </div>
+
+          <a
+            class="reviews-link"
+            href="https://www.google.com/maps/place/Restaurante+Rio+de+Gusto/@41.6185178,2.6654402,16z/data=!4m17!1m8!3m7!1s0x12bb397cbcc6992f:0x8d00a3fe78ee71a5!2sRestaurante+Rio+de+Gusto!8m2!3d41.6185178!4d2.6654402!10e9!16s%2Fg%2F11tn6hfwm7!3m7!1s0x12bb397cbcc6992f:0x8d00a3fe78ee71a5!8m2!3d41.6185178!4d2.6654402!9m1!1b1!16s%2Fg%2F11tn6hfwm7!5m1!1e1?authuser=0&amp;entry=ttu"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Ver más opiniones en Google Maps
+          </a>
+        </div>
+      </section>
+
+      <section class="atmosphere" id="ambiente">
+        <div class="section-shell atmosphere-grid">
+          <div class="atmosphere-copy">
+            <p class="eyebrow">Ambiente en Calella</p>
+            <h2>Una pausa luminosa cerca del Mediterraneo.</h2>
+            <p>
+              Interior sereno, materiales naturales y una seleccion de vinos
+              pensada para acompanar el producto sin imponerse.
+            </p>
+          </div>
+          <div class="image-stack">
+            <img
+              class="stack-large"
+              src="https://images.unsplash.com/photo-1559329007-40df8a9345d8?auto=format&amp;fit=crop&amp;w=1000&amp;q=85"
+              alt="Interior de restaurante elegante con mesas preparadas"
+            />
+            <img
+              class="stack-small"
+              src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&amp;fit=crop&amp;w=700&amp;q=85"
+              alt="Copas de vino servidas en una mesa de restaurante"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="reservation section-shell" id="contacto">
+        <div class="reservation-panel">
+          <p class="eyebrow">Reservas</p>
+          <h2>Tu mesa en Rio de Gusto.</h2>
+          <p>
+            Escribenos por WhatsApp y prepararemos una mesa para comida, cena o
+            una celebracion especial en Calella.
+          </p>
+          <a class="button primary dark" href="https://wa.me/34600000000?text=Hola%20Rio%20de%20Gusto%2C%20quiero%20reservar%20una%20mesa." target="_blank" rel="noreferrer">
+            Reservar por WhatsApp
+          </a>
+        </div>
+
+        <div class="contact-panel">
+          <div>
+            <span>Direccion</span>
+            <p>Calella, Barcelona</p>
+          </div>
+          <div>
+            <span>Horario</span>
+            <p>Mar - Dom · 13:00 - 23:30</p>
+          </div>
+          <div>
+            <span>Contacto</span>
+            <p>+34 600 000 000<br />@riodegusto.restaurant</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="map-section" aria-label="Ubicacion de Rio de Gusto en Calella">
+        <div class="section-shell map-heading">
+          <p class="eyebrow">Ubicacion</p>
+          <h2>Nos encontramos en Calella.</h2>
+        </div>
+        <div class="map-frame">
+          <iframe
+            title="Mapa de Restaurante Rio de Gusto en Calella"
+            src="https://www.google.com/maps?q=41.6185178,2.6654402&amp;z=16&amp;output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="section-shell footer-inner">
+        <span class="brand-mark">RG</span>
+        <p>Rio de Gusto · Restaurante espanol en Calella</p>
+        <a href="#inicio">Volver arriba</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

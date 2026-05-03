@@ -1,0 +1,935 @@
+:root {
+  --rich-black: #111111;
+  --espresso: #2b211b;
+  --warm-beige: #ede5d8;
+  --paper: #fbfaf7;
+  --pure-white: #ffffff;
+  --sage: #6f7267;
+  --gold: #c8a96a;
+  --stone: #d9d9d9;
+  --charcoal: #555555;
+  --line: rgba(43, 33, 27, 0.14);
+  --shadow: 0 24px 70px rgba(17, 17, 17, 0.12);
+  --serif: "Playfair Display", Georgia, serif;
+  --sans: "Montserrat", Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: var(--rich-black);
+  background:
+    linear-gradient(90deg, rgba(237, 229, 216, 0.58), rgba(255, 255, 255, 0.88) 28%, rgba(237, 229, 216, 0.5)),
+    var(--paper);
+  font-family: var(--sans);
+  line-height: 1.6;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.section-shell {
+  width: min(1160px, calc(100% - 40px));
+  margin: 0 auto;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  align-items: center;
+  gap: 28px;
+  min-height: 112px;
+  padding: 16px clamp(20px, 4vw, 56px);
+  background: rgba(251, 250, 247, 0.88);
+  border-bottom: 1px solid var(--line);
+  backdrop-filter: blur(18px);
+}
+
+.site-header.is-scrolled {
+  box-shadow: 0 12px 34px rgba(17, 17, 17, 0.08);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  min-width: 0;
+}
+
+.brand-logo {
+  display: block;
+  width: 152px;
+  height: 98px;
+  background-image: url("assets/rio-de-gusto-brand-brief.png");
+  background-repeat: no-repeat;
+  background-size: 438px 657px;
+  background-position: -28px -31px;
+}
+
+.brand-mark {
+  font-family: var(--serif);
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.brand-name {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: center;
+  gap: clamp(18px, 3vw, 36px);
+  font-size: 0.73rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.main-nav a,
+.site-footer a {
+  transition: color 180ms ease;
+}
+
+.main-nav a:hover,
+.site-footer a:hover {
+  color: var(--gold);
+}
+
+.header-cta,
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 20px;
+  border: 1px solid var(--rich-black);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  transition: background 180ms ease, color 180ms ease, border-color 180ms ease, transform 180ms ease;
+}
+
+.header-cta:hover,
+.button:hover {
+  transform: translateY(-1px);
+}
+
+.button.primary,
+.header-cta {
+  color: var(--pure-white);
+  background: var(--rich-black);
+}
+
+.button.primary:hover,
+.header-cta:hover {
+  background: var(--espresso);
+  border-color: var(--espresso);
+}
+
+.button.secondary {
+  color: var(--rich-black);
+  background: transparent;
+}
+
+.button.dark {
+  color: var(--rich-black);
+  background: var(--warm-beige);
+  border-color: var(--warm-beige);
+}
+
+.menu-toggle {
+  display: none;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 1px solid var(--line);
+  background: transparent;
+}
+
+.menu-toggle span:not(.sr-only) {
+  display: block;
+  width: 18px;
+  height: 1px;
+  margin: 5px auto;
+  background: var(--rich-black);
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 1fr);
+  gap: clamp(28px, 5vw, 74px);
+  align-items: center;
+  min-height: calc(100vh - 112px);
+  padding: clamp(42px, 7vw, 92px) 0 clamp(50px, 8vw, 100px);
+}
+
+.hero-copy {
+  min-width: 0;
+}
+
+.eyebrow {
+  margin: 0 0 16px;
+  color: var(--espresso);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1,
+h2 {
+  font-family: var(--serif);
+  font-weight: 600;
+  line-height: 0.98;
+  letter-spacing: 0;
+}
+
+h1 {
+  max-width: 620px;
+  margin-bottom: 24px;
+  font-size: clamp(3.2rem, 6.2vw, 5.6rem);
+  text-wrap: balance;
+}
+
+h2 {
+  margin-bottom: 22px;
+  font-size: clamp(2.4rem, 5vw, 5rem);
+}
+
+h3 {
+  margin-bottom: 8px;
+  font-family: var(--serif);
+  font-size: 1.45rem;
+  line-height: 1.1;
+}
+
+.hero-text,
+.intro-grid p,
+.atmosphere-copy p,
+.reservation-panel p {
+  max-width: 560px;
+  color: var(--charcoal);
+  font-size: clamp(1rem, 1.5vw, 1.14rem);
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 34px;
+}
+
+.hero-media {
+  position: relative;
+  min-height: clamp(460px, 63vw, 710px);
+  overflow: hidden;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.hero-media::after {
+  position: absolute;
+  inset: 0;
+  content: "";
+  background: linear-gradient(180deg, rgba(17, 17, 17, 0), rgba(17, 17, 17, 0.26));
+  pointer-events: none;
+}
+
+.hero-card {
+  position: absolute;
+  left: 24px;
+  bottom: 24px;
+  z-index: 1;
+  width: min(300px, calc(100% - 48px));
+  padding: 18px 20px;
+  color: var(--pure-white);
+  background: rgba(17, 17, 17, 0.76);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(12px);
+}
+
+.hero-card span {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--gold);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.hero-card strong {
+  font-family: var(--serif);
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.intro-band {
+  padding: clamp(56px, 8vw, 104px) 0;
+  color: var(--pure-white);
+  background: var(--rich-black);
+}
+
+.intro-band .eyebrow {
+  color: var(--gold);
+}
+
+.intro-band h2 {
+  color: var(--pure-white);
+}
+
+.intro-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(280px, 0.8fr);
+  gap: clamp(28px, 6vw, 90px);
+  align-items: end;
+}
+
+.intro-grid p {
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  padding: clamp(58px, 8vw, 104px) 0;
+}
+
+.feature {
+  min-height: 260px;
+  padding: clamp(24px, 4vw, 42px);
+  background: rgba(255, 255, 255, 0.62);
+  border: 1px solid var(--line);
+}
+
+.feature-icon {
+  display: inline-block;
+  margin-bottom: 58px;
+  color: var(--gold);
+  font-family: var(--serif);
+  font-size: 1.4rem;
+}
+
+.feature p,
+.dish-card p,
+.contact-panel p {
+  color: var(--charcoal);
+}
+
+.menu-section {
+  padding: 0 0 clamp(68px, 9vw, 116px);
+}
+
+.section-heading {
+  max-width: 700px;
+  margin-bottom: 42px;
+}
+
+.menu-catalog {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(20px, 3vw, 34px);
+  align-items: start;
+  margin-bottom: clamp(38px, 6vw, 74px);
+}
+
+.menu-group {
+  padding: clamp(26px, 4vw, 42px);
+  background: rgba(255, 255, 255, 0.58);
+  border: 1px solid var(--line);
+}
+
+.menu-group-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 26px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid var(--line);
+}
+
+.menu-group-heading span {
+  color: var(--gold);
+  font-family: var(--serif);
+  font-size: clamp(2.1rem, 4vw, 3.5rem);
+  line-height: 0.95;
+}
+
+.menu-group-heading p {
+  max-width: 310px;
+  margin: 0;
+  color: var(--charcoal);
+  font-size: 0.86rem;
+}
+
+.dish-grid {
+  display: grid;
+  gap: 14px;
+}
+
+.dish-card {
+  display: grid;
+  grid-template-columns: 118px minmax(0, 1fr) auto;
+  gap: 18px;
+  align-items: center;
+  min-height: 132px;
+  padding: 14px;
+  background: rgba(251, 250, 247, 0.82);
+  border: 1px solid rgba(43, 33, 27, 0.12);
+}
+
+.dish-card h3 {
+  margin-bottom: 5px;
+  font-size: 1.22rem;
+}
+
+.dish-card p {
+  margin-bottom: 0;
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
+.dish-card strong {
+  color: var(--espresso);
+  font-family: var(--serif);
+  font-size: 1.6rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.dish-photo {
+  display: block;
+  width: 118px;
+  height: 96px;
+  overflow: hidden;
+  background-color: var(--warm-beige);
+  background-repeat: no-repeat;
+  border: 1px solid rgba(43, 33, 27, 0.13);
+  border-radius: 6px;
+  box-shadow: 0 12px 28px rgba(17, 17, 17, 0.12);
+  filter: saturate(0.98) contrast(1.03);
+}
+
+.dish-combo {
+  background-image: url("assets/menu-combos-dishes.png");
+  background-size: 360px 240px;
+}
+
+.frankfurt {
+  background-position: 0 0;
+}
+
+.chicken {
+  background-position: -121px 0;
+}
+
+.loin {
+  background-position: -241px 0;
+}
+
+.steak {
+  background-position: 0 -121px;
+}
+
+.burger {
+  background-position: -241px -121px;
+}
+
+.dish-tapas {
+  background-image: url("assets/menu-tapas-dishes.png");
+  background-size: 360px 240px;
+}
+
+.fries {
+  background-position: 0 0;
+}
+
+.bravas {
+  background-position: -121px 0;
+}
+
+.croquettes {
+  background-position: -241px 0;
+}
+
+.tortilla {
+  background-position: 0 -79px;
+}
+
+.iberian {
+  background-position: -121px -79px;
+}
+
+.anchovies {
+  background-position: -241px -79px;
+}
+
+.mussels {
+  background-position: -121px -160px;
+}
+
+.full-menu {
+  width: min(920px, 100%);
+  margin: 0 auto;
+  padding: clamp(10px, 2vw, 18px);
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.full-menu img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.reviews-section {
+  padding: clamp(62px, 9vw, 112px) 0;
+  background: linear-gradient(180deg, rgba(237, 229, 216, 0.34), rgba(255, 255, 255, 0.72));
+  border-top: 1px solid var(--line);
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  margin-bottom: 28px;
+}
+
+.review-card {
+  min-height: 270px;
+  padding: clamp(24px, 4vw, 38px);
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid var(--line);
+}
+
+.review-stars {
+  margin-bottom: 28px;
+  color: var(--gold);
+  font-size: 0.92rem;
+  letter-spacing: 0.16em;
+}
+
+.review-card p {
+  margin-bottom: 30px;
+  font-family: var(--serif);
+  font-size: clamp(1.35rem, 2vw, 1.85rem);
+  line-height: 1.18;
+}
+
+.review-card footer {
+  display: grid;
+  gap: 4px;
+  margin-top: auto;
+  color: var(--charcoal);
+  font-size: 0.8rem;
+}
+
+.review-card strong {
+  color: var(--rich-black);
+  font-size: 0.74rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.reviews-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid var(--gold);
+  color: var(--espresso);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.atmosphere {
+  padding: clamp(62px, 9vw, 118px) 0;
+  background: var(--warm-beige);
+}
+
+.atmosphere-grid {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.75fr) minmax(360px, 1.1fr);
+  gap: clamp(32px, 6vw, 86px);
+  align-items: center;
+}
+
+.image-stack {
+  position: relative;
+  min-height: 590px;
+}
+
+.stack-large {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 75%;
+  height: 78%;
+  border: 1px solid rgba(43, 33, 27, 0.16);
+  box-shadow: var(--shadow);
+}
+
+.stack-small {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 46%;
+  height: 42%;
+  border: 10px solid var(--warm-beige);
+  box-shadow: 0 20px 42px rgba(17, 17, 17, 0.16);
+}
+
+.reservation {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 0.55fr);
+  gap: 1px;
+  padding: clamp(68px, 10vw, 124px) 0;
+}
+
+.reservation-panel,
+.contact-panel {
+  padding: clamp(30px, 5vw, 56px);
+}
+
+.reservation-panel {
+  color: var(--pure-white);
+  background: var(--espresso);
+}
+
+.reservation-panel .eyebrow {
+  color: var(--gold);
+}
+
+.reservation-panel h2 {
+  color: var(--pure-white);
+}
+
+.reservation-panel p {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.contact-panel {
+  display: grid;
+  gap: 28px;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid var(--line);
+}
+
+.contact-panel span {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.contact-panel p {
+  margin-bottom: 0;
+}
+
+.map-section {
+  padding-top: clamp(34px, 6vw, 72px);
+  background: var(--paper);
+  border-top: 1px solid var(--line);
+}
+
+.map-heading {
+  margin-bottom: 28px;
+}
+
+.map-frame {
+  width: 100%;
+  height: clamp(360px, 46vw, 560px);
+  overflow: hidden;
+  border-top: 1px solid var(--line);
+  background: var(--warm-beige);
+}
+
+.map-frame iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  filter: grayscale(0.18) contrast(0.96) saturate(0.88);
+}
+
+.site-footer {
+  border-top: 1px solid var(--line);
+  background: var(--paper);
+}
+
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  min-height: 110px;
+  color: var(--charcoal);
+  font-size: 0.82rem;
+}
+
+.footer-inner p {
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .site-header {
+    grid-template-columns: auto 1fr auto;
+    gap: 16px;
+  }
+
+  .header-cta {
+    display: none;
+  }
+
+  .main-nav {
+    position: fixed;
+    top: 112px;
+    right: 16px;
+    left: 16px;
+    display: grid;
+    gap: 0;
+    padding: 12px;
+    background: var(--pure-white);
+    border: 1px solid var(--line);
+    box-shadow: 0 18px 46px rgba(17, 17, 17, 0.12);
+    opacity: 0;
+    transform: translateY(-12px);
+    visibility: hidden;
+    transition: opacity 180ms ease, transform 180ms ease, visibility 180ms ease;
+  }
+
+  .main-nav.is-open {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+
+  .main-nav a {
+    padding: 16px;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .main-nav a:last-child {
+    border-bottom: 0;
+  }
+
+  .menu-toggle {
+    display: block;
+    justify-self: end;
+  }
+
+  .hero,
+  .intro-grid,
+  .menu-catalog,
+  .reviews-grid,
+  .atmosphere-grid,
+  .reservation {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    min-height: auto;
+    padding-top: 38px;
+  }
+
+  .hero-media {
+    min-height: 430px;
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .feature {
+    min-height: auto;
+  }
+
+  .feature-icon {
+    margin-bottom: 28px;
+  }
+
+  .image-stack {
+    min-height: 500px;
+  }
+}
+
+@media (max-width: 560px) {
+  .section-shell {
+    width: min(100% - 28px, 1160px);
+  }
+
+  .site-header {
+    min-height: 92px;
+    padding: 12px 14px;
+  }
+
+  .main-nav {
+    top: 92px;
+  }
+
+  .brand-mark {
+    font-size: 1.75rem;
+  }
+
+  .brand-logo {
+    width: 120px;
+    height: 78px;
+    background-size: 346px 519px;
+    background-position: -22px -25px;
+  }
+
+  h1 {
+    font-size: clamp(3rem, 18vw, 4.4rem);
+  }
+
+  h2 {
+    font-size: clamp(2.15rem, 13vw, 3.4rem);
+  }
+
+  .hero-actions,
+  .button {
+    width: 100%;
+  }
+
+  .hero-media {
+    min-height: 360px;
+  }
+
+  .menu-group {
+    padding: 20px 14px;
+  }
+
+  .menu-group-heading {
+    display: block;
+  }
+
+  .menu-group-heading p {
+    max-width: none;
+    margin-top: 10px;
+  }
+
+  .hero-card {
+    left: 14px;
+    bottom: 14px;
+    width: calc(100% - 28px);
+  }
+
+  .dish-card {
+    grid-template-columns: 76px minmax(0, 1fr);
+    gap: 14px;
+  }
+
+  .dish-photo {
+    width: 76px;
+    height: 76px;
+    background-size: 285px 190px;
+  }
+
+  .chicken,
+  .bravas,
+  .iberian,
+  .mussels {
+    background-position-x: -96px;
+  }
+
+  .loin,
+  .burger,
+  .croquettes,
+  .anchovies {
+    background-position-x: -191px;
+  }
+
+  .steak,
+  .burger {
+    background-position-y: -96px;
+  }
+
+  .tortilla,
+  .iberian,
+  .anchovies {
+    background-position-y: -63px;
+  }
+
+  .mussels {
+    background-position-y: -127px;
+  }
+
+  .dish-card strong {
+    grid-column: 2;
+    justify-self: start;
+    margin-top: -6px;
+    font-size: 1.35rem;
+  }
+
+  .image-stack {
+    min-height: 420px;
+  }
+
+  .stack-large {
+    width: 86%;
+    height: 72%;
+  }
+
+  .stack-small {
+    width: 58%;
+    height: 38%;
+    border-width: 7px;
+  }
+
+  .footer-inner {
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
