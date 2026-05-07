@@ -12,6 +12,7 @@ const closeMenuButtons = document.querySelectorAll("[data-close-menu]");
 const dishAccordion = document.querySelector("[data-dish-accordion]");
 const dishPanels = document.querySelectorAll("[data-dish-panel]");
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+const parallaxHero = document.querySelector(".parallax-hero");
 
 if (nav && toggle) {
   toggle.addEventListener("click", () => {
@@ -90,6 +91,16 @@ if (menuModal && openMenuButton) {
       closeMenu();
     }
   });
+}
+
+if (parallaxHero && !reduceMotion) {
+  const parallaxBg = parallaxHero.querySelector(".parallax-bg");
+  if (parallaxBg) {
+    window.addEventListener("scroll", () => {
+      const translateY = -window.scrollY * 0.3;
+      parallaxBg.style.transform = `translateY(${translateY}px)`;
+    }, { passive: true });
+  }
 }
 
 if (dishAccordion && dishPanels.length) {

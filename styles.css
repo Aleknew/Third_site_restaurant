@@ -229,6 +229,58 @@ a {
   background: var(--rich-black);
 }
 
+.parallax-hero {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.parallax-bg {
+  position: absolute;
+  inset: 0;
+  background-image: url("assets/new_fon.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center 140px;
+}
+
+.parallax-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(17, 17, 17, 0.08) 0%, rgba(17, 17, 17, 0.56) 100%);
+  pointer-events: none;
+}
+
+main {
+  position: relative;
+  z-index: 1;
+  margin-top: 112px;
+}
+
+main > section {
+  background: var(--paper);
+}
+
+main > .hero {
+  background: transparent;
+}
+
+main > .intro-band {
+  background: var(--rich-black);
+}
+
+main > .reviews-section {
+  background: var(--warm-beige);
+}
+
+main > .atmosphere {
+  background: var(--warm-beige);
+}
+
 .hero {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(320px, 1fr);
@@ -381,6 +433,7 @@ h3 {
   grid-template-columns: repeat(3, 1fr);
   gap: 1px;
   padding: clamp(58px, 8vw, 104px) 0;
+  background: var(--paper);
 }
 
 .feature {
@@ -412,7 +465,8 @@ h3 {
 }
 
 .menu-section {
-  padding: 0 0 clamp(68px, 9vw, 116px);
+  padding: clamp(68px, 9vw, 116px) 0;
+  background: var(--paper);
 }
 
 .section-heading {
@@ -465,7 +519,7 @@ h3 {
 
 .dish-card {
   display: grid;
-  grid-template-columns: 118px minmax(0, 1fr) auto;
+  grid-template-columns: 172px minmax(0, 1fr) auto;
   gap: 18px;
   align-items: center;
   min-height: 132px;
@@ -507,79 +561,19 @@ h3 {
 
 .dish-photo {
   display: block;
-  width: 118px;
-  height: 96px;
-  overflow: hidden;
-  background-color: var(--warm-beige);
-  background-repeat: no-repeat;
+  width: 160px;
+  height: 130px;
+  object-fit: cover;
   border: 1px solid rgba(43, 33, 27, 0.13);
-  border-radius: 6px;
+  border-radius: 8px;
   box-shadow: 0 12px 28px rgba(17, 17, 17, 0.12);
   filter: saturate(0.98) contrast(1.03);
   transition: transform 320ms ease, filter 220ms ease;
 }
 
 .dish-card:hover .dish-photo {
-  filter: saturate(1.06) contrast(1.05);
-  transform: scale(1.035);
-}
-
-.dish-combo {
-  background-image: url("assets/menu-combos-dishes.png");
-  background-size: 360px 240px;
-}
-
-.frankfurt {
-  background-position: 0 0;
-}
-
-.chicken {
-  background-position: -121px 0;
-}
-
-.loin {
-  background-position: -241px 0;
-}
-
-.steak {
-  background-position: 0 -121px;
-}
-
-.burger {
-  background-position: -241px -121px;
-}
-
-.dish-tapas {
-  background-image: url("assets/menu-tapas-dishes.png");
-  background-size: 360px 240px;
-}
-
-.fries {
-  background-position: 0 0;
-}
-
-.bravas {
-  background-position: -121px 0;
-}
-
-.croquettes {
-  background-position: -241px 0;
-}
-
-.tortilla {
-  background-position: 0 -79px;
-}
-
-.iberian {
-  background-position: -121px -79px;
-}
-
-.anchovies {
-  background-position: -241px -79px;
-}
-
-.mussels {
-  background-position: -121px -160px;
+  filter: saturate(1.1) contrast(1.08);
+  transform: scale(1.18);
 }
 
 .full-menu {
@@ -637,7 +631,7 @@ h3 {
 
 .reviews-section {
   padding: clamp(62px, 9vw, 112px) 0;
-  background: linear-gradient(180deg, rgba(237, 229, 216, 0.34), rgba(255, 255, 255, 0.72));
+  background: var(--warm-beige);
   border-top: 1px solid var(--line);
 }
 
@@ -788,10 +782,14 @@ h3 {
 }
 
 .reservation {
+  padding: clamp(68px, 10vw, 124px) 0;
+  background: var(--paper);
+}
+
+.reservation-grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(280px, 0.55fr);
   gap: 1px;
-  padding: clamp(68px, 10vw, 124px) 0;
 }
 
 .reservation-panel,
@@ -1019,7 +1017,7 @@ h3 {
   .menu-catalog,
   .reviews-grid,
   .atmosphere-grid,
-  .reservation {
+  .reservation-grid {
     grid-template-columns: 1fr;
   }
 
@@ -1164,36 +1162,7 @@ h3 {
   .dish-photo {
     width: 76px;
     height: 76px;
-    background-size: 285px 190px;
-  }
-
-  .chicken,
-  .bravas,
-  .iberian,
-  .mussels {
-    background-position-x: -96px;
-  }
-
-  .loin,
-  .burger,
-  .croquettes,
-  .anchovies {
-    background-position-x: -191px;
-  }
-
-  .steak,
-  .burger {
-    background-position-y: -96px;
-  }
-
-  .tortilla,
-  .iberian,
-  .anchovies {
-    background-position-y: -63px;
-  }
-
-  .mussels {
-    background-position-y: -127px;
+    object-fit: cover;
   }
 
   .dish-card strong {
