@@ -144,11 +144,11 @@
   },
   "contact": {
     "address_label": "Dirección",
-    "address": "Calella, Barcelona",
+    "address": "Carrer de Monturiol, 90, 08370 Calella, España",
     "hours_label": "Horario",
-    "hours": "Mar - Dom · 13:00 - 23:30",
+    "hours": "<div class=\"hours-grid\"><div class=\"hours-row\"><span class=\"hours-day\">Lunes</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Martes</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Miércoles</span><span class=\"hours-slot hours-closed hours-closed-full\">Cerrado</span></div><div class=\"hours-row\"><span class=\"hours-day\">Jueves</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Viernes</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Sábado</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Domingo</span><span class=\"hours-slot\">09:00–17:00</span><span class=\"hours-slot hours-closed\">Cerrado</span></div></div>",
     "contact_label": "Contacto",
-    "contact": "+34 600 000 000\n@riodegusto.restaurant"
+    "contact": "+34 644 84 88 25\nriodegusto@gmail.com"
   },
   "map": {
     "eyebrow": "Ubicación",

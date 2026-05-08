@@ -144,11 +144,11 @@
   },
   "contact": {
     "address_label": "Adreça",
-    "address": "Calella, Barcelona",
+    "address": "Carrer de Monturiol, 90, 08370 Calella, Espanya",
     "hours_label": "Horari",
-    "hours": "Mar - Dg · 13:00 - 23:30",
+    "hours": "<div class=\"hours-grid\"><div class=\"hours-row\"><span class=\"hours-day\">Dilluns</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Dimarts</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Dimecres</span><span class=\"hours-slot hours-closed hours-closed-full\">Tancat</span></div><div class=\"hours-row\"><span class=\"hours-day\">Dijous</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Divendres</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Dissabte</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Diumenge</span><span class=\"hours-slot\">09:00–17:00</span><span class=\"hours-slot hours-closed\">Tancat</span></div></div>",
     "contact_label": "Contacte",
-    "contact": "+34 600 000 000\n@riodegusto.restaurant"
+    "contact": "+34 644 84 88 25\nriodegusto@gmail.com"
   },
   "map": {
     "eyebrow": "Ubicació",

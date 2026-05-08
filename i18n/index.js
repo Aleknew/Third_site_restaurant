@@ -124,6 +124,12 @@ function applyTranslations() {
     el.setAttribute('aria-label', t(key));
   });
 
+  // innerHTML nodes (for HTML-safe content like schedules)
+  document.querySelectorAll('[data-i18n-html]').forEach((el) => {
+    const key = el.getAttribute('data-i18n-html');
+    el.innerHTML = t(key);
+  });
+
   // Update html lang attribute
   document.documentElement.setAttribute('lang', currentLanguage);
 

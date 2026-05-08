@@ -144,11 +144,11 @@
   },
   "contact": {
     "address_label": "Адрес",
-    "address": "Калелья, Барселона",
+    "address": "Carrer de Monturiol, 90, 08370 Калелья, Испания",
     "hours_label": "Часы работы",
-    "hours": "Вт - Вс · 13:00 - 23:30",
+    "hours": "<div class=\"hours-grid\"><div class=\"hours-row\"><span class=\"hours-day\">Пн</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Вт</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Ср</span><span class=\"hours-slot hours-closed hours-closed-full\">Закрыто</span></div><div class=\"hours-row\"><span class=\"hours-day\">Чт</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Пт</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Сб</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Вс</span><span class=\"hours-slot\">09:00–17:00</span><span class=\"hours-slot hours-closed\">Закрыто</span></div></div>",
     "contact_label": "Контакты",
-    "contact": "+34 600 000 000\n@riodegusto.restaurant"
+    "contact": "+34 644 84 88 25\nriodegusto@gmail.com"
   },
   "map": {
     "eyebrow": "Расположение",
