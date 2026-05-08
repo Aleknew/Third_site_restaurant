@@ -1,4 +1,4 @@
-import { initI18n, setLanguage, getCurrentLang, getAvailableLangs } from './i18n/index.js';
+import { initI18n, setLanguage, getCurrentLang, getAvailableLangs, t } from './i18n/index.js';
 
 const nav = document.querySelector("[data-nav]");
 const toggle = document.querySelector("[data-menu-toggle]");
@@ -208,6 +208,86 @@ if (dishAccordion && dishPanels.length) {
     startDishRotation();
   }
 }
+
+// --- Legal modal ---
+const legalModal = document.querySelector("[data-legal-modal]");
+const legalOpen = document.querySelector("[data-legal-open]");
+const legalCloseButtons = document.querySelectorAll("[data-legal-close]");
+const legalContent = document.querySelector("[data-legal-content]");
+
+/**
+ * Load a JSON file and return its parsed content.
+ */
+async function loadJson(path) {
+  const response = await fetch(path);
+  if (!response.ok) throw new Error(`HTTP ${response.status}`);
+  return response.json();
+}
+
+/**
+ * Get the legal text for the current language, loading es.json if needed.
+ */
+async function getLegalText(lang) {
+  if (lang === "ca") {
+    return t("legal.text");
+  }
+  if (lang === "es") {
+    return t("legal.text");
+  }
+  // en, fr, ru: disclaimer + Spanish text
+  const disclaimer = t("legal.disclaimer");
+  const esTranslations = await loadJson("i18n/es.json");
+  const esText = esTranslations.legal && esTranslations.legal.text;
+  return `<em class="legal-disclaimer">${disclaimer}</em>${esText || ""}`;
+}
+
+async function openLegalModal() {
+  const lang = getCurrentLang();
+  let html;
+  try {
+    html = await getLegalText(lang);
+  } catch {
+    html = "<p>Error loading legal information.</p>";
+  }
+  if (legalContent) legalContent.innerHTML = html;
+  if (legalModal) {
+    legalModal.classList.add("is-open");
+    legalModal.setAttribute("aria-hidden", "false");
+    document.body.classList.add("menu-lock");
+  }
+}
+
+function closeLegalModal() {
+  if (legalModal) {
+    legalModal.classList.remove("is-open");
+    legalModal.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("menu-lock");
+  }
+}
+
+if (legalOpen) {
+  legalOpen.addEventListener("click", openLegalModal);
+}
+
+legalCloseButtons.forEach((button) => button.addEventListener("click", closeLegalModal));
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && legalModal && legalModal.classList.contains("is-open")) {
+    closeLegalModal();
+  }
+});
+
+// Refresh legal content when language changes
+document.addEventListener("i18n:changed", () => {
+  const legalBtn = document.querySelector("[data-legal-open]");
+  if (legalBtn) {
+    legalBtn.textContent = t("legal.button");
+  }
+  // If modal is open, refresh content
+  if (legalModal && legalModal.classList.contains("is-open")) {
+    openLegalModal();
+  }
+});
 
 // --- Init i18n ---
 (async () => {

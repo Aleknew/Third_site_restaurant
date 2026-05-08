@@ -165,5 +165,9 @@
   },
   "language": {
     "label": "Langue"
+  },
+  "legal": {
+    "button": "Mentions légales et confidentialité",
+    "disclaimer": "Ces informations sont fournies en espagnol conformément à la loi espagnole."
   }
 }

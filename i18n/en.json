@@ -165,5 +165,9 @@
   },
   "language": {
     "label": "Language"
+  },
+  "legal": {
+    "button": "Legal notice & privacy",
+    "disclaimer": "This information is provided in Spanish as required by Spanish law."
   }
 }
