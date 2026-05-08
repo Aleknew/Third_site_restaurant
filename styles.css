@@ -99,18 +99,16 @@ a {
   display: block;
   width: 152px;
   height: 98px;
-  background-image: url("assets/rio-de-gusto-brand-brief.png");
+  background-image: url("assets/logo-cropped.webp");
   background-repeat: no-repeat;
-  background-size: 438px 657px;
-  background-position: -28px -31px;
-  transition: width 220ms ease, height 220ms ease, background-size 220ms ease, background-position 220ms ease;
+  background-size: contain;
+  background-position: center;
+  transition: width 220ms ease, height 220ms ease;
 }
 
 .site-header.is-scrolled .brand-logo {
   width: 118px;
   height: 76px;
-  background-size: 340px 510px;
-  background-position: -22px -24px;
 }
 
 .brand-mark {
@@ -242,10 +240,11 @@ a {
 .parallax-bg {
   position: absolute;
   inset: 0;
-  background-image: url("assets/new_fon.png");
+  background-image: url("assets/new_fon.webp");
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center 140px;
+  will-change: transform;
 }
 
 .parallax-overlay {
@@ -1083,8 +1082,6 @@ h3 {
   .brand-logo {
     width: 120px;
     height: 78px;
-    background-size: 346px 519px;
-    background-position: -22px -25px;
   }
 
   h1 {
