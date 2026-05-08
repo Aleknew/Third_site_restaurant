@@ -332,7 +332,7 @@ a {
   inset: 0;
   background-image: url("assets/new_fon.webp");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   background-position: center 140px;
   will-change: transform;
 }
@@ -1207,7 +1207,7 @@ h3 {
   }
 
   h1 {
-    font-size: clamp(3rem, 18vw, 4.4rem);
+    font-size: clamp(2rem, 11vw, 3.4rem);
   }
 
   h2 {
