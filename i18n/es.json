@@ -1,0 +1,169 @@
+{
+  "nav": {
+    "experiencia": "Experiencia",
+    "menu": "Menú",
+    "opiniones": "Opiniones",
+    "ambiente": "Ambiente",
+    "ubicacion": "Ubicación",
+    "contacto": "Contacto"
+  },
+  "header": {
+    "cta": "Reservar",
+    "menu_toggle": "Abrir menú"
+  },
+  "hero": {
+    "eyebrow": "Restaurante español en Calella",
+    "title": "Buena mesa, momentos memorables.",
+    "text": "Cocina mediterránea con alma española, producto de temporada y una atmósfera serena para disfrutar sin prisa.",
+    "reserve": "Reservar por WhatsApp",
+    "view_menu": "Ver menú",
+    "card_label": "Cocina abierta",
+    "card_text": "Producto local · Vino · Brasa suave"
+  },
+  "intro": {
+    "eyebrow": "Nuestra esencia",
+    "title": "Elegancia tranquila, sabor auténtico.",
+    "text": "Rio de Gusto nace para reunir lo mejor de la costa catalana y la tradición española: platos honestos, servicio cercano y una sala pensada para conversar, celebrar y volver."
+  },
+  "features": {
+    "01": {
+      "title": "Producto de mercado",
+      "text": "Pescados, verduras y carnes seleccionadas cada semana con criterio de temporada."
+    },
+    "02": {
+      "title": "Ritmo mediterráneo",
+      "text": "Una carta flexible para comidas luminosas, cenas largas y sobremesas cuidadas."
+    },
+    "03": {
+      "title": "Detalles refinados",
+      "text": "Texturas naturales, vajilla sobria y pequeños acentos dorados en cada experiencia."
+    }
+  },
+  "menu": {
+    "eyebrow": "Menú completo",
+    "title": "La carta de Rio de Gusto.",
+    "combinats": {
+      "title": "Plats combinats",
+      "desc": "Con patatas fritas; ensalada disponible como alternativa."
+    },
+    "tapas": {
+      "title": "Tapas",
+      "desc": "Tapas clásicas para compartir antes de la comida o con una copa."
+    },
+    "dishes": {
+      "combo-frankfurt": {
+        "name": "Frankfurt, patatas y huevo",
+        "desc": "Frankfurt, patatas y huevo"
+      },
+      "combo-chicken": {
+        "name": "Pechuga de pollo y patatas",
+        "desc": "Pechuga de pollo y patatas"
+      },
+      "combo-loin": {
+        "name": "Lomo y patatas",
+        "desc": "Lomo y patatas"
+      },
+      "combo-steak": {
+        "name": "Bistec y patatas",
+        "desc": "Bistec y patatas"
+      },
+      "combo-burger": {
+        "name": "Hamburguesa, patatas y huevo",
+        "desc": "Hamburguesa, patatas y huevo"
+      },
+      "tapas-fries": {
+        "name": "Patatas fritas",
+        "desc": "Patatas fritas"
+      },
+      "tapas-bravas": {
+        "name": "Patatas bravas",
+        "desc": "Patatas bravas"
+      },
+      "tapas-croquettes": {
+        "name": "Croquetas",
+        "desc": "Jamón o pollo"
+      },
+      "tapas-tortilla": {
+        "name": "Tortilla de patatas o calabacín",
+        "desc": "Tortilla de patatas o calabacín"
+      },
+      "tapas-iberian": {
+        "name": "Surtido ibérico",
+        "desc": "Surtido ibérico"
+      },
+      "tapas-anchovies": {
+        "name": "Boquerones en vinagre",
+        "desc": "Boquerones en vinagre"
+      },
+      "tapas-mussels": {
+        "name": "Mejillones en escabeche",
+        "desc": "Mejillones en escabeche"
+      }
+    },
+    "full_menu_btn": "Ver menú en grande",
+    "full_menu_alt": "Menú completo de Rio de Gusto"
+  },
+  "reviews": {
+    "eyebrow": "Opiniones de Google",
+    "title": "Lo que dicen nuestros clientes.",
+    "summary": "Google · 4.8/5 · Restaurante Rio de Gusto",
+    "reviews": [
+      {
+        "text": "“Buen precio y buen servicio. Recomiendo.”",
+        "author": "Marta L."
+      },
+      {
+        "text": "“Espectacular menús, la comida está buenísima.”",
+        "author": "Juana Espada"
+      },
+      {
+        "text": "“El servicio es muy amable y la comida está llena de sabor.”",
+        "author": "Leanne Mann"
+      }
+    ],
+    "link": "Ver más opiniones en Google Maps",
+    "months": {
+      "november": "noviembre 2025",
+      "september": "septiembre 2025"
+    }
+  },
+  "facade": {
+    "eyebrow": "Rio de Gusto desde la calle",
+    "title": "Un rincón cálido en el centro de Calella."
+  },
+  "atmosphere": {
+    "eyebrow": "Ambiente en Calella",
+    "title": "Una pausa luminosa cerca del Mediterráneo.",
+    "text": "Interior sereno, materiales naturales y una selección de vinos pensada para acompañar el producto sin imponerse."
+  },
+  "reservation": {
+    "eyebrow": "Reservas",
+    "title": "Tu mesa en Rio de Gusto.",
+    "text": "Escríbenos por WhatsApp y prepararemos una mesa para comida, cena o una celebración especial en Calella.",
+    "cta": "Reservar por WhatsApp"
+  },
+  "contact": {
+    "address_label": "Dirección",
+    "address": "Calella, Barcelona",
+    "hours_label": "Horario",
+    "hours": "Mar - Dom · 13:00 - 23:30",
+    "contact_label": "Contacto",
+    "contact": "+34 600 000 000\n@riodegusto.restaurant"
+  },
+  "map": {
+    "eyebrow": "Ubicación",
+    "title": "Nos encontramos en Calella.",
+    "link": "Cómo llegar"
+  },
+  "modal": {
+    "close": "Cerrar",
+    "alt": "Menú completo de Rio de Gusto ampliado"
+  },
+  "footer": {
+    "text": "Rio de Gusto · Restaurante español en Calella",
+    "back": "Volver arriba"
+  },
+  "language": {
+    "label": "Idioma"
+  }
+}

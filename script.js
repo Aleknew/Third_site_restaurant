@@ -1,3 +1,5 @@
+import { initI18n, setLanguage, getCurrentLang, getAvailableLangs } from './i18n/index.js';
+
 const nav = document.querySelector("[data-nav]");
 const toggle = document.querySelector("[data-menu-toggle]");
 const header = document.querySelector("[data-header]");
@@ -14,6 +16,60 @@ const dishPanels = document.querySelectorAll("[data-dish-panel]");
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 const parallaxHero = document.querySelector(".parallax-hero");
 
+// --- Language switcher ---
+const langToggle = document.querySelector("[data-lang-toggle]");
+const langDropdown = document.querySelector("[data-lang-dropdown]");
+const langButtons = document.querySelectorAll("[data-lang]");
+
+if (langToggle && langDropdown) {
+  // Toggle dropdown
+  langToggle.addEventListener("click", () => {
+    const isOpen = langDropdown.classList.toggle("is-open");
+    langToggle.setAttribute("aria-expanded", String(isOpen));
+  });
+
+  // Close dropdown on outside click
+  document.addEventListener("click", (event) => {
+    if (!langToggle.contains(event.target) && !langDropdown.contains(event.target)) {
+      langDropdown.classList.remove("is-open");
+      langToggle.setAttribute("aria-expanded", "false");
+    }
+  });
+
+  // Close on Escape
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      langDropdown.classList.remove("is-open");
+      langToggle.setAttribute("aria-expanded", "false");
+    }
+  });
+
+  // Language selection
+  langButtons.forEach((btn) => {
+    btn.addEventListener("click", async () => {
+      const lang = btn.getAttribute("data-lang");
+      await setLanguage(lang);
+      langDropdown.classList.remove("is-open");
+      langToggle.setAttribute("aria-expanded", "false");
+      updateActiveLang(lang);
+    });
+  });
+}
+
+function updateActiveLang(lang) {
+  langButtons.forEach((btn) => {
+    const code = btn.getAttribute("data-lang");
+    btn.classList.toggle("is-active", code === lang);
+  });
+  // Update the label on the toggle button
+  const labelSpan = langToggle.querySelector("span");
+  if (labelSpan) {
+    const activeBtn = document.querySelector(`[data-lang="${lang}"]`);
+    labelSpan.textContent = activeBtn ? activeBtn.textContent : lang.toUpperCase();
+  }
+}
+
+// --- Mobile nav ---
 if (nav && toggle) {
   toggle.addEventListener("click", () => {
     const isOpen = nav.classList.toggle("is-open");
@@ -28,6 +84,7 @@ if (nav && toggle) {
   });
 }
 
+// --- Scroll header ---
 if (header) {
   const setHeaderState = () => {
     header.classList.toggle("is-scrolled", window.scrollY > 8);
@@ -37,6 +94,7 @@ if (header) {
   window.addEventListener("scroll", setHeaderState, { passive: true });
 }
 
+// --- Reveal observer ---
 if (revealItems.length) {
   const revealObserver = new IntersectionObserver(
     (entries) => {
@@ -53,6 +111,7 @@ if (revealItems.length) {
   revealItems.forEach((item) => revealObserver.observe(item));
 }
 
+// --- Active nav section ---
 if (trackedSections.length && navLinks.length) {
   const sectionObserver = new IntersectionObserver(
     (entries) => {
@@ -70,6 +129,7 @@ if (trackedSections.length && navLinks.length) {
   trackedSections.forEach((section) => sectionObserver.observe(section));
 }
 
+// --- Menu modal ---
 if (menuModal && openMenuButton) {
   const openMenu = () => {
     menuModal.classList.add("is-open");
@@ -93,6 +153,7 @@ if (menuModal && openMenuButton) {
   });
 }
 
+// --- Parallax ---
 if (parallaxHero && !reduceMotion) {
   const parallaxBg = parallaxHero.querySelector(".parallax-bg");
   if (parallaxBg) {
@@ -103,6 +164,7 @@ if (parallaxHero && !reduceMotion) {
   }
 }
 
+// --- Dish accordion ---
 if (dishAccordion && dishPanels.length) {
   let activeDish = 0;
   let dishTimer;
@@ -146,3 +208,9 @@ if (dishAccordion && dishPanels.length) {
     startDishRotation();
   }
 }
+
+// --- Init i18n ---
+(async () => {
+  await initI18n();
+  updateActiveLang(getCurrentLang());
+})();

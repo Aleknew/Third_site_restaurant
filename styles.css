@@ -210,6 +210,96 @@ a {
   border-color: var(--warm-beige);
 }
 
+.lang-switcher {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.lang-current {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  min-height: 36px;
+  padding: 0 10px;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--rich-black);
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: border-color 180ms ease, background 180ms ease;
+}
+
+.lang-current:hover {
+  border-color: var(--gold);
+  background: rgba(200, 169, 106, 0.06);
+}
+
+.lang-current span {
+  pointer-events: none;
+}
+
+.lang-arrow {
+  font-size: 0.6rem;
+  transition: transform 180ms ease;
+}
+
+.lang-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 30;
+  display: grid;
+  margin: 4px 0 0;
+  padding: 4px;
+  list-style: none;
+  background: var(--pure-white);
+  border: 1px solid var(--line);
+  box-shadow: 0 12px 34px rgba(17, 17, 17, 0.12);
+  opacity: 0;
+  transform: translateY(-6px);
+  visibility: hidden;
+  transition: opacity 180ms ease, transform 180ms ease, visibility 180ms ease;
+}
+
+.lang-dropdown.is-open {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+}
+
+.lang-dropdown li {
+  margin: 0;
+  padding: 0;
+}
+
+.lang-dropdown button {
+  display: block;
+  width: 100%;
+  min-height: 34px;
+  padding: 4px 18px;
+  border: 0;
+  background: transparent;
+  color: var(--rich-black);
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 140ms ease, color 140ms ease;
+}
+
+.lang-dropdown button:hover,
+.lang-dropdown button.is-active {
+  background: var(--warm-beige);
+  color: var(--gold);
+}
+
 .menu-toggle {
   display: none;
   width: 44px;
@@ -291,6 +381,19 @@ main > .atmosphere {
 
 .hero-copy {
   min-width: 0;
+}
+
+.hero-copy .eyebrow {
+  color: var(--gold);
+}
+
+.hero-copy h1 {
+  color: var(--pure-white);
+  text-shadow: 0 2px 20px rgba(17, 17, 17, 0.35);
+}
+
+.hero-copy .hero-text {
+  color: rgba(255, 255, 255, 0.84);
 }
 
 .eyebrow {
@@ -488,27 +591,31 @@ h3 {
 }
 
 .menu-group-heading {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 4px 14px;
   align-items: end;
-  justify-content: space-between;
-  gap: 24px;
   margin-bottom: 26px;
   padding-bottom: 22px;
   border-bottom: 1px solid var(--line);
 }
 
 .menu-group-heading span {
+  min-width: 0;
+  overflow-wrap: break-word;
   color: var(--gold);
   font-family: var(--serif);
-  font-size: clamp(2.1rem, 4vw, 3.5rem);
-  line-height: 0.95;
+  font-size: clamp(1.8rem, 3.5vw, 3.5rem);
+  line-height: 1.05;
 }
 
 .menu-group-heading p {
-  max-width: 310px;
   margin: 0;
+  max-width: 200px;
   color: var(--charcoal);
-  font-size: 0.86rem;
+  font-size: 0.82rem;
+  text-align: right;
+  line-height: 1.4;
 }
 
 .dish-grid {
@@ -1004,6 +1111,21 @@ h3 {
 
   .main-nav a:last-child {
     border-bottom: 0;
+  }
+
+  .lang-switcher {
+    order: -1;
+  }
+
+  .lang-current {
+    min-height: 34px;
+    padding: 0 6px;
+    font-size: 0.65rem;
+  }
+
+  .lang-dropdown {
+    right: auto;
+    left: 0;
   }
 
   .menu-toggle {

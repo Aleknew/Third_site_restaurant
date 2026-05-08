@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="ca">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -24,15 +24,29 @@
       </a>
 
       <nav class="main-nav" id="mobile-menu" data-nav aria-label="Navegacion principal">
-        <a href="#experiencia">Experiencia</a>
-        <a href="#menu">Menu</a>
-        <a href="#opiniones">Opiniones</a>
-        <a href="#ambiente">Ambiente</a>
-        <a href="#ubicacion">Ubicacion</a>
-        <a href="#contacto">Contacto</a>
+        <a href="#experiencia" data-i18n="nav.experiencia">Experiencia</a>
+        <a href="#menu" data-i18n="nav.menu">Menu</a>
+        <a href="#opiniones" data-i18n="nav.opiniones">Opiniones</a>
+        <a href="#ambiente" data-i18n="nav.ambiente">Ambiente</a>
+        <a href="#ubicacion" data-i18n="nav.ubicacion">Ubicacion</a>
+        <a href="#contacto" data-i18n="nav.contacto">Contacto</a>
       </nav>
 
-      <a class="header-cta" href="https://wa.me/34600000000?text=Hola%20Rio%20de%20Gusto%2C%20quiero%20reservar%20una%20mesa." target="_blank" rel="noreferrer">
+      <div class="lang-switcher">
+        <button class="lang-current" type="button" data-lang-toggle aria-expanded="false" aria-label="Seleccionar idioma">
+          <span data-i18n="language.label">CAT</span>
+          <span class="lang-arrow" aria-hidden="true">▾</span>
+        </button>
+        <ul class="lang-dropdown" data-lang-dropdown>
+          <li><button type="button" data-lang="ca" lang="ca">CAT</button></li>
+          <li><button type="button" data-lang="es" lang="es">ES</button></li>
+          <li><button type="button" data-lang="en" lang="en">EN</button></li>
+          <li><button type="button" data-lang="fr" lang="fr">FR</button></li>
+          <li><button type="button" data-lang="ru" lang="ru">RU</button></li>
+        </ul>
+      </div>
+
+      <a class="header-cta" href="https://wa.me/34600000000?text=Hola%20Rio%20de%20Gusto%2C%20quiero%20reservar%20una%20mesa." target="_blank" rel="noreferrer" data-i18n="header.cta">
         Reservar
       </a>
 
@@ -40,7 +54,7 @@
         <span></span>
         <span></span>
         <span></span>
-        <span class="sr-only">Abrir menu</span>
+        <span class="sr-only" data-i18n="header.menu_toggle">Abrir menu</span>
       </button>
     </header>
 
@@ -52,17 +66,17 @@
     <main id="inicio">
       <section class="hero section-shell" data-reveal>
         <div class="hero-copy" data-reveal>
-          <p class="eyebrow">Restaurante espanol en Calella</p>
-          <h1>Buena mesa, momentos memorables.</h1>
-          <p class="hero-text">
+          <p class="eyebrow" data-i18n="hero.eyebrow">Restaurante espanol en Calella</p>
+          <h1 data-i18n="hero.title">Buena mesa, momentos memorables.</h1>
+          <p class="hero-text" data-i18n="hero.text">
             Cocina mediterranea con alma espanola, producto de temporada y una
             atmosfera serena para disfrutar sin prisa.
           </p>
           <div class="hero-actions">
-            <a class="button primary" href="https://wa.me/34600000000?text=Hola%20Rio%20de%20Gusto%2C%20quiero%20reservar%20una%20mesa." target="_blank" rel="noreferrer">
+            <a class="button primary" href="https://wa.me/34600000000?text=Hola%20Rio%20de%20Gusto%2C%20quiero%20reservar%20una%20mesa." target="_blank" rel="noreferrer" data-i18n="hero.reserve">
               Reservar por WhatsApp
             </a>
-            <a class="button secondary" href="#menu">Ver menu</a>
+            <a class="button secondary" href="#menu" data-i18n="hero.view_menu">Ver menu</a>
           </div>
         </div>
 
@@ -73,11 +87,12 @@
               src="assets/hero-dish.jpg"
               alt="Collage de platos combinados de Rio de Gusto"
               fetchpriority="high"
+              data-i18n-alt="hero.eyebrow"
             />
           </picture>
           <div class="hero-card">
-            <span>Cocina abierta</span>
-            <strong>Producto local · Vino · Brasa suave</strong>
+            <span data-i18n="hero.card_label">Cocina abierta</span>
+            <strong data-i18n="hero.card_text">Producto local · Vino · Brasa suave</strong>
           </div>
         </div>
       </section>
@@ -85,10 +100,10 @@
       <section class="intro-band" id="experiencia" data-reveal>
         <div class="section-shell intro-grid">
           <div>
-            <p class="eyebrow">Nuestra esencia</p>
-            <h2>Elegancia tranquila, sabor autentico.</h2>
+            <p class="eyebrow" data-i18n="intro.eyebrow">Nuestra esencia</p>
+            <h2 data-i18n="intro.title">Elegancia tranquila, sabor autentico.</h2>
           </div>
-          <p>
+          <p data-i18n="intro.text">
             Rio de Gusto nace para reunir lo mejor de la costa catalana y la
             tradicion espanola: platos honestos, servicio cercano y una sala
             pensada para conversar, celebrar y volver.
@@ -99,73 +114,73 @@
       <section class="feature-grid" data-reveal>
         <article class="feature" data-reveal>
           <span class="feature-icon">01</span>
-          <h3>Producto de mercado</h3>
-          <p>Pescados, verduras y carnes seleccionadas cada semana con criterio de temporada.</p>
+          <h3 data-i18n="features.01.title">Producto de mercado</h3>
+          <p data-i18n="features.01.text">Pescados, verduras y carnes seleccionadas cada semana con criterio de temporada.</p>
         </article>
         <article class="feature" data-reveal>
           <span class="feature-icon">02</span>
-          <h3>Ritmo mediterraneo</h3>
-          <p>Una carta flexible para comidas luminosas, cenas largas y sobremesas cuidadas.</p>
+          <h3 data-i18n="features.02.title">Ritmo mediterraneo</h3>
+          <p data-i18n="features.02.text">Una carta flexible para comidas luminosas, cenas largas y sobremesas cuidadas.</p>
         </article>
         <article class="feature" data-reveal>
           <span class="feature-icon">03</span>
-          <h3>Detalles refinados</h3>
-          <p>Texturas naturales, vajilla sobria y pequenos acentos dorados en cada experiencia.</p>
+          <h3 data-i18n="features.03.title">Detalles refinados</h3>
+          <p data-i18n="features.03.text">Texturas naturales, vajilla sobria y pequenos acentos dorados en cada experiencia.</p>
         </article>
       </section>
 
       <section class="menu-section" id="menu" data-reveal>
         <div class="section-shell">
           <div class="section-heading">
-          <p class="eyebrow">Menu completo</p>
-          <h2>La carta de Rio de Gusto.</h2>
+          <p class="eyebrow" data-i18n="menu.eyebrow">Menu completo</p>
+          <h2 data-i18n="menu.title">La carta de Rio de Gusto.</h2>
         </div>
 
         <div class="menu-catalog">
           <div class="menu-group" data-reveal>
             <div class="menu-group-heading">
-              <span>Plats combinats</span>
-              <p>Con patatas fritas; ensalada disponible como alternativa.</p>
+              <span data-i18n="menu.combinats.title">Plats combinats</span>
+              <p data-i18n="menu.combinats.desc">Con patatas fritas; ensalada disponible como alternativa.</p>
             </div>
 
             <div class="dish-grid">
               <article class="dish-card">
-                <img class="dish-photo" src="assets/combo-frankfurt.webp" onerror="this.onerror=null;this.src='assets/combo-frankfurt.png'" alt="Frankfurt con patatas y huevo" loading="lazy" decoding="async" />
+                <img class="dish-photo" src="assets/combo-frankfurt.webp" onerror="this.onerror=null;this.src='assets/combo-frankfurt.png'" alt="Frankfurt con patatas y huevo" loading="lazy" decoding="async" data-i18n-alt="menu.dishes.combo-frankfurt.desc" />
                 <div>
-                  <h3>Frankfurt, patates i ou</h3>
-                  <p>Frankfurt, patatas y huevo · Frankfurt, fries and egg</p>
+                  <h3 data-i18n="menu.dishes.combo-frankfurt.name">Frankfurt, patates i ou</h3>
+                  <p data-i18n="menu.dishes.combo-frankfurt.desc">Frankfurt, patatas y huevo · Frankfurt, fries and egg</p>
                 </div>
                 <strong>7.95€</strong>
               </article>
               <article class="dish-card">
-                <img class="dish-photo" src="assets/combo-chicken.webp" onerror="this.onerror=null;this.src='assets/combo-chicken.png'" alt="Pechuga de pollo con patatas" loading="lazy" decoding="async" />
+                <img class="dish-photo" src="assets/combo-chicken.webp" onerror="this.onerror=null;this.src='assets/combo-chicken.png'" alt="Pechuga de pollo con patatas" loading="lazy" decoding="async" data-i18n-alt="menu.dishes.combo-chicken.desc" />
                 <div>
-                  <h3>Pit de pollastre i patates</h3>
-                  <p>Pechuga de pollo y patatas · Chicken breast and fries</p>
+                  <h3 data-i18n="menu.dishes.combo-chicken.name">Pit de pollastre i patates</h3>
+                  <p data-i18n="menu.dishes.combo-chicken.desc">Pechuga de pollo y patatas · Chicken breast and fries</p>
                 </div>
                 <strong>7.95€</strong>
               </article>
               <article class="dish-card">
-                <img class="dish-photo" src="assets/combo-loin.webp" onerror="this.onerror=null;this.src='assets/combo-loin.png'" alt="Lomo con patatas" loading="lazy" decoding="async" />
+                <img class="dish-photo" src="assets/combo-loin.webp" onerror="this.onerror=null;this.src='assets/combo-loin.png'" alt="Lomo con patatas" loading="lazy" decoding="async" data-i18n-alt="menu.dishes.combo-loin.desc" />
                 <div>
-                  <h3>Llom i patates</h3>
-                  <p>Lomo y patatas · Pork loin and fries</p>
+                  <h3 data-i18n="menu.dishes.combo-loin.name">Llom i patates</h3>
+                  <p data-i18n="menu.dishes.combo-loin.desc">Lomo y patatas · Pork loin and fries</p>
                 </div>
                 <strong>7.95€</strong>
               </article>
               <article class="dish-card">
-                <img class="dish-photo" src="assets/combo-steak.webp" onerror="this.onerror=null;this.src='assets/combo-steak.png'" alt="Bistec con patatas" loading="lazy" decoding="async" />
+                <img class="dish-photo" src="assets/combo-steak.webp" onerror="this.onerror=null;this.src='assets/combo-steak.png'" alt="Bistec con patatas" loading="lazy" decoding="async" data-i18n-alt="menu.dishes.combo-steak.desc" />
                 <div>
-                  <h3>Bistec i patates</h3>
-                  <p>Bistec y patatas · Steak and fries</p>
+                  <h3 data-i18n="menu.dishes.combo-steak.name">Bistec i patates</h3>
+                  <p data-i18n="menu.dishes.combo-steak.desc">Bistec y patatas · Steak and fries</p>
                 </div>
                 <strong>8.95€</strong>
               </article>
               <article class="dish-card">
-                <img class="dish-photo" src="assets/combo-burger.webp" onerror="this.onerror=null;this.src='assets/combo-burger.png'" alt="Hamburguesa con patatas y huevo" loading="lazy" decoding="async" />
+                <img class="dish-photo" src="assets/combo-burger.webp" onerror="this.onerror=null;this.src='assets/combo-burger.png'" alt="Hamburguesa con patatas y huevo" loading="lazy" decoding="async" data-i18n-alt="menu.dishes.combo-burger.desc" />
                 <div>
-                  <h3>Hamburguesa, patates i ou</h3>
-                  <p>Hamburguesa, patatas y huevo · Hamburger, fries and egg</p>
+                  <h3 data-i18n="menu.dishes.combo-burger.name">Hamburguesa, patates i ou</h3>
+                  <p data-i18n="menu.dishes.combo-burger.desc">Hamburguesa, patatas y huevo · Hamburger, fries and egg</p>
                 </div>
                 <strong>7.95€</strong>
               </article>
@@ -174,64 +189,64 @@
 
           <div class="menu-group tapas-group" data-reveal>
             <div class="menu-group-heading">
-              <span>Tapes</span>
-              <p>Tapas clasicas para compartir antes de la comida o con una copa.</p>
+              <span data-i18n="menu.tapas.title">Tapes</span>
+              <p data-i18n="menu.tapas.desc">Tapas clasicas para compartir antes de la comida o con una copa.</p>
             </div>
 
             <div class="dish-grid">
               <article class="dish-card">
-                <img class="dish-photo" src="assets/tapas-fries.webp" onerror="this.onerror=null;this.src='assets/tapas-fries.png'" alt="Patatas fritas" loading="lazy" decoding="async" />
+                <img class="dish-photo" src="assets/tapas-fries.webp" onerror="this.onerror=null;this.src='assets/tapas-fries.png'" alt="Patatas fritas" loading="lazy" decoding="async" data-i18n-alt="menu.dishes.tapas-fries.desc" />
                 <div>
-                  <h3>Patates fregides</h3>
-                  <p>Patatas fritas · Fries</p>
+                  <h3 data-i18n="menu.dishes.tapas-fries.name">Patates fregides</h3>
+                  <p data-i18n="menu.dishes.tapas-fries.desc">Patatas fritas · Fries</p>
                 </div>
                 <strong>3.90€</strong>
               </article>
               <article class="dish-card">
-                <img class="dish-photo" src="assets/tapas-bravas.webp" onerror="this.onerror=null;this.src='assets/tapas-bravas.png'" alt="Patatas bravas con salsa" loading="lazy" decoding="async" />
+                <img class="dish-photo" src="assets/tapas-bravas.webp" onerror="this.onerror=null;this.src='assets/tapas-bravas.png'" alt="Patatas bravas con salsa" loading="lazy" decoding="async" data-i18n-alt="menu.dishes.tapas-bravas.desc" />
                 <div>
-                  <h3>Patates braves</h3>
-                  <p>Patatas bravas · Fried potatoes with sauce</p>
+                  <h3 data-i18n="menu.dishes.tapas-bravas.name">Patates braves</h3>
+                  <p data-i18n="menu.dishes.tapas-bravas.desc">Patatas bravas · Fried potatoes with sauce</p>
                 </div>
                 <strong>4.40€</strong>
               </article>
               <article class="dish-card">
-                <img class="dish-photo" src="assets/tapas-croquettes.webp" onerror="this.onerror=null;this.src='assets/tapas-croquettes.png'" alt="Croquetas de jamon o pollo" loading="lazy" decoding="async" />
+                <img class="dish-photo" src="assets/tapas-croquettes.webp" onerror="this.onerror=null;this.src='assets/tapas-croquettes.png'" alt="Croquetas de jamon o pollo" loading="lazy" decoding="async" data-i18n-alt="menu.dishes.tapas-croquettes.desc" />
                 <div>
-                  <h3>Croquetes</h3>
-                  <p>Pernil o pollastre · Jamon o pollo · Ham or chicken</p>
+                  <h3 data-i18n="menu.dishes.tapas-croquettes.name">Croquetes</h3>
+                  <p data-i18n="menu.dishes.tapas-croquettes.desc">Pernil o pollastre · Jamon o pollo · Ham or chicken</p>
                 </div>
                 <strong>5.90€</strong>
               </article>
               <article class="dish-card">
-                <img class="dish-photo" src="assets/tapas-tortilla.webp" onerror="this.onerror=null;this.src='assets/tapas-tortilla.png'" alt="Tortilla espanola" loading="lazy" decoding="async" />
+                <img class="dish-photo" src="assets/tapas-tortilla.webp" onerror="this.onerror=null;this.src='assets/tapas-tortilla.png'" alt="Tortilla espanola" loading="lazy" decoding="async" data-i18n-alt="menu.dishes.tapas-tortilla.desc" />
                 <div>
-                  <h3>Truita de patates o carbasso</h3>
-                  <p>Tortilla de patatas o calabacin · Spanish omelette</p>
+                  <h3 data-i18n="menu.dishes.tapas-tortilla.name">Truita de patates o carbasso</h3>
+                  <p data-i18n="menu.dishes.tapas-tortilla.desc">Tortilla de patatas o calabacin · Spanish omelette</p>
                 </div>
                 <strong>4€</strong>
               </article>
               <article class="dish-card">
-                <img class="dish-photo" src="assets/tapas-iberian.webp" onerror="this.onerror=null;this.src='assets/tapas-iberian.png'" alt="Surtido iberico" loading="lazy" decoding="async" />
+                <img class="dish-photo" src="assets/tapas-iberian.webp" onerror="this.onerror=null;this.src='assets/tapas-iberian.png'" alt="Surtido iberico" loading="lazy" decoding="async" data-i18n-alt="menu.dishes.tapas-iberian.desc" />
                 <div>
-                  <h3>Assortiment iberic</h3>
-                  <p>Surtido iberico · Iberian assortment</p>
+                  <h3 data-i18n="menu.dishes.tapas-iberian.name">Assortiment iberic</h3>
+                  <p data-i18n="menu.dishes.tapas-iberian.desc">Surtido iberico · Iberian assortment</p>
                 </div>
                 <strong>12€</strong>
               </article>
               <article class="dish-card">
-                <img class="dish-photo" src="assets/tapas-anchovies.webp" onerror="this.onerror=null;this.src='assets/tapas-anchovies.png'" alt="Boquerones en vinagre" loading="lazy" decoding="async" />
+                <img class="dish-photo" src="assets/tapas-anchovies.webp" onerror="this.onerror=null;this.src='assets/tapas-anchovies.png'" alt="Boquerones en vinagre" loading="lazy" decoding="async" data-i18n-alt="menu.dishes.tapas-anchovies.desc" />
                 <div>
-                  <h3>Seitons en vinagre</h3>
-                  <p>Boquerones en vinagre · Pickled anchovies</p>
+                  <h3 data-i18n="menu.dishes.tapas-anchovies.name">Seitons en vinagre</h3>
+                  <p data-i18n="menu.dishes.tapas-anchovies.desc">Boquerones en vinagre · Pickled anchovies</p>
                 </div>
                 <strong>6.90€</strong>
               </article>
               <article class="dish-card">
-                <img class="dish-photo" src="assets/tapas-mussels.webp" onerror="this.onerror=null;this.src='assets/tapas-mussels.png'" alt="Mejillones en escabeche" loading="lazy" decoding="async" />
+                <img class="dish-photo" src="assets/tapas-mussels.webp" onerror="this.onerror=null;this.src='assets/tapas-mussels.png'" alt="Mejillones en escabeche" loading="lazy" decoding="async" data-i18n-alt="menu.dishes.tapas-mussels.desc" />
                 <div>
-                  <h3>Musclos en escabetx</h3>
-                  <p>Mejillones en escabeche · Pickled mussels</p>
+                  <h3 data-i18n="menu.dishes.tapas-mussels.name">Musclos en escabetx</h3>
+                  <p data-i18n="menu.dishes.tapas-mussels.desc">Mejillones en escabeche · Pickled mussels</p>
                 </div>
                 <strong>5.30€</strong>
               </article>
@@ -240,8 +255,8 @@
         </div>
 
         <div class="full-menu-heading" data-reveal>
-          <p class="eyebrow">Carta completa</p>
-          <button class="menu-open" type="button" data-open-menu>Ver menú en grande</button>
+          <p class="eyebrow" data-i18n="menu.eyebrow">Carta completa</p>
+          <button class="menu-open" type="button" data-open-menu data-i18n="menu.full_menu_btn">Ver menú en grande</button>
         </div>
 
         <figure class="full-menu" data-reveal>
@@ -252,6 +267,7 @@
               alt="Menu completo de Rio de Gusto con ensaladas, sopas, pizza, pasta, combinadas, principales y cocktails"
               loading="lazy"
               decoding="async"
+              data-i18n-alt="menu.full_menu_alt"
             />
           </picture>
         </figure>
@@ -261,36 +277,36 @@
       <section class="reviews-section" id="opiniones">
         <div class="section-shell">
           <div class="section-heading" data-reveal>
-            <p class="eyebrow">Opiniones de Google</p>
-            <h2>Lo que dicen nuestros clientes.</h2>
-            <p class="reviews-summary">Google · 4.8/5 · Restaurante Rio de Gusto</p>
+            <p class="eyebrow" data-i18n="reviews.eyebrow">Opiniones de Google</p>
+            <h2 data-i18n="reviews.title">Lo que dicen nuestros clientes.</h2>
+            <p class="reviews-summary" data-i18n="reviews.summary">Google · 4.8/5 · Restaurante Rio de Gusto</p>
           </div>
 
           <div class="reviews-grid">
             <article class="review-card" data-reveal>
               <div class="review-stars" aria-label="5 de 5 estrellas">★★★★★</div>
-              <p>“Buen precio y buen servicio. Recomiendo.”</p>
+              <p data-i18n="reviews.reviews.0.text">“Buen precio y buen servicio. Recomiendo.”</p>
               <footer>
-                <strong>Marta L.</strong>
-                <span>Google · noviembre 2025</span>
+                <strong data-i18n="reviews.reviews.0.author">Marta L.</strong>
+                <span data-i18n="reviews.months.november">Google · noviembre 2025</span>
               </footer>
             </article>
 
             <article class="review-card" data-reveal>
               <div class="review-stars" aria-label="5 de 5 estrellas">★★★★★</div>
-              <p>“Espectacular menús, la comida está buenísima.”</p>
+              <p data-i18n="reviews.reviews.1.text">“Espectacular menús, la comida está buenísima.”</p>
               <footer>
-                <strong>Juana Espada</strong>
-                <span>Google · noviembre 2025</span>
+                <strong data-i18n="reviews.reviews.1.author">Juana Espada</strong>
+                <span data-i18n="reviews.months.november">Google · noviembre 2025</span>
               </footer>
             </article>
 
             <article class="review-card" data-reveal>
               <div class="review-stars" aria-label="5 de 5 estrellas">★★★★★</div>
-              <p>“El servicio es muy amable y la comida está llena de sabor.”</p>
+              <p data-i18n="reviews.reviews.2.text">“El servicio es muy amable y la comida está llena de sabor.”</p>
               <footer>
-                <strong>Leanne Mann</strong>
-                <span>Google · septiembre 2025</span>
+                <strong data-i18n="reviews.reviews.2.author">Leanne Mann</strong>
+                <span data-i18n="reviews.months.september">Google · septiembre 2025</span>
               </footer>
             </article>
           </div>
@@ -300,6 +316,7 @@
             href="https://www.google.com/maps/place/Restaurante+Rio+de+Gusto/@41.6185178,2.6654402,16z/data=!4m17!1m8!3m7!1s0x12bb397cbcc6992f:0x8d00a3fe78ee71a5!2sRestaurante+Rio+de+Gusto!8m2!3d41.6185178!4d2.6654402!10e9!16s%2Fg%2F11tn6hfwm7!3m7!1s0x12bb397cbcc6992f:0x8d00a3fe78ee71a5!8m2!3d41.6185178!4d2.6654402!9m1!1b1!16s%2Fg%2F11tn6hfwm7!5m1!1e1?authuser=0&entry=ttu"
             target="_blank"
             rel="noreferrer"
+            data-i18n="reviews.link"
           >
             Ver más opiniones en Google Maps
           </a>
@@ -308,17 +325,17 @@
 
       <section class="facade-section" data-reveal>
         <div class="section-shell facade-heading">
-          <p class="eyebrow">Rio de Gusto desde la calle</p>
-          <h2>Un rincón cálido en el centro de Calella.</h2>
+          <p class="eyebrow" data-i18n="facade.eyebrow">Rio de Gusto desde la calle</p>
+          <h2 data-i18n="facade.title">Un rincón cálido en el centro de Calella.</h2>
         </div>
       </section>
 
       <section class="atmosphere" id="ambiente" data-reveal>
         <div class="section-shell atmosphere-grid">
           <div class="atmosphere-copy">
-            <p class="eyebrow">Ambiente en Calella</p>
-            <h2>Una pausa luminosa cerca del Mediterraneo.</h2>
-            <p>
+            <p class="eyebrow" data-i18n="atmosphere.eyebrow">Ambiente en Calella</p>
+            <h2 data-i18n="atmosphere.title">Una pausa luminosa cerca del Mediterraneo.</h2>
+            <p data-i18n="atmosphere.text">
               Interior sereno, materiales naturales y una seleccion de vinos
               pensada para acompanar el producto sin imponerse.
             </p>
@@ -332,6 +349,7 @@
                 alt="Terraza de Rio de Gusto iluminada por la noche en Calella"
                 loading="lazy"
                 decoding="async"
+                data-i18n-alt="atmosphere.title"
               />
             </picture>
             <picture>
@@ -342,6 +360,7 @@
                 alt="Copas de vino servidas en una mesa de restaurante"
                 loading="lazy"
                 decoding="async"
+                data-i18n-alt="atmosphere.title"
               />
             </picture>
           </div>
@@ -351,29 +370,29 @@
       <section class="reservation" id="contacto" data-reveal>
         <div class="section-shell reservation-grid">
           <div class="reservation-panel">
-            <p class="eyebrow">Reservas</p>
-            <h2>Tu mesa en Rio de Gusto.</h2>
-            <p>
+            <p class="eyebrow" data-i18n="reservation.eyebrow">Reservas</p>
+            <h2 data-i18n="reservation.title">Tu mesa en Rio de Gusto.</h2>
+            <p data-i18n="reservation.text">
               Escribenos por WhatsApp y prepararemos una mesa para comida, cena o
               una celebracion especial en Calella.
             </p>
-            <a class="button primary dark" href="https://wa.me/34600000000?text=Hola%20Rio%20de%20Gusto%2C%20quiero%20reservar%20una%20mesa." target="_blank" rel="noreferrer">
+            <a class="button primary dark" href="https://wa.me/34600000000?text=Hola%20Rio%20de%20Gusto%2C%20quiero%20reservar%20una%20mesa." target="_blank" rel="noreferrer" data-i18n="reservation.cta">
               Reservar por WhatsApp
             </a>
           </div>
 
           <div class="contact-panel">
             <div>
-              <span>Direccion</span>
-              <p>Calella, Barcelona</p>
+              <span data-i18n="contact.address_label">Direccion</span>
+              <p data-i18n="contact.address">Calella, Barcelona</p>
             </div>
             <div>
-              <span>Horario</span>
-              <p>Mar - Dom · 13:00 - 23:30</p>
+              <span data-i18n="contact.hours_label">Horario</span>
+              <p data-i18n="contact.hours">Mar - Dom · 13:00 - 23:30</p>
             </div>
             <div>
-              <span>Contacto</span>
-              <p>+34 600 000 000<br />@riodegusto.restaurant</p>
+              <span data-i18n="contact.contact_label">Contacto</span>
+              <p data-i18n="contact.contact">+34 600 000 000<br />@riodegusto.restaurant</p>
             </div>
           </div>
         </div>
@@ -382,14 +401,15 @@
       <section class="map-section" id="ubicacion" aria-label="Ubicacion de Rio de Gusto en Calella" data-reveal>
         <div class="section-shell map-heading">
           <div>
-            <p class="eyebrow">Ubicacion</p>
-            <h2>Nos encontramos en Calella.</h2>
+            <p class="eyebrow" data-i18n="map.eyebrow">Ubicacion</p>
+            <h2 data-i18n="map.title">Nos encontramos en Calella.</h2>
           </div>
           <a
             class="map-link"
             href="https://www.google.com/maps/dir/?api=1&destination=41.6185178,2.6654402"
             target="_blank"
             rel="noreferrer"
+            data-i18n="map.link"
           >
             Cómo llegar
           </a>
@@ -409,10 +429,10 @@
     <div class="menu-modal" data-menu-modal aria-hidden="true">
       <div class="menu-modal-backdrop" data-close-menu></div>
       <div class="menu-modal-panel" role="dialog" aria-modal="true" aria-label="Menu completo de Rio de Gusto">
-        <button class="menu-modal-close" type="button" data-close-menu>×</button>
+        <button class="menu-modal-close" type="button" data-close-menu data-i18n="modal.close">×</button>
         <picture>
           <source srcset="assets/full-menu-rio-de-gusto.webp" type="image/webp" />
-          <img src="assets/full-menu-rio-de-gusto.png" alt="Menu completo de Rio de Gusto ampliado" loading="lazy" decoding="async" />
+          <img src="assets/full-menu-rio-de-gusto.png" alt="Menu completo de Rio de Gusto ampliado" loading="lazy" decoding="async" data-i18n-alt="modal.alt" />
         </picture>
       </div>
     </div>
@@ -420,11 +440,11 @@
     <footer class="site-footer">
       <div class="section-shell footer-inner">
         <span class="brand-mark">RG</span>
-        <p>Rio de Gusto · Restaurante espanol en Calella</p>
-        <a href="#inicio">Volver arriba</a>
+        <p data-i18n="footer.text">Rio de Gusto · Restaurante espanol en Calella</p>
+        <a href="#inicio" data-i18n="footer.back">Volver arriba</a>
       </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script type="module" src="script.js"></script>
   </body>
 </html>

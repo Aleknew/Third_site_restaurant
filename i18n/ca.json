@@ -1,0 +1,169 @@
+{
+  "nav": {
+    "experiencia": "Experiència",
+    "menu": "Menú",
+    "opiniones": "Opinions",
+    "ambiente": "Ambient",
+    "ubicacion": "Ubicació",
+    "contacto": "Contacte"
+  },
+  "header": {
+    "cta": "Reservar",
+    "menu_toggle": "Obrir menú"
+  },
+  "hero": {
+    "eyebrow": "Restaurant espanyol a Calella",
+    "title": "Bona taula, moments memorables.",
+    "text": "Cuina mediterrània amb ànima espanyola, producte de temporada i una atmosfera serena per gaudir sense pressa.",
+    "reserve": "Reservar per WhatsApp",
+    "view_menu": "Veure menú",
+    "card_label": "Cuina oberta",
+    "card_text": "Producte local · Vi · Brasa suau"
+  },
+  "intro": {
+    "eyebrow": "La nostra essència",
+    "title": "Elegància tranquil·la, sabor autèntic.",
+    "text": "Rio de Gusto neix per reunir el millor de la costa catalana i la tradició espanyola: plats honestos, servei proper i una sala pensada per conversar, celebrar i tornar."
+  },
+  "features": {
+    "01": {
+      "title": "Producte de mercat",
+      "text": "Peixos, verdures i carns seleccionades cada setmana amb criteri de temporada."
+    },
+    "02": {
+      "title": "Ritme mediterrani",
+      "text": "Una carta flexible per a dinars lluminosos, sopars llargs i sobretaules cuidades."
+    },
+    "03": {
+      "title": "Detalls refinats",
+      "text": "Textures naturals, vaixella sòbria i petits accents daurats a cada experiència."
+    }
+  },
+  "menu": {
+    "eyebrow": "Menú complet",
+    "title": "La carta de Rio de Gusto.",
+    "combinats": {
+      "title": "Plats combinats",
+      "desc": "Amb patates fregides; amanida disponible com a alternativa."
+    },
+    "tapas": {
+      "title": "Tapes",
+      "desc": "Tapes clàssiques per compartir abans del menjar o amb una copa."
+    },
+    "dishes": {
+      "combo-frankfurt": {
+        "name": "Frankfurt, patates i ou",
+        "desc": "Frankfurt, patates i ou"
+      },
+      "combo-chicken": {
+        "name": "Pit de pollastre i patates",
+        "desc": "Pit de pollastre i patates"
+      },
+      "combo-loin": {
+        "name": "Llom i patates",
+        "desc": "Llom i patates"
+      },
+      "combo-steak": {
+        "name": "Bistec i patates",
+        "desc": "Bistec i patates"
+      },
+      "combo-burger": {
+        "name": "Hamburguesa, patates i ou",
+        "desc": "Hamburguesa, patates i ou"
+      },
+      "tapas-fries": {
+        "name": "Patates fregides",
+        "desc": "Patates fregides"
+      },
+      "tapas-bravas": {
+        "name": "Patates braves",
+        "desc": "Patates braves"
+      },
+      "tapas-croquettes": {
+        "name": "Croquetes",
+        "desc": "Pernil o pollastre"
+      },
+      "tapas-tortilla": {
+        "name": "Truita de patates o carbassó",
+        "desc": "Truita de patates o carbassó"
+      },
+      "tapas-iberian": {
+        "name": "Assortiment ibèric",
+        "desc": "Assortiment ibèric"
+      },
+      "tapas-anchovies": {
+        "name": "Seitons en vinagre",
+        "desc": "Seitons en vinagre"
+      },
+      "tapas-mussels": {
+        "name": "Musclos en escabetx",
+        "desc": "Musclos en escabetx"
+      }
+    },
+    "full_menu_btn": "Veure menú en gran",
+    "full_menu_alt": "Menú complet de Rio de Gusto"
+  },
+  "reviews": {
+    "eyebrow": "Opinions de Google",
+    "title": "Què diuen els nostres clients.",
+    "summary": "Google · 4.8/5 · Restaurant Rio de Gusto",
+    "reviews": [
+      {
+        "text": "“Bon preu i bon servei. Recomano.”",
+        "author": "Marta L."
+      },
+      {
+        "text": "“Espectacular menús, el menjar està boníssim.”",
+        "author": "Juana Espada"
+      },
+      {
+        "text": "“El servei és molt amable i el menjar està ple de sabor.”",
+        "author": "Leanne Mann"
+      }
+    ],
+    "link": "Veure més opinions a Google Maps",
+    "months": {
+      "november": "novembre 2025",
+      "september": "setembre 2025"
+    }
+  },
+  "facade": {
+    "eyebrow": "Rio de Gusto des del carrer",
+    "title": "Un racó càlid al centre de Calella."
+  },
+  "atmosphere": {
+    "eyebrow": "Ambient a Calella",
+    "title": "Una pausa lluminosa prop del Mediterrani.",
+    "text": "Interior serè, materials naturals i una selecció de vins pensada per acompanyar el producte sense imposar-se."
+  },
+  "reservation": {
+    "eyebrow": "Reserves",
+    "title": "La teva taula a Rio de Gusto.",
+    "text": "Escriu-nos per WhatsApp i prepararem una taula per a dinar, sopar o una celebració especial a Calella.",
+    "cta": "Reservar per WhatsApp"
+  },
+  "contact": {
+    "address_label": "Adreça",
+    "address": "Calella, Barcelona",
+    "hours_label": "Horari",
+    "hours": "Mar - Dg · 13:00 - 23:30",
+    "contact_label": "Contacte",
+    "contact": "+34 600 000 000\n@riodegusto.restaurant"
+  },
+  "map": {
+    "eyebrow": "Ubicació",
+    "title": "Ens trobem a Calella.",
+    "link": "Com arribar"
+  },
+  "modal": {
+    "close": "Tancar",
+    "alt": "Menú complet de Rio de Gusto ampliat"
+  },
+  "footer": {
+    "text": "Rio de Gusto · Restaurant espanyol a Calella",
+    "back": "Tornar a dalt"
+  },
+  "language": {
+    "label": "Idioma"
+  }
+}
