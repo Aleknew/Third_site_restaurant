@@ -21,7 +21,7 @@
  *   2. Optionally delete the .json file
  */
 
-const LANGUAGES = ['ca', 'es', 'en', 'fr', 'ru'];
+const LANGUAGES = ['ca', 'de', 'es', 'en', 'fr', 'ru'];
 const DEFAULT_LANG = 'ca';
 const STORAGE_KEY = 'rio_de_gusto_lang';
 

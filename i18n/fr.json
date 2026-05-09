@@ -50,6 +50,34 @@
       "title": "Tapas",
       "desc": "Tapas classiques à partager avant le repas ou avec un verre."
     },
+    "ensaladas": {
+      "title": "Salades",
+      "desc": "Fraîches et savoureuses, préparées avec des ingrédients de saison."
+    },
+    "sopas": {
+      "title": "Soupes",
+      "desc": "Soupes maison pour commencer le repas."
+    },
+    "pizza": {
+      "title": "Pizzas",
+      "desc": "Pizzas artisanales au four."
+    },
+    "pasta": {
+      "title": "Pâtes",
+      "desc": "Pâtes fraîches avec différentes sauces."
+    },
+    "segundos": {
+      "title": "Plats principaux",
+      "desc": "Plats principaux copieux."
+    },
+    "principales": {
+      "title": "Spécialités de la maison",
+      "desc": "Sélection de plats signature."
+    },
+    "cocktails": {
+      "title": "Cocktails et chupitos",
+      "desc": "Cocktails et boissons pour accompagner le dîner."
+    },
     "dishes": {
       "combo-frankfurt": {
         "name": "Frankfurt, frites et œuf",
@@ -98,6 +126,278 @@
       "tapas-mussels": {
         "name": "Moules marinées",
         "desc": "Moules marinées"
+      },
+      "ensalada-verde": {
+        "name": "Salade verte",
+        "desc": "Salade verte"
+      },
+      "ensalada-setas": {
+        "name": "Salade de champignons confits",
+        "desc": "Salade de champignons confits"
+      },
+      "ensalada-aguacate": {
+        "name": "Salade d'avocat et crevettes",
+        "desc": "Salade d'avocat et crevettes"
+      },
+      "ensalada-rusa": {
+        "name": "Authentique salade russe",
+        "desc": "Authentique salade russe"
+      },
+      "surtido-quesos": {
+        "name": "Assortiment de fromages",
+        "desc": "Assortiment de fromages"
+      },
+      "surtido-embutidos": {
+        "name": "Assortiment de charcuterie",
+        "desc": "Assortiment de charcuterie"
+      },
+      "jamon-iberico": {
+        "name": "Jambon ibérique",
+        "desc": "Jambon ibérique"
+      },
+      "sopa-mariscos": {
+        "name": "Soupe aux fruits de mer",
+        "desc": "Soupe aux fruits de mer"
+      },
+      "sopa-borsch": {
+        "name": "Borsch",
+        "desc": "Borsch"
+      },
+      "sopa-pollo": {
+        "name": "Soupe de poulet",
+        "desc": "Soupe de poulet"
+      },
+      "pizza-margarita": {
+        "name": "Pizza Margherita",
+        "desc": "Pizza Margherita"
+      },
+      "pizza-4quesos": {
+        "name": "Pizza 4 fromages",
+        "desc": "Pizza 4 fromages"
+      },
+      "pizza-pepperoni": {
+        "name": "Pizza Pepperoni",
+        "desc": "Pizza Pepperoni"
+      },
+      "pizza-jamon": {
+        "name": "Pizza au jambon",
+        "desc": "Pizza au jambon"
+      },
+      "pasta-napolitana": {
+        "name": "Pâtes Napolitaine",
+        "desc": "Pâtes Napolitaine"
+      },
+      "pasta-bolognese": {
+        "name": "Pâtes Bolognaise",
+        "desc": "Pâtes Bolognaise"
+      },
+      "pasta-roquefort": {
+        "name": "Pâtes roquefort au poulet",
+        "desc": "Pâtes roquefort au poulet"
+      },
+      "pasta-rio-de-gusto": {
+        "name": "Pâtes Rio de Gusto",
+        "desc": "Pâtes Rio de Gusto"
+      },
+      "segundo-cordon-blue": {
+        "name": "Cordon bleu, salade, frites",
+        "desc": "Cordon bleu, salade, frites"
+      },
+      "segundo-alitas": {
+        "name": "Portion d'ailes de poulet",
+        "desc": "Portion d'ailes de poulet"
+      },
+      "segundo-frankfurter": {
+        "name": "Frankfurter, frites, sauce",
+        "desc": "Frankfurter, frites, sauce"
+      },
+      "segundo-huevos-bacon": {
+        "name": "Œufs, bacon, frites",
+        "desc": "Œufs, bacon, frites"
+      },
+      "segundo-pollo-ensalada": {
+        "name": "Poulet, salade, frites",
+        "desc": "Poulet, salade, frites"
+      },
+      "segundo-lomo-ensalada": {
+        "name": "Échine de porc, salade, frites",
+        "desc": "Échine de porc, salade, frites"
+      },
+      "segundo-bistec-ensalada": {
+        "name": "Steak, salade, frites",
+        "desc": "Steak, salade, frites"
+      },
+      "segundo-butifarra": {
+        "name": "Butifarra, haricots, tomate fraîche",
+        "desc": "Butifarra, haricots, tomate fraîche"
+      },
+      "segundo-merluza": {
+        "name": "Merlu à la Romana",
+        "desc": "Merlu à la Romana"
+      },
+      "segundo-hamburguesa": {
+        "name": "Hamburger, tomate, oignon, fromage, frites",
+        "desc": "Hamburger, tomate, oignon, fromage, frites"
+      },
+      "suplemento-huevo": {
+        "name": "Œuf frit",
+        "desc": "Œuf frit"
+      },
+      "suplemento-bacon": {
+        "name": "Bacon",
+        "desc": "Bacon"
+      },
+      "suplemento-bacon-frito": {
+        "name": "Bacon frit",
+        "desc": "Bacon frit"
+      },
+      "principal-gambas": {
+        "name": "Gambas au sel",
+        "desc": "Gambas au sel"
+      },
+      "principal-solomillo": {
+        "name": "Filet de bœuf",
+        "desc": "Filet de bœuf"
+      },
+      "principal-entrecote": {
+        "name": "Entrecôte",
+        "desc": "Entrecôte"
+      },
+      "principal-magret": {
+        "name": "Magret de canard",
+        "desc": "Magret de canard"
+      },
+      "principal-calamar": {
+        "name": "Calamar farci",
+        "desc": "Calamar farci"
+      },
+      "principal-risotto": {
+        "name": "Risotto",
+        "desc": "Risotto"
+      },
+      "principal-secreto": {
+        "name": "Secreto de porc",
+        "desc": "Secreto de porc"
+      },
+      "cocktail-chupitos": {
+        "name": "Chupitos",
+        "desc": "Chupitos"
+      },
+      "cocktail-tanqueray": {
+        "name": "Tanqueray",
+        "desc": "Tanqueray"
+      },
+      "cocktail-tanqueray-gin-tonic": {
+        "name": "Tanqueray gin+tonic",
+        "desc": "Tanqueray gin+tonic"
+      },
+      "cocktail-gin-tonic": {
+        "name": "Gin+tonic",
+        "desc": "Gin+tonic"
+      },
+      "cocktail-bifiter": {
+        "name": "Bifiter",
+        "desc": "Bifiter"
+      },
+      "cocktail-bombay": {
+        "name": "Bombay Sapphire",
+        "desc": "Bombay Sapphire"
+      },
+      "cocktail-jack-daniels": {
+        "name": "Jack Daniels",
+        "desc": "Jack Daniels"
+      },
+      "cocktail-jack-cola": {
+        "name": "Jack Daniels + Cola",
+        "desc": "Jack Daniels + Cola"
+      },
+      "cocktail-ballantines": {
+        "name": "Ballantine's",
+        "desc": "Ballantine's"
+      },
+      "cocktail-ballantines-cola": {
+        "name": "Ballantine's + cola",
+        "desc": "Ballantine's + cola"
+      },
+      "cocktail-cutty-sark": {
+        "name": "Cutty Sark",
+        "desc": "Cutty Sark"
+      },
+      "cocktail-jim-bim": {
+        "name": "Jim Bim",
+        "desc": "Jim Bim"
+      },
+      "cocktail-magno": {
+        "name": "Magno",
+        "desc": "Magno"
+      },
+      "cocktail-veterano": {
+        "name": "Veterano",
+        "desc": "Veterano"
+      },
+      "cocktail-torres-5": {
+        "name": "Torres 5",
+        "desc": "Torres 5"
+      },
+      "cocktail-torres-10": {
+        "name": "Torres 10",
+        "desc": "Torres 10"
+      },
+      "cocktail-soberano": {
+        "name": "Soberano",
+        "desc": "Soberano"
+      },
+      "cocktail-bacardi": {
+        "name": "Bacardi",
+        "desc": "Bacardi"
+      },
+      "cocktail-ron-pujol": {
+        "name": "Ron Pujol",
+        "desc": "Ron Pujol"
+      },
+      "cocktail-cacique": {
+        "name": "Cacique",
+        "desc": "Cacique"
+      },
+      "cocktail-absolut": {
+        "name": "Absolut",
+        "desc": "Absolut"
+      },
+      "cocktail-smirnoff": {
+        "name": "Smirnoff",
+        "desc": "Smirnoff"
+      },
+      "cocktail-vermut-blanco": {
+        "name": "Vermouth blanc",
+        "desc": "Vermouth blanc"
+      },
+      "cocktail-vermut-rojo": {
+        "name": "Vermouth rouge",
+        "desc": "Vermouth rouge"
+      },
+      "cocktail-anis": {
+        "name": "Anís del Mono",
+        "desc": "Anís del Mono"
+      },
+      "cocktail-ratafia": {
+        "name": "Ratafia russet",
+        "desc": "Ratafia russet"
+      },
+      "cocktail-pacharan": {
+        "name": "Pacharán Navarro",
+        "desc": "Pacharán Navarro"
+      },
+      "cocktail-orujo": {
+        "name": "Orujo",
+        "desc": "Orujo"
+      },
+      "cocktail-jagermeister": {
+        "name": "Jagermeister",
+        "desc": "Jagermeister"
+      },
+      "cocktail-licor-43": {
+        "name": "Licor 43",
+        "desc": "Licor 43"
       }
     },
     "full_menu_btn": "Voir le menu en grand",
@@ -146,7 +446,7 @@
     "address_label": "Adresse",
     "address": "Carrer de Monturiol, 90, 08370 Calella, Espagne",
     "hours_label": "Horaires",
-    "hours": "<div class=\"hours-grid\"><div class=\"hours-row\"><span class=\"hours-day\">Lundi</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Mardi</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Mercredi</span><span class=\"hours-slot hours-closed hours-closed-full\">Fermé</span></div><div class=\"hours-row\"><span class=\"hours-day\">Jeudi</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Vendredi</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Samedi</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Dimanche</span><span class=\"hours-slot\">09:00–17:00</span><span class=\"hours-slot hours-closed\">Fermé</span></div></div>",
+    "hours": "<div class=\"hours-grid\"><div class=\"hours-row\"><span class=\"hours-day\">Lundi</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Mardi</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Mercredi</span><span class=\"hours-slot hours-closed\">Fermé</span></div><div class=\"hours-row\"><span class=\"hours-day\">Jeudi</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Vendredi</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Samedi</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Dimanche</span><span class=\"hours-slot\">09:00–17:00</span><span class=\"hours-slot hours-closed\">Fermé</span></div></div>",
     "contact_label": "Contact",
     "contact": "+34 644 84 88 25\nriodegusto@gmail.com"
   },

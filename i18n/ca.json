@@ -50,6 +50,34 @@
       "title": "Tapes",
       "desc": "Tapes clàssiques per compartir abans del menjar o amb una copa."
     },
+    "ensaladas": {
+      "title": "Amanides",
+      "desc": "Fresques i saboroses, preparades amb ingredients de temporada."
+    },
+    "sopas": {
+      "title": "Sopes",
+      "desc": "Sopes casolanes per començar l'àpat."
+    },
+    "pizza": {
+      "title": "Pizzes",
+      "desc": "Pizzes artesanes al forn."
+    },
+    "pasta": {
+      "title": "Pasta",
+      "desc": "Pasta fresca amb diferents salses."
+    },
+    "segundos": {
+      "title": "Segons plats",
+      "desc": "Plats principals contundents."
+    },
+    "principales": {
+      "title": "Especials de la casa",
+      "desc": "Selecció de plats estrella."
+    },
+    "cocktails": {
+      "title": "Còctels i xarrups",
+      "desc": "Còctels i begudes per acompanyar el sopar."
+    },
     "dishes": {
       "combo-frankfurt": {
         "name": "Frankfurt, patates i ou",
@@ -98,6 +126,278 @@
       "tapas-mussels": {
         "name": "Musclos en escabetx",
         "desc": "Musclos en escabetx"
+      },
+      "ensalada-verde": {
+        "name": "Amanida verda",
+        "desc": "Amanida verda"
+      },
+      "ensalada-setas": {
+        "name": "Amanida de bolets confitats",
+        "desc": "Amanida de bolets confitats"
+      },
+      "ensalada-aguacate": {
+        "name": "Amanida d'alvocat i gambes",
+        "desc": "Amanida d'alvocat i gambes"
+      },
+      "ensalada-rusa": {
+        "name": "Autèntica amanida russa",
+        "desc": "Autèntica amanida russa"
+      },
+      "surtido-quesos": {
+        "name": "Assortiment de formatges",
+        "desc": "Assortiment de formatges"
+      },
+      "surtido-embutidos": {
+        "name": "Assortiment d'embotits",
+        "desc": "Assortiment d'embotits"
+      },
+      "jamon-iberico": {
+        "name": "Pernil ibèric",
+        "desc": "Pernil ibèric"
+      },
+      "sopa-mariscos": {
+        "name": "Sopa de marisc",
+        "desc": "Sopa de marisc"
+      },
+      "sopa-borsch": {
+        "name": "Borsch",
+        "desc": "Borsch"
+      },
+      "sopa-pollo": {
+        "name": "Sopa de pollastre",
+        "desc": "Sopa de pollastre"
+      },
+      "pizza-margarita": {
+        "name": "Pizza Margarita",
+        "desc": "Pizza Margarita"
+      },
+      "pizza-4quesos": {
+        "name": "Pizza 4 formatges",
+        "desc": "Pizza 4 formatges"
+      },
+      "pizza-pepperoni": {
+        "name": "Pizza Pepperoni",
+        "desc": "Pizza Pepperoni"
+      },
+      "pizza-jamon": {
+        "name": "Pizza amb pernil",
+        "desc": "Pizza amb pernil"
+      },
+      "pasta-napolitana": {
+        "name": "Pasta Napolitana",
+        "desc": "Pasta Napolitana"
+      },
+      "pasta-bolognese": {
+        "name": "Pasta Bolonyesa",
+        "desc": "Pasta Bolonyesa"
+      },
+      "pasta-roquefort": {
+        "name": "Pasta roquefort amb pollastre",
+        "desc": "Pasta roquefort amb pollastre"
+      },
+      "pasta-rio-de-gusto": {
+        "name": "Pasta Rio de Gusto",
+        "desc": "Pasta Rio de Gusto"
+      },
+      "segundo-cordon-blue": {
+        "name": "Cordon blue, amanida, patates",
+        "desc": "Cordon blue, amanida, patates"
+      },
+      "segundo-alitas": {
+        "name": "Ració d'aletes de pollastre",
+        "desc": "Ració d'aletes de pollastre"
+      },
+      "segundo-frankfurter": {
+        "name": "Frankfurter, patates fregides, salsa",
+        "desc": "Frankfurter, patates fregides, salsa"
+      },
+      "segundo-huevos-bacon": {
+        "name": "Ous, cansalada, patates fregides",
+        "desc": "Ous, cansalada, patates fregides"
+      },
+      "segundo-pollo-ensalada": {
+        "name": "Pollastre, amanida, patates fregides",
+        "desc": "Pollastre, amanida, patates fregides"
+      },
+      "segundo-lomo-ensalada": {
+        "name": "Llom, amanida, patates fregides",
+        "desc": "Llom, amanida, patates fregides"
+      },
+      "segundo-bistec-ensalada": {
+        "name": "Bistec, amanida, patates fregides",
+        "desc": "Bistec, amanida, patates fregides"
+      },
+      "segundo-butifarra": {
+        "name": "Botifarra, mongetes, tomàquet fresc",
+        "desc": "Botifarra, mongetes, tomàquet fresc"
+      },
+      "segundo-merluza": {
+        "name": "Lluç a la romana",
+        "desc": "Lluç a la romana"
+      },
+      "segundo-hamburguesa": {
+        "name": "Hamburguesa, tomàquet, ceba, formatge, patates fregides",
+        "desc": "Hamburguesa, tomàquet, ceba, formatge, patates fregides"
+      },
+      "suplemento-huevo": {
+        "name": "Ou fregit",
+        "desc": "Ou fregit"
+      },
+      "suplemento-bacon": {
+        "name": "Cansalada",
+        "desc": "Cansalada"
+      },
+      "suplemento-bacon-frito": {
+        "name": "Cansalada fregida",
+        "desc": "Cansalada fregida"
+      },
+      "principal-gambas": {
+        "name": "Gambes a la sal",
+        "desc": "Gambes a la sal"
+      },
+      "principal-solomillo": {
+        "name": "Solomillo de vedella",
+        "desc": "Solomillo de vedella"
+      },
+      "principal-entrecote": {
+        "name": "Entrecot",
+        "desc": "Entrecot"
+      },
+      "principal-magret": {
+        "name": "Magret d'ànec",
+        "desc": "Magret d'ànec"
+      },
+      "principal-calamar": {
+        "name": "Calamar farcit",
+        "desc": "Calamar farcit"
+      },
+      "principal-risotto": {
+        "name": "Risotto",
+        "desc": "Risotto"
+      },
+      "principal-secreto": {
+        "name": "Secret de porc",
+        "desc": "Secret de porc"
+      },
+      "cocktail-chupitos": {
+        "name": "Xarrups",
+        "desc": "Xarrups"
+      },
+      "cocktail-tanqueray": {
+        "name": "Tanqueray",
+        "desc": "Tanqueray"
+      },
+      "cocktail-tanqueray-gin-tonic": {
+        "name": "Tanqueray gintònic",
+        "desc": "Tanqueray gintònic"
+      },
+      "cocktail-gin-tonic": {
+        "name": "Gintònic",
+        "desc": "Gintònic"
+      },
+      "cocktail-bifiter": {
+        "name": "Bifiter",
+        "desc": "Bifiter"
+      },
+      "cocktail-bombay": {
+        "name": "Bombay Zaphire",
+        "desc": "Bombay Zaphire"
+      },
+      "cocktail-jack-daniels": {
+        "name": "Jack Daniels",
+        "desc": "Jack Daniels"
+      },
+      "cocktail-jack-cola": {
+        "name": "Jack Daniels + Cola",
+        "desc": "Jack Daniels + Cola"
+      },
+      "cocktail-ballantines": {
+        "name": "Ballantines",
+        "desc": "Ballantines"
+      },
+      "cocktail-ballantines-cola": {
+        "name": "Ballantines + cola",
+        "desc": "Ballantines + cola"
+      },
+      "cocktail-cutty-sark": {
+        "name": "Cutty Sark",
+        "desc": "Cutty Sark"
+      },
+      "cocktail-jim-bim": {
+        "name": "Jim Bim",
+        "desc": "Jim Bim"
+      },
+      "cocktail-magno": {
+        "name": "Magno",
+        "desc": "Magno"
+      },
+      "cocktail-veterano": {
+        "name": "Veterano",
+        "desc": "Veterano"
+      },
+      "cocktail-torres-5": {
+        "name": "Torres 5",
+        "desc": "Torres 5"
+      },
+      "cocktail-torres-10": {
+        "name": "Torres 10",
+        "desc": "Torres 10"
+      },
+      "cocktail-soberano": {
+        "name": "Soberano",
+        "desc": "Soberano"
+      },
+      "cocktail-bacardi": {
+        "name": "Bacardi",
+        "desc": "Bacardi"
+      },
+      "cocktail-ron-pujol": {
+        "name": "Ron Pujol",
+        "desc": "Ron Pujol"
+      },
+      "cocktail-cacique": {
+        "name": "Cacique",
+        "desc": "Cacique"
+      },
+      "cocktail-absolut": {
+        "name": "Absolut",
+        "desc": "Absolut"
+      },
+      "cocktail-smirnoff": {
+        "name": "Smirnoff",
+        "desc": "Smirnoff"
+      },
+      "cocktail-vermut-blanco": {
+        "name": "Vermut blanc",
+        "desc": "Vermut blanc"
+      },
+      "cocktail-vermut-rojo": {
+        "name": "Vermut roig",
+        "desc": "Vermut roig"
+      },
+      "cocktail-anis": {
+        "name": "Anís del Mono",
+        "desc": "Anís del Mono"
+      },
+      "cocktail-ratafia": {
+        "name": "Ratafia russet",
+        "desc": "Ratafia russet"
+      },
+      "cocktail-pacharan": {
+        "name": "Pacharán navarro",
+        "desc": "Pacharán navarro"
+      },
+      "cocktail-orujo": {
+        "name": "Orujo",
+        "desc": "Orujo"
+      },
+      "cocktail-jagermeister": {
+        "name": "Jagermeister",
+        "desc": "Jagermeister"
+      },
+      "cocktail-licor-43": {
+        "name": "Licor 43",
+        "desc": "Licor 43"
       }
     },
     "full_menu_btn": "Veure menú en gran",
@@ -109,19 +409,19 @@
     "summary": "Google · 4.8/5 · Restaurant Rio de Gusto",
     "reviews": [
       {
-        "text": "“Vam trobar el restaurant de casualitat, però ens ha encantat! Bon menjar i bon servei. El recomanem.”",
+        "text": "\u201cVam trobar el restaurant de casualitat, per\u00f2 ens ha encantat! Bon menjar i bon servei. El recomanem.\u201d",
         "author": "Patricia Ramirez"
       },
       {
-        "text": "“Descobert fa una setmana i ja he repetit dues vegades. Bon menjar. Bon preu i bon servei. Recomano.”",
+        "text": "\u201cDescobert fa una setmana i ja he repetit dues vegades. Bon menjar. Bon preu i bon servei. Recomano.\u201d",
         "author": "Juana Espada"
       },
       {
-        "text": "“Espectacular menús, el menjar està boníssim.”",
+        "text": "\u201cEspectacular men\u00fas, el menjar est\u00e0 bon\u00edssim.\u201d",
         "author": "Ester Padilla"
       }
     ],
-    "link": "Veure més opinions a Google Maps",
+    "link": "Veure m\u00e9s opinions a Google Maps",
     "months": {
       "november": "novembre 2025",
       "september": "setembre 2025"
@@ -129,45 +429,45 @@
   },
   "facade": {
     "eyebrow": "Rio de Gusto des del carrer",
-    "title": "Un racó càlid al centre de Calella."
+    "title": "Un rac\u00f3 c\u00e0lid al centre de Calella."
   },
   "atmosphere": {
     "eyebrow": "Ambient a Calella",
     "title": "Una pausa lluminosa prop del Mediterrani.",
-    "text": "Interior serè, materials naturals i una selecció de vins pensada per acompanyar el producte sense imposar-se."
+    "text": "Interior ser\u00e8, materials naturals i una selecci\u00f3 de vins pensada per acompanyar el producte sense imposar-se."
   },
   "reservation": {
     "eyebrow": "Reserves",
     "title": "La teva taula a Rio de Gusto.",
-    "text": "Escriu-nos per WhatsApp i prepararem una taula per a dinar, sopar o una celebració especial a Calella.",
+    "text": "Escriu-nos per WhatsApp i prepararem una taula per a dinar, sopar o una celebraci\u00f3 especial a Calella.",
     "cta": "Reservar per WhatsApp"
   },
   "contact": {
-    "address_label": "Adreça",
+    "address_label": "Adre\u00e7a",
     "address": "Carrer de Monturiol, 90, 08370 Calella, Espanya",
     "hours_label": "Horari",
-    "hours": "<div class=\"hours-grid\"><div class=\"hours-row\"><span class=\"hours-day\">Dilluns</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Dimarts</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Dimecres</span><span class=\"hours-slot hours-closed hours-closed-full\">Tancat</span></div><div class=\"hours-row\"><span class=\"hours-day\">Dijous</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Divendres</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Dissabte</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Diumenge</span><span class=\"hours-slot\">09:00–17:00</span><span class=\"hours-slot hours-closed\">Tancat</span></div></div>",
+    "hours": "<div class=\"hours-grid\"><div class=\"hours-row\"><span class=\"hours-day\">Dilluns</span><span class=\"hours-slot\">09:00\u201316:00</span><span class=\"hours-slot\">19:00\u201321:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Dimarts</span><span class=\"hours-slot\">09:00\u201316:00</span><span class=\"hours-slot\">19:00\u201321:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Dimecres</span><span class=\"hours-slot hours-closed\">Tancat</span></div><div class=\"hours-row\"><span class=\"hours-day\">Dijous</span><span class=\"hours-slot\">09:00\u201316:00</span><span class=\"hours-slot\">19:00\u201321:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Divendres</span><span class=\"hours-slot\">09:00\u201316:00</span><span class=\"hours-slot\">19:00\u201321:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Dissabte</span><span class=\"hours-slot\">09:00\u201316:00</span><span class=\"hours-slot\">19:00\u201321:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Diumenge</span><span class=\"hours-slot\">09:00\u201317:00</span><span class=\"hours-slot hours-closed\">Tancat</span></div></div>",
     "contact_label": "Contacte",
     "contact": "+34 644 84 88 25\nriodegusto@gmail.com"
   },
   "map": {
-    "eyebrow": "Ubicació",
+    "eyebrow": "Ubicaci\u00f3",
     "title": "Ens trobem a Calella.",
     "link": "Com arribar"
   },
   "modal": {
     "close": "Tancar",
-    "alt": "Menú complet de Rio de Gusto ampliat"
+    "alt": "Men\u00fa complet de Rio de Gusto ampliat"
   },
   "footer": {
-    "text": "Rio de Gusto · Restaurant espanyol a Calella",
+    "text": "Rio de Gusto \u00b7 Restaurant espanyol a Calella",
     "back": "Tornar a dalt"
   },
   "language": {
     "label": "Idioma"
   },
   "legal": {
-    "button": "Avís legal i privacitat",
-    "text": "<h2 class=\"legal-title\">AVÍS LEGAL I POLÍTICA DE PRIVACITAT</h2><p>En compliment de la Llei 34/2002, d'11 de juliol, de Serveis de la Societat de la Informació i de Comerç Electrònic (LSSI-CE) i del Reglament (UE) 2016/679 (RGPD), es facilita la informació següent.</p><h3>1. Dades identificatives del titular</h3><p><strong>Titular:</strong> [NOM DEL RESTAURANT O RAÓ SOCIAL]<br><strong>Domicili:</strong> [ADREÇA COMPLETA, CODI POSTAL, CIUTAT, PROVÍNCIA]<br><strong>NIF/CIF:</strong> [NÚMERO]<br><strong>Correu electrònic:</strong> [CORREU DE CONTACTE]<br><strong>Telèfon:</strong> [NÚMERO DE TELÈFON]</p><h3>2. Objecte del lloc web</h3><p>Aquest lloc web té caràcter merament informatiu i la seva finalitat és donar a conèixer l'activitat, la ubicació i les dades de contacte de l'establiment.</p><h3>3. Propietat intel·lectual</h3><p>Els continguts d'aquest lloc web, incloent-hi textos, imatges i disseny, són propietat del titular o han estat utilitzats amb autorització. Queda prohibida la seva reproducció total o parcial sense autorització expressa.</p><h3>4. Protecció de dades i privacitat</h3><p>Aquest lloc web no disposa de formularis de registre, subscripció ni cap altre mecanisme de recollida de dades personals. No s'utilitzen cookies pròpies d'anàlisi, publicitat ni seguiment.</p><p><strong>Botó de contacte per WhatsApp</strong><br>El lloc web inclou un botó de contacte que redirigeix al servei de missatgeria WhatsApp, operat per Meta Platforms Ireland Limited. L'ús d'aquest botó és completament voluntari. En fer clic, l'usuari és redirigit a WhatsApp fora d'aquest lloc web; en aquest moment, el tractament de qualsevol dada personal facilitada en la conversa queda subjecte exclusivament a la política de privacitat de WhatsApp / Meta, disponible a www.whatsapp.com/legal/privacy-policy, aliena al titular d'aquest lloc. Aquest lloc web no rep, emmagatzema ni tracta cap dada derivada d'aquestes converses.</p><p><strong>Mapa de Google Maps</strong><br>El lloc web incorpora un mapa del servei Google Maps, operat per Google Ireland Limited (Gordon House, Barrow Street, Dublín 4, Irlanda). La càrrega d'aquest mapa pot implicar la transmissió de dades tècniques de l'usuari (com ara l'adreça IP) als servidors de Google, fins i tot sense interacció activa. L'ús del botó «Com arribar-hi» redirigeix l'usuari a Google Maps fora d'aquest lloc web; a partir d'aquest moment, el tractament de dades queda subjecte a la política de privacitat de Google, disponible a policies.google.com/privacy, aliena al titular d'aquest lloc.</p><h3>5. Cookies de tercers</h3><p>Aquest lloc web no utilitza cookies pròpies d'anàlisi ni publicitat. No obstant això, el servei Google Maps integrat pot instal·lar cookies tècniques de tercers necessàries per al seu funcionament. L'usuari pot gestionar o bloquejar aquestes cookies des de la configuració del seu navegador, tot i que això podria afectar la visualització del mapa.</p><h3>6. Drets dels usuaris</h3><p>Vostè té dret a accedir, rectificar i suprimir les seves dades, així com altres drets reconeguts en el RGPD i en la Llei Orgànica 3/2018 (LOPDGDD). Per exercir-los, pot adreçar-se a: [CORREU DE CONTACTE]<br>Així mateix, té dret a presentar una reclamació davant l'Agència Espanyola de Protecció de Dades (www.aepd.es).</p><h3>7. Responsabilitat</h3><p>El titular no es responsabilitza dels possibles danys o perjudicis que puguin derivar-se d'interferències, interrupcions o desconnexions del sistema de telecomunicacions que produeixin la suspensió o cancel·lació del servei web. Tampoc es responsabilitza dels continguts, serveis ni polítiques de privacitat dels llocs externs als quals aquest lloc enllaça (WhatsApp, Google Maps).</p><h3>8. Legislació aplicable i modificacions</h3><p>Les presents condicions es regeixen per la legislació espanyola vigent. El titular es reserva el dret d'actualitzar aquest document en qualsevol moment. Es recomana revisar-lo periòdicament.</p>"
+    "button": "Av\u00eds legal i privacitat",
+    "text": "<h2 class=\"legal-title\">AV\u00cdS LEGAL I POL\u00cdTICA DE PRIVACITAT</h2><p>En compliment de la Llei 34/2002, d'11 de juliol, de Serveis de la Societat de la Informaci\u00f3 i de Comer\u00e7 Electr\u00f2nic (LSSI-CE) i del Reglament (UE) 2016/679 (RGPD), es facilita la informaci\u00f3 seg\u00fcent.</p><h3>1. Dades identificatives del titular</h3><p><strong>Titular:</strong> [NOM DEL RESTAURANT O RA\u00d3 SOCIAL]<br><strong>Domicili:</strong> [ADRE\u00c7A COMPLETA, CODI POSTAL, CIUTAT, PROV\u00cdNCIA]<br><strong>NIF/CIF:</strong> [N\u00daMERO]<br><strong>Correu electr\u00f2nic:</strong> [CORREU DE CONTACTE]<br><strong>Tel\u00e8fon:</strong> [N\u00daMERO DE TEL\u00c8FON]</p><h3>2. Objecte del lloc web</h3><p>Aquest lloc web t\u00e9 car\u00e0cter merament informatiu i la seva finalitat \u00e9s donar a con\u00e8ixer l\u2019activitat, la ubicaci\u00f3 i les dades de contacte de l\u2019establiment.</p><h3>3. Propietat intel\u00b7lectual</h3><p>Els continguts d\u2019aquest lloc web, incloent-hi textos, imatges i disseny, s\u00f3n propietat del titular o han estat utilitzats amb autoritzaci\u00f3. Queda prohibida la seva reproducci\u00f3 total o parcial sense autoritzaci\u00f3 expressa.</p><h3>4. Protecci\u00f3 de dades i privacitat</h3><p>Aquest lloc web no disposa de formularis de registre, subscripci\u00f3 ni cap altre mecanisme de recollida de dades personals. No s\u2019utilitzen cookies pr\u00f2pies d\u2019an\u00e0lisi, publicitat ni seguiment.</p><p><strong>Bot\u00f3 de contacte per WhatsApp</strong><br>El lloc web inclou un bot\u00f3 de contacte que redirigeix al servei de missatgeria WhatsApp, operat per Meta Platforms Ireland Limited. L\u2019\u00fas d\u2019aquest bot\u00f3 \u00e9s completament voluntari. En fer clic, l\u2019usuari \u00e9s redirigit a WhatsApp fora d\u2019aquest lloc web; en aquest moment, el tractament de qualsevol dada personal facilitada en la conversa queda subjecte exclusivament a la pol\u00edtica de privacitat de WhatsApp / Meta, disponible a www.whatsapp.com/legal/privacy-policy, aliena al titular d\u2019aquest lloc. Aquest lloc web no rep, emmagatzema ni tracta cap dada derivada d\u2019aquestes converses.</p><p><strong>Mapa de Google Maps</strong><br>El lloc web incorpora un mapa del servei Google Maps, operat per Google Ireland Limited (Gordon House, Barrow Street, Dubl\u00edn 4, Irlanda). La c\u00e0rrega d\u2019aquest mapa pot implicar la transmissi\u00f3 de dades t\u00e8cniques de l\u2019usuari (com ara l\u2019adre\u00e7a IP) als servidors de Google, fins i tot sense interacci\u00f3 activa. L\u2019\u00fas del bot\u00f3 \u00abCom arribar-hi\u00bb redirigeix l\u2019usuari a Google Maps fora d\u2019aquest lloc web; a partir d\u2019aquest moment, el tractament de dades queda subjecte a la pol\u00edtica de privacitat de Google, disponible a policies.google.com/privacy, aliena al titular d\u2019aquest lloc.</p><h3>5. Cookies de tercers</h3><p>Aquest lloc web no utilitza cookies pr\u00f2pies d\u2019an\u00e0lisi ni publicitat. No obstant aix\u00f2, el servei Google Maps integrat pot instal\u00b7lar cookies t\u00e8cniques de tercers necess\u00e0ries per al seu funcionament. L\u2019usuari pot gestionar o bloquejar aquestes cookies des de la configuraci\u00f3 del seu navegador, tot i que aix\u00f2 podria afectar la visualitzaci\u00f3 del mapa.</p><h3>6. Drets dels usuaris</h3><p>Vost\u00e9 t\u00e9 dret a accedir, rectificar i suprimir les seves dades, aix\u00ed com altres drets reconeguts en el RGPD i en la Llei Org\u00e0nica 3/2018 (LOPDGDD). Per exercir-los, pot adre\u00e7ar-se a: [CORREU DE CONTACTE]<br>Aix\u00ed mateix, t\u00e9 dret a presentar una reclamaci\u00f3 davant l\u2019Ag\u00e8ncia Espanyola de Protecci\u00f3 de Dades (www.aepd.es).</p><h3>7. Responsabilitat</h3><p>El titular no es responsabilitza dels possibles danys o perjudicis que puguin derivar-se d\u2019interfer\u00e8ncies, interrupcions o desconnexions del sistema de telecomunicacions que produeixin la suspensi\u00f3 o cancel\u00b7laci\u00f3 del servei web. Tampoc es responsabilitza dels continguts, serveis ni pol\u00edtiques de privacitat dels llocs externs als quals aquest lloc enlla\u00e7a (WhatsApp, Google Maps).</p><h3>8. Legislaci\u00f3 aplicable i modificacions</h3><p>Les presents condicions es regeixen per la legislaci\u00f3 espanyola vigent. El titular es reserva el dret d\u2019actualitzar aquest document en qualsevol moment. Es recomana revisar-lo peri\u00f2dicament.</p>"
   }
 }

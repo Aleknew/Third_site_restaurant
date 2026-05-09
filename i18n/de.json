@@ -1,0 +1,473 @@
+{
+  "nav": {
+    "experiencia": "Erlebnis",
+    "menu": "Speisekarte",
+    "opiniones": "Bewertungen",
+    "ambiente": "Atmosphäre",
+    "ubicacion": "Standort",
+    "contacto": "Kontakt"
+  },
+  "header": {
+    "cta": "Reservieren",
+    "menu_toggle": "Menü öffnen"
+  },
+  "hero": {
+    "eyebrow": "Spanisches Restaurant in Calella",
+    "title": "Gutes Essen, unvergessliche Momente.",
+    "text": "Mediterrane Küche mit spanischer Seele, saisonale Produkte und eine ruhige Atmosphäre, um ungestört zu genießen.",
+    "reserve": "Via WhatsApp reservieren",
+    "view_menu": "Speisekarte ansehen",
+    "card_label": "Offene Küche",
+    "card_text": "Lokale Produkte · Wein · Sanftes Grillen"
+  },
+  "intro": {
+    "eyebrow": "Unser Wesen",
+    "title": "Ruhige Eleganz, authentischer Geschmack.",
+    "text": "Rio de Gusto wurde geboren, um das Beste der katalanischen Küste und der spanischen Tradition zu vereinen: ehrliche Gerichte, herzlicher Service und ein Speisesaal, der für Gespräche, Feiern und Wiederkehr konzipiert ist."
+  },
+  "features": {
+    "01": {
+      "title": "Marktprodukte",
+      "text": "Fisch, Gemüse und Fleisch, wöchentlich nach Saison ausgewählt."
+    },
+    "02": {
+      "title": "Mittelmeer-Rhythmus",
+      "text": "Eine flexible Karte für helle Mittagessen, lange Abendessen und gemütlichen Ausklang."
+    },
+    "03": {
+      "title": "Raffinierte Details",
+      "text": "Natürliche Texturen, schlichtes Geschirr und kleine goldene Akzente bei jedem Erlebnis."
+    }
+  },
+  "menu": {
+    "eyebrow": "Gesamte Speisekarte",
+    "title": "Die Rio de Gusto Karte.",
+    "combinats": {
+      "title": "Kombinierte Gerichte",
+      "desc": "Mit Pommes frites; Salat als Alternative erhältlich."
+    },
+    "tapas": {
+      "title": "Tapas",
+      "desc": "Klassische Tapas zum Teilen vor dem Essen oder zu einem Getränk."
+    },
+    "ensaladas": {
+      "title": "Salate",
+      "desc": "Frisch und schmackhaft, mit saisonalen Zutaten zubereitet."
+    },
+    "sopas": {
+      "title": "Suppen",
+      "desc": "Hausgemachte Suppen zum Start in die Mahlzeit."
+    },
+    "pizza": {
+      "title": "Pizzen",
+      "desc": "Handwerklich im Ofen gebackene Pizzen."
+    },
+    "pasta": {
+      "title": "Pasta",
+      "desc": "Frische Pasta mit verschiedenen Saucen."
+    },
+    "segundos": {
+      "title": "Hauptgerichte",
+      "desc": "Herzhafte Hauptgerichte."
+    },
+    "principales": {
+      "title": "Hausspezialitäten",
+      "desc": "Auswahl an Signature-Gerichten."
+    },
+    "cocktails": {
+      "title": "Cocktails & Shots",
+      "desc": "Cocktails und Getränke zur Begleitung Ihres Abendessens."
+    },
+    "dishes": {
+      "combo-frankfurt": {
+        "name": "Frankfurt, Pommes und Ei",
+        "desc": "Frankfurt, Pommes und Ei"
+      },
+      "combo-chicken": {
+        "name": "Hähnchenbrust mit Pommes",
+        "desc": "Hähnchenbrust mit Pommes"
+      },
+      "combo-loin": {
+        "name": "Schweinelende mit Pommes",
+        "desc": "Schweinelende mit Pommes"
+      },
+      "combo-steak": {
+        "name": "Steak mit Pommes",
+        "desc": "Steak mit Pommes"
+      },
+      "combo-burger": {
+        "name": "Hamburger, Pommes und Ei",
+        "desc": "Hamburger, Pommes und Ei"
+      },
+      "tapas-fries": {
+        "name": "Pommes frites",
+        "desc": "Pommes frites"
+      },
+      "tapas-bravas": {
+        "name": "Patatas bravas",
+        "desc": "Frittierte Kartoffeln mit Sauce"
+      },
+      "tapas-croquettes": {
+        "name": "Kroketten",
+        "desc": "Schinken oder Hähnchen"
+      },
+      "tapas-tortilla": {
+        "name": "Spanisches Omelett",
+        "desc": "Kartoffel- oder Zucchini-Omelett"
+      },
+      "tapas-iberian": {
+        "name": "Iberische Platte",
+        "desc": "Iberische Platte"
+      },
+      "tapas-anchovies": {
+        "name": "Marinierte Sardellen",
+        "desc": "Marinierte Sardellen"
+      },
+      "tapas-mussels": {
+        "name": "Marinierte Miesmuscheln",
+        "desc": "Marinierte Miesmuscheln"
+      },
+      "ensalada-verde": {
+        "name": "Grüner Salat",
+        "desc": "Grüner Salat"
+      },
+      "ensalada-setas": {
+        "name": "Konfierter Pilzsalat",
+        "desc": "Konfierter Pilzsalat"
+      },
+      "ensalada-aguacate": {
+        "name": "Avocado- und Garnelensalat",
+        "desc": "Avocado- und Garnelensalat"
+      },
+      "ensalada-rusa": {
+        "name": "Authentischer russischer Salat",
+        "desc": "Authentischer russischer Salat"
+      },
+      "surtido-quesos": {
+        "name": "Käseplatte",
+        "desc": "Käseplatte"
+      },
+      "surtido-embutidos": {
+        "name": "Aufschnittplatte",
+        "desc": "Aufschnittplatte"
+      },
+      "jamon-iberico": {
+        "name": "Iberischer Schinken",
+        "desc": "Iberischer Schinken"
+      },
+      "sopa-mariscos": {
+        "name": "Meeresfrüchtesuppe",
+        "desc": "Meeresfrüchtesuppe"
+      },
+      "sopa-borsch": {
+        "name": "Borschtsch",
+        "desc": "Borschtsch"
+      },
+      "sopa-pollo": {
+        "name": "Hühnersuppe",
+        "desc": "Hühnersuppe"
+      },
+      "pizza-margarita": {
+        "name": "Pizza Margherita",
+        "desc": "Pizza Margherita"
+      },
+      "pizza-4quesos": {
+        "name": "Vier-Käse-Pizza",
+        "desc": "Vier-Käse-Pizza"
+      },
+      "pizza-pepperoni": {
+        "name": "Pepperoni-Pizza",
+        "desc": "Pepperoni-Pizza"
+      },
+      "pizza-jamon": {
+        "name": "Schinkenpizza",
+        "desc": "Schinkenpizza"
+      },
+      "pasta-napolitana": {
+        "name": "Neapolitanische Pasta",
+        "desc": "Neapolitanische Pasta"
+      },
+      "pasta-bolognese": {
+        "name": "Bolognese-Pasta",
+        "desc": "Bolognese-Pasta"
+      },
+      "pasta-roquefort": {
+        "name": "Roquefort-Pasta mit Hähnchen",
+        "desc": "Roquefort-Pasta mit Hähnchen"
+      },
+      "pasta-rio-de-gusto": {
+        "name": "Rio de Gusto Pasta",
+        "desc": "Rio de Gusto Pasta"
+      },
+      "segundo-cordon-blue": {
+        "name": "Cordon bleu, Salat, Pommes",
+        "desc": "Cordon bleu, Salat, Pommes"
+      },
+      "segundo-alitas": {
+        "name": "Hähnchenflügel-Portion",
+        "desc": "Hähnchenflügel-Portion"
+      },
+      "segundo-frankfurter": {
+        "name": "Frankfurter, Pommes, Sauce",
+        "desc": "Frankfurter, Pommes, Sauce"
+      },
+      "segundo-huevos-bacon": {
+        "name": "Eier, Speck, Pommes",
+        "desc": "Eier, Speck, Pommes"
+      },
+      "segundo-pollo-ensalada": {
+        "name": "Hähnchen, Salat, Pommes",
+        "desc": "Hähnchen, Salat, Pommes"
+      },
+      "segundo-lomo-ensalada": {
+        "name": "Schweinelende, Salat, Pommes",
+        "desc": "Schweinelende, Salat, Pommes"
+      },
+      "segundo-bistec-ensalada": {
+        "name": "Steak, Salat, Pommes",
+        "desc": "Steak, Salat, Pommes"
+      },
+      "segundo-butifarra": {
+        "name": "Butifarra-Wurst, Bohnen, frische Tomaten",
+        "desc": "Butifarra-Wurst, Bohnen, frische Tomaten"
+      },
+      "segundo-merluza": {
+        "name": "Seehecht a la Romana",
+        "desc": "Seehecht a la Romana"
+      },
+      "segundo-hamburguesa": {
+        "name": "Hamburger, Tomate, Zwiebel, Käse, Pommes",
+        "desc": "Hamburger, Tomate, Zwiebel, Käse, Pommes"
+      },
+      "suplemento-huevo": {
+        "name": "Spiegelei",
+        "desc": "Spiegelei"
+      },
+      "suplemento-bacon": {
+        "name": "Speck",
+        "desc": "Speck"
+      },
+      "suplemento-bacon-frito": {
+        "name": "Gebratener Speck",
+        "desc": "Gebratener Speck"
+      },
+      "principal-gambas": {
+        "name": "Salzgebackene Gambas",
+        "desc": "Salzgebackene Gambas"
+      },
+      "principal-solomillo": {
+        "name": "Rinderfilet",
+        "desc": "Rinderfilet"
+      },
+      "principal-entrecote": {
+        "name": "Entrecôte-Steak",
+        "desc": "Entrecôte-Steak"
+      },
+      "principal-magret": {
+        "name": "Entenmagret",
+        "desc": "Entenmagret"
+      },
+      "principal-calamar": {
+        "name": "Gefüllter Tintenfisch",
+        "desc": "Gefüllter Tintenfisch"
+      },
+      "principal-risotto": {
+        "name": "Risotto",
+        "desc": "Risotto"
+      },
+      "principal-secreto": {
+        "name": "Secreto vom Schwein",
+        "desc": "Secreto vom Schwein"
+      },
+      "cocktail-chupitos": {
+        "name": "Shots",
+        "desc": "Shots"
+      },
+      "cocktail-tanqueray": {
+        "name": "Tanqueray",
+        "desc": "Tanqueray"
+      },
+      "cocktail-tanqueray-gin-tonic": {
+        "name": "Tanqueray Gin+Tonic",
+        "desc": "Tanqueray Gin+Tonic"
+      },
+      "cocktail-gin-tonic": {
+        "name": "Gin+Tonic",
+        "desc": "Gin+Tonic"
+      },
+      "cocktail-bifiter": {
+        "name": "Bifiter",
+        "desc": "Bifiter"
+      },
+      "cocktail-bombay": {
+        "name": "Bombay Sapphire",
+        "desc": "Bombay Sapphire"
+      },
+      "cocktail-jack-daniels": {
+        "name": "Jack Daniels",
+        "desc": "Jack Daniels"
+      },
+      "cocktail-jack-cola": {
+        "name": "Jack Daniels + Cola",
+        "desc": "Jack Daniels + Cola"
+      },
+      "cocktail-ballantines": {
+        "name": "Ballantine's",
+        "desc": "Ballantine's"
+      },
+      "cocktail-ballantines-cola": {
+        "name": "Ballantine's + Cola",
+        "desc": "Ballantine's + Cola"
+      },
+      "cocktail-cutty-sark": {
+        "name": "Cutty Sark",
+        "desc": "Cutty Sark"
+      },
+      "cocktail-jim-bim": {
+        "name": "Jim Bim",
+        "desc": "Jim Bim"
+      },
+      "cocktail-magno": {
+        "name": "Magno",
+        "desc": "Magno"
+      },
+      "cocktail-veterano": {
+        "name": "Veterano",
+        "desc": "Veterano"
+      },
+      "cocktail-torres-5": {
+        "name": "Torres 5",
+        "desc": "Torres 5"
+      },
+      "cocktail-torres-10": {
+        "name": "Torres 10",
+        "desc": "Torres 10"
+      },
+      "cocktail-soberano": {
+        "name": "Soberano",
+        "desc": "Soberano"
+      },
+      "cocktail-bacardi": {
+        "name": "Bacardi",
+        "desc": "Bacardi"
+      },
+      "cocktail-ron-pujol": {
+        "name": "Ron Pujol",
+        "desc": "Ron Pujol"
+      },
+      "cocktail-cacique": {
+        "name": "Cacique",
+        "desc": "Cacique"
+      },
+      "cocktail-absolut": {
+        "name": "Absolut",
+        "desc": "Absolut"
+      },
+      "cocktail-smirnoff": {
+        "name": "Smirnoff",
+        "desc": "Smirnoff"
+      },
+      "cocktail-vermut-blanco": {
+        "name": "Weißer Wermut",
+        "desc": "Weißer Wermut"
+      },
+      "cocktail-vermut-rojo": {
+        "name": "Roter Wermut",
+        "desc": "Roter Wermut"
+      },
+      "cocktail-anis": {
+        "name": "Anís del Mono",
+        "desc": "Anís del Mono"
+      },
+      "cocktail-ratafia": {
+        "name": "Ratafia Russet",
+        "desc": "Ratafia Russet"
+      },
+      "cocktail-pacharan": {
+        "name": "Pacharán Navarro",
+        "desc": "Pacharán Navarro"
+      },
+      "cocktail-orujo": {
+        "name": "Orujo",
+        "desc": "Orujo"
+      },
+      "cocktail-jagermeister": {
+        "name": "Jägermeister",
+        "desc": "Jägermeister"
+      },
+      "cocktail-licor-43": {
+        "name": "Licor 43",
+        "desc": "Licor 43"
+      }
+    },
+    "full_menu_btn": "Gesamte Speisekarte anzeigen",
+    "full_menu_alt": "Komplette Rio de Gusto Speisekarte"
+  },
+  "reviews": {
+    "eyebrow": "Google Bewertungen",
+    "title": "Was unsere Gäste sagen.",
+    "summary": "Google · 4,8/5 · Rio de Gusto Restaurant",
+    "reviews": [
+      {
+        "text": "„Wir haben das Restaurant zufällig entdeckt, aber es hat uns super gefallen! Gutes Essen und guter Service. Sehr empfehlenswert.“",
+        "author": "Patricia Ramirez"
+      },
+      {
+        "text": "„Vor einer Woche entdeckt und war schon zweimal wieder da. Gutes Essen. Gutes Preis-Leistungs-Verhältnis und guter Service. Empfehlenswert.“",
+        "author": "Juana Espada"
+      },
+      {
+        "text": "„Spektakuläre Menüs, das Essen ist köstlich.“",
+        "author": "Ester Padilla"
+      }
+    ],
+    "link": "Weitere Bewertungen auf Google Maps ansehen",
+    "months": {
+      "november": "November 2025",
+      "september": "September 2025"
+    }
+  },
+  "facade": {
+    "eyebrow": "Rio de Gusto von der Straße",
+    "title": "Ein warmer Ort im Herzen von Calella."
+  },
+  "atmosphere": {
+    "eyebrow": "Atmosphäre in Calella",
+    "title": "Eine helle Pause am Mittelmeer.",
+    "text": "Ruhiges Interieur, natürliche Materialien und eine Weinauswahl, die die Produkte begleitet, ohne sie zu überdecken."
+  },
+  "reservation": {
+    "eyebrow": "Reservierungen",
+    "title": "Ihr Tisch bei Rio de Gusto.",
+    "text": "Schreiben Sie uns auf WhatsApp, und wir bereiten einen Tisch für Mittagessen, Abendessen oder eine besondere Feier in Calella vor.",
+    "cta": "Via WhatsApp reservieren"
+  },
+  "contact": {
+    "address_label": "Adresse",
+    "address": "Carrer de Monturiol, 90, 08370 Calella, Spanien",
+    "hours_label": "Öffnungszeiten",
+    "hours": "<div class=\"hours-grid\"><div class=\"hours-row\"><span class=\"hours-day\">Montag</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Dienstag</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Mittwoch</span><span class=\"hours-slot hours-closed\">Geschlossen</span></div><div class=\"hours-row\"><span class=\"hours-day\">Donnerstag</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Freitag</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Samstag</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Sonntag</span><span class=\"hours-slot\">09:00–17:00</span><span class=\"hours-slot hours-closed\">Geschlossen</span></div></div>",
+    "contact_label": "Kontakt",
+    "contact": "+34 644 84 88 25\nriodegusto@gmail.com"
+  },
+  "map": {
+    "eyebrow": "Standort",
+    "title": "Finden Sie uns in Calella.",
+    "link": "Route anzeigen"
+  },
+  "modal": {
+    "close": "Schließen",
+    "alt": "Vergrößerte Rio de Gusto Speisekarte"
+  },
+  "footer": {
+    "text": "Rio de Gusto · Spanisches Restaurant in Calella",
+    "back": "Zurück nach oben"
+  },
+  "language": {
+    "label": "Sprache"
+  },
+  "legal": {
+    "button": "Impressum & Datenschutz",
+    "disclaimer": "Diese Informationen werden gemäß spanischem Recht auf Spanisch bereitgestellt."
+  }
+}

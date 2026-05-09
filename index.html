@@ -42,6 +42,7 @@
           <li><button type="button" data-lang="es" lang="es">ES</button></li>
           <li><button type="button" data-lang="en" lang="en">EN</button></li>
           <li><button type="button" data-lang="fr" lang="fr">FR</button></li>
+          <li><button type="button" data-lang="de" lang="de">DE</button></li>
           <li><button type="button" data-lang="ru" lang="ru">RU</button></li>
         </ul>
       </div>
@@ -254,23 +255,142 @@
           </div>
         </div>
 
-        <div class="full-menu-heading" data-reveal>
-          <p class="eyebrow" data-i18n="menu.eyebrow">Carta completa</p>
-          <button class="menu-open" type="button" data-open-menu data-i18n="menu.full_menu_btn">Ver menú en grande</button>
+        <div class="full-menu-extended">
+          <!-- Left column: all categories combined -->
+          <div class="full-menu-combined" data-reveal>
+            <!-- Ensaladas -->
+            <div class="combined-category">
+              <div class="combined-category-heading" data-i18n="menu.ensaladas.title">Ensaladas</div>
+              <div class="combined-items">
+                <span class="combined-item"><span data-i18n="menu.dishes.ensalada-verde.name">Ensalada verde</span><strong>6.50€</strong></span>
+                <span class="combined-item"><span data-i18n="menu.dishes.ensalada-setas.name">Ensalada de setas confitadas</span><strong>8.00€</strong></span>
+                <span class="combined-item"><span data-i18n="menu.dishes.ensalada-aguacate.name">Ensalada de aguacate y gambas</span><strong>9.00€</strong></span>
+                <span class="combined-item"><span data-i18n="menu.dishes.ensalada-rusa.name">Auténtica ensalada rusa</span><strong>7.50€</strong></span>
+                <span class="combined-item"><span data-i18n="menu.dishes.surtido-quesos.name">Surtido de quesos</span><strong>14.00€</strong></span>
+                <span class="combined-item"><span data-i18n="menu.dishes.surtido-embutidos.name">Surtido de embutidos</span><strong>18.00€</strong></span>
+                <span class="combined-item"><span data-i18n="menu.dishes.jamon-iberico.name">Jamón ibérico</span><strong>21.00€</strong></span>
+              </div>
+            </div>
+
+            <!-- Pizzas -->
+            <div class="combined-category">
+              <div class="combined-category-heading" data-i18n="menu.pizza.title">Pizzas</div>
+              <div class="combined-items">
+                <span class="combined-item"><span data-i18n="menu.dishes.pizza-margarita.name">Pizza Margarita</span><strong>7.40€</strong></span>
+                <span class="combined-item"><span data-i18n="menu.dishes.pizza-4quesos.name">Pizza 4 quesos</span><strong>7.70€</strong></span>
+                <span class="combined-item"><span data-i18n="menu.dishes.pizza-pepperoni.name">Pizza Pepperoni</span><strong>7.90€</strong></span>
+                <span class="combined-item"><span data-i18n="menu.dishes.pizza-jamon.name">Pizza con jamón</span><strong>8.50€</strong></span>
+              </div>
+            </div>
+
+            <!-- Pasta -->
+            <div class="combined-category">
+              <div class="combined-category-heading" data-i18n="menu.pasta.title">Pasta</div>
+              <div class="combined-items">
+                <span class="combined-item"><span data-i18n="menu.dishes.pasta-napolitana.name">Pasta Napolitana</span><strong>5.50€</strong></span>
+                <span class="combined-item"><span data-i18n="menu.dishes.pasta-bolognese.name">Pasta Bolognese</span><strong>6.50€</strong></span>
+                <span class="combined-item"><span data-i18n="menu.dishes.pasta-roquefort.name">Pasta roquefort con pollo</span><strong>6.80€</strong></span>
+                <span class="combined-item"><span data-i18n="menu.dishes.pasta-rio-de-gusto.name">Pasta Rio de Gusto</span><strong>10.00€</strong></span>
+              </div>
+            </div>
+
+            <!-- Segundos platos -->
+            <div class="combined-category">
+              <div class="combined-category-heading" data-i18n="menu.segundos.title">Segundos platos</div>
+              <div class="combined-items">
+                <span class="combined-item"><span data-i18n="menu.dishes.segundo-cordon-blue.name">Cordon blue, ensalada, patatas</span><strong>8.30€</strong></span>
+                <span class="combined-item"><span data-i18n="menu.dishes.segundo-alitas.name">Ración de alitas pollo</span><strong>6.50€</strong></span>
+                <span class="combined-item"><span data-i18n="menu.dishes.segundo-frankfurter.name">Frankfurter, patatas fritas, salsa</span><strong>7.20€</strong></span>
+                <span class="combined-item"><span data-i18n="menu.dishes.segundo-huevos-bacon.name">Huevos, bacon, patatas fritas</span><strong>7.50€</strong></span>
+                <span class="combined-item"><span data-i18n="menu.dishes.segundo-pollo-ensalada.name">Pollo, ensalada, patatas fritas</span><strong>9.00€</strong></span>
+                <span class="combined-item"><span data-i18n="menu.dishes.segundo-lomo-ensalada.name">Lomo, ensalada, patatas fritas</span><strong>9.60€</strong></span>
+                <span class="combined-item"><span data-i18n="menu.dishes.segundo-bistec-ensalada.name">Bistec, ensalada, patatas fritas</span><strong>9.60€</strong></span>
+                <span class="combined-item"><span data-i18n="menu.dishes.segundo-butifarra.name">Butifarra, judías, tomate fresco</span><strong>7.50€</strong></span>
+                <span class="combined-item"><span data-i18n="menu.dishes.segundo-merluza.name">Merluza a la Romana</span><strong>8.60€</strong></span>
+                <span class="combined-item"><span data-i18n="menu.dishes.segundo-hamburguesa.name">Hamburguesa, tomate, cebolla, queso, patatas fritas</span><strong>6.00€</strong></span>
+              </div>
+              <div class="combined-suplementos">
+                <span class="suplementos-label" data-i18n="menu.segundos.suplementos">Suplementos:</span>
+                <span data-i18n="menu.dishes.suplemento-huevo.name">Huevo frito</span> <strong>1.00€</strong>
+                <span data-i18n="menu.dishes.suplemento-bacon.name">Bacon</span> <strong>1.00€</strong>
+                <span data-i18n="menu.dishes.suplemento-bacon-frito.name">Bacon frito</span> <strong>1.00€</strong>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Right column: Sopas + Especiales + Cocktails -->
+          <div class="full-menu-right">
+            <div class="menu-group" data-reveal>
+              <div class="menu-group-heading">
+                <span data-i18n="menu.sopas.title">Sopas</span>
+                <p data-i18n="menu.sopas.desc">Caseras para empezar.</p>
+              </div>
+              <div class="dish-grid">
+                <article class="dish-card dish-card--text-only"><div><h3 data-i18n="menu.dishes.sopa-mariscos.name">Sopa de mariscos</h3></div><strong>9.00€</strong></article>
+                <article class="dish-card dish-card--text-only"><div><h3 data-i18n="menu.dishes.sopa-borsch.name">Borsch</h3></div><strong>8.00€</strong></article>
+                <article class="dish-card dish-card--text-only"><div><h3 data-i18n="menu.dishes.sopa-pollo.name">Sopa de pollo</h3></div><strong>5.00€</strong></article>
+              </div>
+            </div>
+
+            <div class="menu-group" data-reveal>
+              <div class="menu-group-heading">
+                <span data-i18n="menu.principales.title">Especiales de la casa</span>
+                <p data-i18n="menu.principales.desc">Selección de platos estrella.</p>
+              </div>
+              <div class="dish-grid">
+                <article class="dish-card dish-card--text-only"><div><h3 data-i18n="menu.dishes.principal-gambas.name">Gambas a la sal</h3></div><strong>18.00€</strong></article>
+                <article class="dish-card dish-card--text-only"><div><h3 data-i18n="menu.dishes.principal-solomillo.name">Solomillo de ternera</h3></div><strong>21.00€</strong></article>
+                <article class="dish-card dish-card--text-only"><div><h3 data-i18n="menu.dishes.principal-entrecote.name">Entrecote</h3></div><strong>19.50€</strong></article>
+                <article class="dish-card dish-card--text-only"><div><h3 data-i18n="menu.dishes.principal-magret.name">Magret de pato</h3></div><strong>17.50€</strong></article>
+                <article class="dish-card dish-card--text-only"><div><h3 data-i18n="menu.dishes.principal-calamar.name">Calamar relleno</h3></div><strong>15.00€</strong></article>
+                <article class="dish-card dish-card--text-only"><div><h3 data-i18n="menu.dishes.principal-risotto.name">Risotto</h3></div><strong>16.00€</strong></article>
+                <article class="dish-card dish-card--text-only"><div><h3 data-i18n="menu.dishes.principal-secreto.name">Secreto de cerdo</h3></div><strong>8.00€</strong></article>
+              </div>
+            </div>
+
+            <div class="menu-group" data-reveal>
+            <div class="menu-group-heading">
+              <span data-i18n="menu.cocktails.title">Cócteles y chupitos</span>
+              <p data-i18n="menu.cocktails.desc">Para acompañar la cena.</p>
+            </div>
+            <div class="drinks-grid">
+              <span class="drinks-item"><span data-i18n="menu.dishes.cocktail-chupitos.name">Chupitos</span><strong>1.90€</strong></span>
+              <span class="drinks-item"><span data-i18n="menu.dishes.cocktail-tanqueray.name">Tanqueray</span><strong>4.50€</strong></span>
+              <span class="drinks-item"><span data-i18n="menu.dishes.cocktail-tanqueray-gin-tonic.name">Tanqueray gin+tonic</span><strong>5.50€</strong></span>
+              <span class="drinks-item"><span data-i18n="menu.dishes.cocktail-gin-tonic.name">Gin+tonic</span><strong>2.20€</strong></span>
+              <span class="drinks-item"><span data-i18n="menu.dishes.cocktail-bifiter.name">Bifiter</span><strong>5.50€</strong></span>
+              <span class="drinks-item"><span data-i18n="menu.dishes.cocktail-bombay.name">Bombay Zaphire</span><strong>4.50€</strong></span>
+              <span class="drinks-item"><span data-i18n="menu.dishes.cocktail-jack-daniels.name">Jack Daniels</span><strong>5.50€</strong></span>
+              <span class="drinks-item"><span data-i18n="menu.dishes.cocktail-jack-cola.name">Jack Daniels + Cola</span><strong>6.80€</strong></span>
+              <span class="drinks-item"><span data-i18n="menu.dishes.cocktail-ballantines.name">Ballantines</span><strong>4.00€</strong></span>
+              <span class="drinks-item"><span data-i18n="menu.dishes.cocktail-ballantines-cola.name">Ballantines + cola</span><strong>5.50€</strong></span>
+              <span class="drinks-item"><span data-i18n="menu.dishes.cocktail-cutty-sark.name">Cutty Sark</span><strong>4.00€</strong></span>
+              <span class="drinks-item"><span data-i18n="menu.dishes.cocktail-jim-bim.name">Jim Bim</span><strong>3.50€</strong></span>
+              <span class="drinks-item"><span data-i18n="menu.dishes.cocktail-magno.name">Magno</span><strong>3.50€</strong></span>
+              <span class="drinks-item"><span data-i18n="menu.dishes.cocktail-veterano.name">Veterano</span><strong>3.50€</strong></span>
+              <span class="drinks-item"><span data-i18n="menu.dishes.cocktail-torres-5.name">Torres 5</span><strong>4.50€</strong></span>
+              <span class="drinks-item"><span data-i18n="menu.dishes.cocktail-torres-10.name">Torres 10</span><strong>4.20€</strong></span>
+              <span class="drinks-item"><span data-i18n="menu.dishes.cocktail-soberano.name">Soberano</span><strong>3.50€</strong></span>
+              <span class="drinks-item"><span data-i18n="menu.dishes.cocktail-bacardi.name">Bacardi</span><strong>3.50€</strong></span>
+              <span class="drinks-item"><span data-i18n="menu.dishes.cocktail-ron-pujol.name">Ron Pujol</span><strong>3.50€</strong></span>
+              <span class="drinks-item"><span data-i18n="menu.dishes.cocktail-cacique.name">Cacique</span><strong>4.50€</strong></span>
+              <span class="drinks-item"><span data-i18n="menu.dishes.cocktail-absolut.name">Absolut</span><strong>3.50€</strong></span>
+              <span class="drinks-item"><span data-i18n="menu.dishes.cocktail-smirnoff.name">Smirnoff</span><strong>3.50€</strong></span>
+              <span class="drinks-item"><span data-i18n="menu.dishes.cocktail-vermut-blanco.name">Vermut Blanco</span><strong>2.50€</strong></span>
+              <span class="drinks-item"><span data-i18n="menu.dishes.cocktail-vermut-rojo.name">Vermut Rojo</span><strong>2.50€</strong></span>
+              <span class="drinks-item"><span data-i18n="menu.dishes.cocktail-anis.name">Anís del Mono</span><strong>3.20€</strong></span>
+              <span class="drinks-item"><span data-i18n="menu.dishes.cocktail-ratafia.name">Ratafia russet</span><strong>3.20€</strong></span>
+              <span class="drinks-item"><span data-i18n="menu.dishes.cocktail-pacharan.name">Pacharán Navarro</span><strong>3.50€</strong></span>
+              <span class="drinks-item"><span data-i18n="menu.dishes.cocktail-orujo.name">Orujo</span><strong>3.50€</strong></span>
+              <span class="drinks-item"><span data-i18n="menu.dishes.cocktail-jagermeister.name">Jagermeister</span><strong>3.20€</strong></span>
+              <span class="drinks-item"><span data-i18n="menu.dishes.cocktail-licor-43.name">Licor 43</span><strong>3.50€</strong></span>
+            </div>
+          </div>
         </div>
 
-        <figure class="full-menu" data-reveal>
-          <picture>
-            <source srcset="assets/full-menu-rio-de-gusto.webp" type="image/webp" />
-            <img
-              src="assets/full-menu-rio-de-gusto.png"
-              alt="Menu completo de Rio de Gusto con ensaladas, sopas, pizza, pasta, combinadas, principales y cocktails"
-              loading="lazy"
-              decoding="async"
-              data-i18n-alt="menu.full_menu_alt"
-            />
-          </picture>
-        </figure>
+        <div class="full-menu-footer" data-reveal>
+          <button class="menu-open" type="button" data-open-menu data-i18n="menu.full_menu_btn">Ver menú en grande</button>
         </div>
       </section>
 
@@ -383,12 +503,12 @@
 
           <div class="contact-panel">
             <div>
-              <span data-i18n="contact.address_label">Direccion</span>
-              <p data-i18n="contact.address">Calella, Barcelona</p>
-            </div>
-            <div>
               <span data-i18n="contact.hours_label">Horario</span>
               <div data-i18n-html="contact.hours" class="hours-wrapper"></div>
+            </div>
+            <div>
+              <span data-i18n="contact.address_label">Direccion</span>
+              <p data-i18n="contact.address">Calella, Barcelona</p>
             </div>
             <div>
               <span data-i18n="contact.contact_label">Contacto</span>

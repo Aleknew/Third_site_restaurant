@@ -50,6 +50,34 @@
       "title": "Тапас",
       "desc": "Классические тапас, чтобы разделить перед едой или с бокалом вина."
     },
+    "ensaladas": {
+      "title": "Салаты",
+      "desc": "Свежие и вкусные, приготовленные из сезонных продуктов."
+    },
+    "sopas": {
+      "title": "Супы",
+      "desc": "Домашние супы для начала трапезы."
+    },
+    "pizza": {
+      "title": "Пицца",
+      "desc": "Пицца ручной работы, запечённая в печи."
+    },
+    "pasta": {
+      "title": "Паста",
+      "desc": "Свежая паста с различными соусами."
+    },
+    "segundos": {
+      "title": "Вторые блюда",
+      "desc": "Сытные основные блюда."
+    },
+    "principales": {
+      "title": "Фирменные блюда",
+      "desc": "Избранные авторские блюда."
+    },
+    "cocktails": {
+      "title": "Коктейли и шоты",
+      "desc": "Коктейли и напитки к ужину."
+    },
     "dishes": {
       "combo-frankfurt": {
         "name": "Франкфурт, фри и яйцо",
@@ -98,6 +126,278 @@
       "tapas-mussels": {
         "name": "Маринованные мидии",
         "desc": "Маринованные мидии"
+      },
+      "ensalada-verde": {
+        "name": "Зелёный салат",
+        "desc": "Зелёный салат"
+      },
+      "ensalada-setas": {
+        "name": "Салат с конфи из грибов",
+        "desc": "Салат с конфи из грибов"
+      },
+      "ensalada-aguacate": {
+        "name": "Салат с авокадо и креветками",
+        "desc": "Салат с авокадо и креветками"
+      },
+      "ensalada-rusa": {
+        "name": "Настоящий русский салат",
+        "desc": "Настоящий русский салат"
+      },
+      "surtido-quesos": {
+        "name": "Сырная тарелка",
+        "desc": "Сырная тарелка"
+      },
+      "surtido-embutidos": {
+        "name": "Мясная тарелка",
+        "desc": "Мясная тарелка"
+      },
+      "jamon-iberico": {
+        "name": "Хамон иберико",
+        "desc": "Хамон иберико"
+      },
+      "sopa-mariscos": {
+        "name": "Суп из морепродуктов",
+        "desc": "Суп из морепродуктов"
+      },
+      "sopa-borsch": {
+        "name": "Борщ",
+        "desc": "Борщ"
+      },
+      "sopa-pollo": {
+        "name": "Куриный суп",
+        "desc": "Куриный суп"
+      },
+      "pizza-margarita": {
+        "name": "Пицца Маргарита",
+        "desc": "Пицца Маргарита"
+      },
+      "pizza-4quesos": {
+        "name": "Пицца 4 сыра",
+        "desc": "Пицца 4 сыра"
+      },
+      "pizza-pepperoni": {
+        "name": "Пицца Пепперони",
+        "desc": "Пицца Пепперони"
+      },
+      "pizza-jamon": {
+        "name": "Пицца с ветчиной",
+        "desc": "Пицца с ветчиной"
+      },
+      "pasta-napolitana": {
+        "name": "Паста Наполитана",
+        "desc": "Паста Наполитана"
+      },
+      "pasta-bolognese": {
+        "name": "Паста Болоньезе",
+        "desc": "Паста Болоньезе"
+      },
+      "pasta-roquefort": {
+        "name": "Паста рокфор с курицей",
+        "desc": "Паста рокфор с курицей"
+      },
+      "pasta-rio-de-gusto": {
+        "name": "Паста Rio de Gusto",
+        "desc": "Паста Rio de Gusto"
+      },
+      "segundo-cordon-blue": {
+        "name": "Кордон блю, салат, фри",
+        "desc": "Кордон блю, салат, фри"
+      },
+      "segundo-alitas": {
+        "name": "Порция куриных крыльев",
+        "desc": "Порция куриных крыльев"
+      },
+      "segundo-frankfurter": {
+        "name": "Франкфуртер, фри, соус",
+        "desc": "Франкфуртер, фри, соус"
+      },
+      "segundo-huevos-bacon": {
+        "name": "Яйца, бекон, фри",
+        "desc": "Яйца, бекон, фри"
+      },
+      "segundo-pollo-ensalada": {
+        "name": "Курица, салат, фри",
+        "desc": "Курица, салат, фри"
+      },
+      "segundo-lomo-ensalada": {
+        "name": "Свинина, салат, фри",
+        "desc": "Свинина, салат, фри"
+      },
+      "segundo-bistec-ensalada": {
+        "name": "Стейк, салат, фри",
+        "desc": "Стейк, салат, фри"
+      },
+      "segundo-butifarra": {
+        "name": "Бутифарра, фасоль, свежий томат",
+        "desc": "Бутифарра, фасоль, свежий томат"
+      },
+      "segundo-merluza": {
+        "name": "Хек по-римски",
+        "desc": "Хек по-римски"
+      },
+      "segundo-hamburguesa": {
+        "name": "Гамбургер, томат, лук, сыр, фри",
+        "desc": "Гамбургер, томат, лук, сыр, фри"
+      },
+      "suplemento-huevo": {
+        "name": "Яичница",
+        "desc": "Яичница"
+      },
+      "suplemento-bacon": {
+        "name": "Бекон",
+        "desc": "Бекон"
+      },
+      "suplemento-bacon-frito": {
+        "name": "Жареный бекон",
+        "desc": "Жареный бекон"
+      },
+      "principal-gambas": {
+        "name": "Креветки по-соляному",
+        "desc": "Креветки по-соляному"
+      },
+      "principal-solomillo": {
+        "name": "Говяжья вырезка",
+        "desc": "Говяжья вырезка"
+      },
+      "principal-entrecote": {
+        "name": "Антрекот",
+        "desc": "Антрекот"
+      },
+      "principal-magret": {
+        "name": "Утиная грудка",
+        "desc": "Утиная грудка"
+      },
+      "principal-calamar": {
+        "name": "Фаршированный кальмар",
+        "desc": "Фаршированный кальмар"
+      },
+      "principal-risotto": {
+        "name": "Ризотто",
+        "desc": "Ризотто"
+      },
+      "principal-secreto": {
+        "name": "Секрето из свинины",
+        "desc": "Секрето из свинины"
+      },
+      "cocktail-chupitos": {
+        "name": "Шоты",
+        "desc": "Шоты"
+      },
+      "cocktail-tanqueray": {
+        "name": "Tanqueray",
+        "desc": "Tanqueray"
+      },
+      "cocktail-tanqueray-gin-tonic": {
+        "name": "Tanqueray джин-тоник",
+        "desc": "Tanqueray джин-тоник"
+      },
+      "cocktail-gin-tonic": {
+        "name": "Джин-тоник",
+        "desc": "Джин-тоник"
+      },
+      "cocktail-bifiter": {
+        "name": "Bifiter",
+        "desc": "Bifiter"
+      },
+      "cocktail-bombay": {
+        "name": "Bombay Sapphire",
+        "desc": "Bombay Sapphire"
+      },
+      "cocktail-jack-daniels": {
+        "name": "Jack Daniels",
+        "desc": "Jack Daniels"
+      },
+      "cocktail-jack-cola": {
+        "name": "Jack Daniels + Cola",
+        "desc": "Jack Daniels + Cola"
+      },
+      "cocktail-ballantines": {
+        "name": "Ballantine's",
+        "desc": "Ballantine's"
+      },
+      "cocktail-ballantines-cola": {
+        "name": "Ballantine's + cola",
+        "desc": "Ballantine's + cola"
+      },
+      "cocktail-cutty-sark": {
+        "name": "Cutty Sark",
+        "desc": "Cutty Sark"
+      },
+      "cocktail-jim-bim": {
+        "name": "Jim Bim",
+        "desc": "Jim Bim"
+      },
+      "cocktail-magno": {
+        "name": "Magno",
+        "desc": "Magno"
+      },
+      "cocktail-veterano": {
+        "name": "Veterano",
+        "desc": "Veterano"
+      },
+      "cocktail-torres-5": {
+        "name": "Torres 5",
+        "desc": "Torres 5"
+      },
+      "cocktail-torres-10": {
+        "name": "Torres 10",
+        "desc": "Torres 10"
+      },
+      "cocktail-soberano": {
+        "name": "Soberano",
+        "desc": "Soberano"
+      },
+      "cocktail-bacardi": {
+        "name": "Bacardi",
+        "desc": "Bacardi"
+      },
+      "cocktail-ron-pujol": {
+        "name": "Ron Pujol",
+        "desc": "Ron Pujol"
+      },
+      "cocktail-cacique": {
+        "name": "Cacique",
+        "desc": "Cacique"
+      },
+      "cocktail-absolut": {
+        "name": "Absolut",
+        "desc": "Absolut"
+      },
+      "cocktail-smirnoff": {
+        "name": "Smirnoff",
+        "desc": "Smirnoff"
+      },
+      "cocktail-vermut-blanco": {
+        "name": "Белый вермут",
+        "desc": "Белый вермут"
+      },
+      "cocktail-vermut-rojo": {
+        "name": "Красный вермут",
+        "desc": "Красный вермут"
+      },
+      "cocktail-anis": {
+        "name": "Анис дель Моно",
+        "desc": "Анис дель Моно"
+      },
+      "cocktail-ratafia": {
+        "name": "Ратафия",
+        "desc": "Ратафия"
+      },
+      "cocktail-pacharan": {
+        "name": "Пачаран Наварро",
+        "desc": "Пачаран Наварро"
+      },
+      "cocktail-orujo": {
+        "name": "Орухо",
+        "desc": "Орухо"
+      },
+      "cocktail-jagermeister": {
+        "name": "Jagermeister",
+        "desc": "Jagermeister"
+      },
+      "cocktail-licor-43": {
+        "name": "Licor 43",
+        "desc": "Licor 43"
       }
     },
     "full_menu_btn": "Посмотреть полное меню",
@@ -146,7 +446,7 @@
     "address_label": "Адрес",
     "address": "Carrer de Monturiol, 90, 08370 Калелья, Испания",
     "hours_label": "Часы работы",
-    "hours": "<div class=\"hours-grid\"><div class=\"hours-row\"><span class=\"hours-day\">Пн</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Вт</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Ср</span><span class=\"hours-slot hours-closed hours-closed-full\">Закрыто</span></div><div class=\"hours-row\"><span class=\"hours-day\">Чт</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Пт</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Сб</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Вс</span><span class=\"hours-slot\">09:00–17:00</span><span class=\"hours-slot hours-closed\">Закрыто</span></div></div>",
+    "hours": "<div class=\"hours-grid\"><div class=\"hours-row\"><span class=\"hours-day\">Пн</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Вт</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Ср</span><span class=\"hours-slot hours-closed\">Закрыто</span></div><div class=\"hours-row\"><span class=\"hours-day\">Чт</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Пт</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Сб</span><span class=\"hours-slot\">09:00–16:00</span><span class=\"hours-slot\">19:00–21:30</span></div><div class=\"hours-row\"><span class=\"hours-day\">Вс</span><span class=\"hours-slot\">09:00–17:00</span><span class=\"hours-slot hours-closed\">Закрыто</span></div></div>",
     "contact_label": "Контакты",
     "contact": "+34 644 84 88 25\nriodegusto@gmail.com"
   },
