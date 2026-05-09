@@ -1429,7 +1429,7 @@ h3 {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 1024px) {
   [data-reveal] {
     opacity: 1;
     transform: none;
