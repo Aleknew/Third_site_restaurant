@@ -1527,21 +1527,24 @@ h3 {
   }
 
   .dish-card {
-    grid-template-columns: 120px minmax(0, 1fr);
-    gap: 14px;
+    grid-template-columns: 100px minmax(0, 1fr) auto;
+    gap: 8px;
+    padding: 10px;
+    min-height: 0;
   }
 
   .dish-photo {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
   }
 
+  .dish-card h3 {
+    font-size: 1rem;
+  }
+
   .dish-card strong {
-    grid-column: 2;
-    justify-self: start;
-    margin-top: -6px;
-    font-size: 1.35rem;
+    font-size: 1.2rem;
   }
 
   .image-stack {
