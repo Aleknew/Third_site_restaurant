@@ -1429,6 +1429,13 @@ h3 {
   }
 }
 
+@media (max-width: 640px) {
+  [data-reveal] {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 @media (max-width: 560px) {
   .section-shell {
     width: min(100% - 28px, 1160px);
