@@ -68,7 +68,8 @@
     },
     "segundos": {
       "title": "Hauptgerichte",
-      "desc": "Herzhafte Hauptgerichte."
+      "desc": "Herzhafte Hauptgerichte.",
+      "suplementos": "Ergänzungen"
     },
     "principales": {
       "title": "Hausspezialitäten",

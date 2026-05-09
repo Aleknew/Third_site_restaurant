@@ -68,7 +68,8 @@
     },
     "segundos": {
       "title": "Segundos platos",
-      "desc": "Platos principales contundentes."
+      "desc": "Platos principales contundentes.",
+      "suplementos": "Suplementos"
     },
     "principales": {
       "title": "Especiales de la casa",

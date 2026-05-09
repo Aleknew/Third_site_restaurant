@@ -68,7 +68,8 @@
     },
     "segundos": {
       "title": "Main courses",
-      "desc": "Hearty main dishes."
+      "desc": "Hearty main dishes.",
+      "suplementos": "supplements"
     },
     "principales": {
       "title": "House specials",

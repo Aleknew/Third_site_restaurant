@@ -68,7 +68,8 @@
     },
     "segundos": {
       "title": "Segons plats",
-      "desc": "Plats principals contundents."
+      "desc": "Plats principals contundents.",
+      "suplementos": "suplements"
     },
     "principales": {
       "title": "Especials de la casa",

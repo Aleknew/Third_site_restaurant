@@ -68,7 +68,8 @@
     },
     "segundos": {
       "title": "Plats principaux",
-      "desc": "Plats principaux copieux."
+      "desc": "Plats principaux copieux.",
+      "suplementos": "compléments"
     },
     "principales": {
       "title": "Spécialités de la maison",
