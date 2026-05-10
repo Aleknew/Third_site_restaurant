@@ -91,12 +91,22 @@ if (nav && toggle) {
 
 // --- Scroll header ---
 if (header) {
+  const setHeaderOffset = () => {
+    document.documentElement.style.setProperty("--header-offset", `${header.getBoundingClientRect().height}px`);
+  };
+
   const setHeaderState = () => {
     header.classList.toggle("is-scrolled", window.scrollY > 8);
+    setHeaderOffset();
   };
 
   setHeaderState();
   window.addEventListener("scroll", setHeaderState, { passive: true });
+  window.addEventListener("resize", setHeaderOffset);
+
+  if ("ResizeObserver" in window) {
+    new ResizeObserver(setHeaderOffset).observe(header);
+  }
 }
 
 // --- Reveal observer ---

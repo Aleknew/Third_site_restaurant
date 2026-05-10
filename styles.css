@@ -12,6 +12,7 @@
   --shadow: 0 24px 70px rgba(17, 17, 17, 0.12);
   --serif: "Playfair Display", Georgia, serif;
   --sans: "Montserrat", Arial, sans-serif;
+  --header-offset: 112px;
 }
 
 * {
@@ -319,12 +320,12 @@ a {
 
 .parallax-hero {
   position: fixed;
-  top: 130px;
+  top: var(--header-offset);
   left: 0;
   z-index: 0;
   width: 100%;
-  height: calc(560px - 112px);
-  max-height: calc(100vh - 112px);
+  height: calc(560px - var(--header-offset));
+  max-height: calc(100vh - var(--header-offset));
   overflow: hidden;
 }
 
@@ -334,7 +335,7 @@ a {
   background-image: url("assets/new_fon.webp");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center top;
   will-change: transform;
 }
 
