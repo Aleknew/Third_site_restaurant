@@ -129,38 +129,28 @@ if (trackedSections.length && navLinks.length) {
   trackedSections.forEach((section) => sectionObserver.observe(section));
 }
 
-// --- Menu modal / PDF ---
-const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+// --- Menu modal ---
+if (menuModal && openMenuButton) {
+  const openMenu = () => {
+    menuModal.classList.add("is-open");
+    menuModal.setAttribute("aria-hidden", "false");
+    document.body.classList.add("menu-lock");
+  };
 
-if (openMenuButton) {
-  if (isMobile && menuModal) {
-    // На мобильных iPhone/Android — открываем PDF в новой вкладке
-    openMenuButton.addEventListener("click", () => {
-      window.open("assets/rio_de_gusto_menu.pdf#view=FitH", "_blank", "noopener,noreferrer");
-    });
-  } else if (menuModal) {
-    // На десктопе — показываем в модальном окне через iframe
-    const openMenu = () => {
-      menuModal.classList.add("is-open");
-      menuModal.setAttribute("aria-hidden", "false");
-      document.body.classList.add("menu-lock");
-    };
+  const closeMenu = () => {
+    menuModal.classList.remove("is-open");
+    menuModal.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("menu-lock");
+  };
 
-    const closeMenu = () => {
-      menuModal.classList.remove("is-open");
-      menuModal.setAttribute("aria-hidden", "true");
-      document.body.classList.remove("menu-lock");
-    };
+  openMenuButton.addEventListener("click", openMenu);
+  closeMenuButtons.forEach((button) => button.addEventListener("click", closeMenu));
 
-    openMenuButton.addEventListener("click", openMenu);
-    closeMenuButtons.forEach((button) => button.addEventListener("click", closeMenu));
-
-    document.addEventListener("keydown", (event) => {
-      if (event.key === "Escape" && menuModal.classList.contains("is-open")) {
-        closeMenu();
-      }
-    });
-  }
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && menuModal.classList.contains("is-open")) {
+      closeMenu();
+    }
+  });
 }
 
 // --- Parallax ---
