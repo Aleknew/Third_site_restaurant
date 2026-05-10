@@ -1196,18 +1196,11 @@ h3 {
   box-shadow: 0 30px 90px rgba(0, 0, 0, 0.34);
 }
 
-.menu-modal-panel img,
-.menu-modal-panel .menu-modal-pdf {
+.menu-modal-panel img {
   display: block;
   max-width: 100%;
   height: auto;
   object-fit: contain;
-}
-
-.menu-modal-panel .menu-modal-pdf {
-  width: 100%;
-  height: 90vh;
-  border: none;
 }
 
 .menu-modal-close {
