@@ -1,7 +1,7 @@
 {
   "nav": {
     "experiencia": "Experiència",
-    "menu": "Menú",
+    "menu": "La carta",
     "opiniones": "Opinions",
     "ambiente": "Ambient",
     "ubicacion": "Ubicació",
@@ -9,14 +9,14 @@
   },
   "header": {
     "cta": "Reservar",
-    "menu_toggle": "Obrir menú"
+    "menu_toggle": "Obrir la carta"
   },
   "hero": {
     "eyebrow": "Restaurant espanyol a Calella",
     "title": "Bona taula, moments memorables.",
     "text": "Cuina mediterrània amb ànima espanyola, producte de temporada i una atmosfera serena per gaudir sense pressa.",
     "reserve": "Reservar per WhatsApp",
-    "view_menu": "Veure menú",
+    "view_menu": "Veure la carta",
     "card_label": "Cuina oberta",
     "card_text": "Producte local · Vi · Brasa suau"
   },
@@ -401,8 +401,8 @@
         "desc": "Licor 43"
       }
     },
-    "full_menu_btn": "Veure menú en gran",
-    "full_menu_alt": "Menú complet de Rio de Gusto"
+    "full_menu_btn": "Veure la carta",
+    "full_menu_alt": "La carta complet de Rio de Gusto"
   },
   "reviews": {
     "eyebrow": "Opinions de Google",

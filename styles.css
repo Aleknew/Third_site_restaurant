@@ -764,32 +764,6 @@ h3 {
   }
 }
 
-.dish-card--text-only {
-  grid-template-columns: minmax(0, 1fr) auto;
-  min-height: 0;
-  padding: 8px 12px;
-  gap: 12px;
-}
-
-.dish-card--text-only .dish-photo {
-  display: none;
-}
-
-.dish-card--text-only h3 {
-  margin-bottom: 0;
-  font-size: 1rem;
-  font-weight: 500;
-}
-
-.dish-card--text-only strong {
-  font-size: 1.1rem;
-  font-weight: 600;
-}
-
-.dish-card--text-only:hover {
-  transform: translateY(-1px);
-}
-
 /* --- Right column wrapper (Especiales + Cocktails) --- */
 .full-menu-right {
   display: grid;
@@ -1018,40 +992,6 @@ h3 {
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-}
-
-.facade-section {
-  padding: clamp(62px, 9vw, 112px) 0;
-  background: var(--paper);
-  border-top: 1px solid var(--line);
-}
-
-.facade-heading {
-  display: block;
-  max-width: 760px;
-  text-align: center;
-  margin-bottom: 34px;
-}
-
-.facade-heading .eyebrow {
-  margin-bottom: 14px;
-}
-
-.facade-heading h2 {
-  margin-bottom: 0;
-}
-
-.facade-photo {
-  width: min(1280px, calc(100% - 40px));
-  margin: 0 auto;
-  overflow: hidden;
-  aspect-ratio: 16 / 9;
-  border: 1px solid var(--line);
-  box-shadow: var(--shadow);
-}
-
-.facade-photo img {
-  object-position: center;
 }
 
 .atmosphere {
@@ -1522,11 +1462,6 @@ h3 {
     max-height: 94vh;
   }
 
-  .facade-photo {
-    width: min(100% - 28px, 1280px);
-    aspect-ratio: 4 / 3;
-  }
-
   .hero-card {
     left: 14px;
     bottom: 14px;
@@ -1544,14 +1479,6 @@ h3 {
     width: 100px;
     height: 100px;
     object-fit: cover;
-  }
-
-  .dish-card--text-only {
-    grid-template-columns: minmax(0, 1fr) auto;
-  }
-
-  .dish-card--text-only strong {
-    font-size: 1.1rem;
   }
 
   .dish-card h3 {

@@ -8,12 +8,7 @@
       content="Rio de Gusto es un restaurante espanol en Calella con cocina mediterranea, producto local y una experiencia elegante y acogedora."
     />
     <title>Rio de Gusto | Restaurante en Calella</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="assets/fonts/fonts.css" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -326,10 +321,10 @@
                 <span data-i18n="menu.sopas.title">Sopas</span>
                 <p data-i18n="menu.sopas.desc">Caseras para empezar.</p>
               </div>
-              <div class="dish-grid">
-                <article class="dish-card dish-card--text-only"><div><h3 data-i18n="menu.dishes.sopa-mariscos.name">Sopa de mariscos</h3></div><strong>9.00€</strong></article>
-                <article class="dish-card dish-card--text-only"><div><h3 data-i18n="menu.dishes.sopa-borsch.name">Borsch</h3></div><strong>8.00€</strong></article>
-                <article class="dish-card dish-card--text-only"><div><h3 data-i18n="menu.dishes.sopa-pollo.name">Sopa de pollo</h3></div><strong>5.00€</strong></article>
+              <div class="combined-items">
+                <span class="combined-item"><span data-i18n="menu.dishes.sopa-mariscos.name">Sopa de mariscos</span><strong>9.00€</strong></span>
+                <span class="combined-item"><span data-i18n="menu.dishes.sopa-borsch.name">Borsch</span><strong>8.00€</strong></span>
+                <span class="combined-item"><span data-i18n="menu.dishes.sopa-pollo.name">Sopa de pollo</span><strong>5.00€</strong></span>
               </div>
             </div>
 
@@ -338,14 +333,14 @@
                 <span data-i18n="menu.principales.title">Especiales de la casa</span>
                 <p data-i18n="menu.principales.desc">Selección de platos estrella.</p>
               </div>
-              <div class="dish-grid">
-                <article class="dish-card dish-card--text-only"><div><h3 data-i18n="menu.dishes.principal-gambas.name">Gambas a la sal</h3></div><strong>18.00€</strong></article>
-                <article class="dish-card dish-card--text-only"><div><h3 data-i18n="menu.dishes.principal-solomillo.name">Solomillo de ternera</h3></div><strong>21.00€</strong></article>
-                <article class="dish-card dish-card--text-only"><div><h3 data-i18n="menu.dishes.principal-entrecote.name">Entrecote</h3></div><strong>19.50€</strong></article>
-                <article class="dish-card dish-card--text-only"><div><h3 data-i18n="menu.dishes.principal-magret.name">Magret de pato</h3></div><strong>17.50€</strong></article>
-                <article class="dish-card dish-card--text-only"><div><h3 data-i18n="menu.dishes.principal-calamar.name">Calamar relleno</h3></div><strong>15.00€</strong></article>
-                <article class="dish-card dish-card--text-only"><div><h3 data-i18n="menu.dishes.principal-risotto.name">Risotto</h3></div><strong>16.00€</strong></article>
-                <article class="dish-card dish-card--text-only"><div><h3 data-i18n="menu.dishes.principal-secreto.name">Secreto de cerdo</h3></div><strong>8.00€</strong></article>
+              <div class="combined-items">
+                <span class="combined-item"><span data-i18n="menu.dishes.principal-gambas.name">Gambas a la sal</span><strong>18.00€</strong></span>
+                <span class="combined-item"><span data-i18n="menu.dishes.principal-solomillo.name">Solomillo de ternera</span><strong>21.00€</strong></span>
+                <span class="combined-item"><span data-i18n="menu.dishes.principal-entrecote.name">Entrecote</span><strong>19.50€</strong></span>
+                <span class="combined-item"><span data-i18n="menu.dishes.principal-magret.name">Magret de pato</span><strong>17.50€</strong></span>
+                <span class="combined-item"><span data-i18n="menu.dishes.principal-calamar.name">Calamar relleno</span><strong>15.00€</strong></span>
+                <span class="combined-item"><span data-i18n="menu.dishes.principal-risotto.name">Risotto</span><strong>16.00€</strong></span>
+                <span class="combined-item"><span data-i18n="menu.dishes.principal-secreto.name">Secreto de cerdo</span><strong>8.00€</strong></span>
               </div>
             </div>
 
@@ -440,13 +435,6 @@
           >
             Ver más opiniones en Google Maps
           </a>
-        </div>
-      </section>
-
-      <section class="facade-section" data-reveal>
-        <div class="section-shell facade-heading">
-          <p class="eyebrow" data-i18n="facade.eyebrow">Rio de Gusto desde la calle</p>
-          <h2 data-i18n="facade.title">Un rincón cálido en el centro de Calella.</h2>
         </div>
       </section>
 
