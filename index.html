@@ -7,9 +7,139 @@
       name="description"
       content="Rio de Gusto es un restaurante espanol en Calella con cocina mediterranea, producto local y una experiencia elegante y acogedora."
     />
-    <title>Rio de Gusto | Restaurante en Calella</title>
+    <title>Restaurante en Calella – Rio de Gusto</title>
+    <link rel="alternate" hreflang="ca" href="https://example.com/" />
+    <link rel="alternate" hreflang="es" href="https://example.com/" />
+    <link rel="alternate" hreflang="en" href="https://example.com/" />
+    <link rel="alternate" hreflang="fr" href="https://example.com/" />
+    <link rel="alternate" hreflang="de" href="https://example.com/" />
+    <link rel="alternate" hreflang="ru" href="https://example.com/" />
+    <link rel="alternate" hreflang="x-default" href="https://example.com/" />
     <link rel="stylesheet" href="assets/fonts/fonts.css" />
     <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://example.com/#restaurant",
+      "name": "Rio de Gusto",
+      "description": "Restaurant espanyol a Calella. Cuina mediterrània amb ànima espanyola, producte de temporada i una atmosfera serena per gaudir sense pressa.",
+      "url": "https://example.com/",
+      "telephone": "+34 644 84 88 25",
+      "email": "riodegusto@gmail.com",
+      "servesCuisine": ["Mediterranean", "Spanish"],
+      "priceRange": "€€",
+      "image": "https://example.com/assets/logo-cropped.webp",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Carrer de Monturiol, 90",
+        "addressLocality": "Calella",
+        "addressRegion": "Barcelona",
+        "postalCode": "08370",
+        "addressCountry": "ES"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.6185178,
+        "longitude": 2.6654402
+      },
+      "openingHoursSpecification": [
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Monday", "opens": "09:00", "closes": "16:00" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Monday", "opens": "19:00", "closes": "21:30" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Tuesday", "opens": "09:00", "closes": "16:00" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Tuesday", "opens": "19:00", "closes": "21:30" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Wednesday", "opens": "", "closes": "" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Thursday", "opens": "09:00", "closes": "16:00" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Thursday", "opens": "19:00", "closes": "21:30" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "09:00", "closes": "16:00" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "19:00", "closes": "21:30" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "16:00" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "19:00", "closes": "21:30" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "09:00", "closes": "17:00" }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "bestRating": "5",
+        "ratingCount": "247",
+        "reviewCount": "247"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Marta L." },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+          "reviewBody": "Buen precio y buen servicio. Recomiendo."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Juana Espada" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+          "reviewBody": "Espectacular menús, la comida está buenísima."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Leanne Mann" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+          "reviewBody": "El servicio es muy amable y la comida está llena de sabor."
+        }
+      ],
+      "hasMenu": {
+        "@type": "Menu",
+        "@id": "https://example.com/#menu",
+        "name": "Carta de Rio de Gusto",
+        "hasMenuItem": [
+          { "@type": "MenuItem", "name": "Frankfurt, patates i ou", "offers": { "@type": "Offer", "price": "7.95", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Pit de pollastre i patates", "offers": { "@type": "Offer", "price": "7.95", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Llom i patates", "offers": { "@type": "Offer", "price": "7.95", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Bistec i patates", "offers": { "@type": "Offer", "price": "8.95", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Hamburguesa, patates i ou", "offers": { "@type": "Offer", "price": "7.95", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Patates fregides", "offers": { "@type": "Offer", "price": "3.90", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Patates braves", "offers": { "@type": "Offer", "price": "4.40", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Croquetes", "offers": { "@type": "Offer", "price": "5.90", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Truita de patates o carbasso", "offers": { "@type": "Offer", "price": "4.00", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Assortiment iberic", "offers": { "@type": "Offer", "price": "12.00", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Seitons en vinagre", "offers": { "@type": "Offer", "price": "6.90", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Musclos en escabetx", "offers": { "@type": "Offer", "price": "5.30", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Ensalada verde", "offers": { "@type": "Offer", "price": "6.50", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Ensalada de setas confitadas", "offers": { "@type": "Offer", "price": "8.00", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Ensalada de aguacate y gambas", "offers": { "@type": "Offer", "price": "9.00", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Auténtica ensalada rusa", "offers": { "@type": "Offer", "price": "7.50", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Surtido de quesos", "offers": { "@type": "Offer", "price": "14.00", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Surtido de embutidos", "offers": { "@type": "Offer", "price": "18.00", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Jamón ibérico", "offers": { "@type": "Offer", "price": "21.00", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Pizza Margarita", "offers": { "@type": "Offer", "price": "7.40", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Pizza 4 quesos", "offers": { "@type": "Offer", "price": "7.70", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Pizza Pepperoni", "offers": { "@type": "Offer", "price": "7.90", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Pizza con jamón", "offers": { "@type": "Offer", "price": "8.50", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Pasta Napolitana", "offers": { "@type": "Offer", "price": "5.50", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Pasta Bolognese", "offers": { "@type": "Offer", "price": "6.50", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Pasta roquefort con pollo", "offers": { "@type": "Offer", "price": "6.80", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Pasta Rio de Gusto", "offers": { "@type": "Offer", "price": "10.00", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Sopa de mariscos", "offers": { "@type": "Offer", "price": "9.00", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Borsch", "offers": { "@type": "Offer", "price": "8.00", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Sopa de pollo", "offers": { "@type": "Offer", "price": "5.00", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Cordon blue, ensalada, patatas", "offers": { "@type": "Offer", "price": "8.30", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Ración de alitas pollo", "offers": { "@type": "Offer", "price": "6.50", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Frankfurter, patatas fritas, salsa", "offers": { "@type": "Offer", "price": "7.20", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Huevos, bacon, patatas fritas", "offers": { "@type": "Offer", "price": "7.50", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Pollo, ensalada, patatas fritas", "offers": { "@type": "Offer", "price": "9.00", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Lomo, ensalada, patatas fritas", "offers": { "@type": "Offer", "price": "9.60", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Bistec, ensalada, patatas fritas", "offers": { "@type": "Offer", "price": "9.60", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Butifarra, judías, tomate fresco", "offers": { "@type": "Offer", "price": "7.50", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Merluza a la Romana", "offers": { "@type": "Offer", "price": "8.60", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Hamburguesa, tomate, cebolla, queso, patatas fritas", "offers": { "@type": "Offer", "price": "6.00", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Gambas a la sal", "offers": { "@type": "Offer", "price": "18.00", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Solomillo de ternera", "offers": { "@type": "Offer", "price": "21.00", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Entrecote", "offers": { "@type": "Offer", "price": "19.50", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Magret de pato", "offers": { "@type": "Offer", "price": "17.50", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Calamar relleno", "offers": { "@type": "Offer", "price": "15.00", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Risotto", "offers": { "@type": "Offer", "price": "16.00", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Secreto de cerdo", "offers": { "@type": "Offer", "price": "8.00", "priceCurrency": "EUR" } }
+        ]
+      }
+    }
+    </script>
   </head>
   <body>
     <header class="site-header" data-header>
@@ -63,7 +193,7 @@
       <section class="hero section-shell" data-reveal>
         <div class="hero-copy" data-reveal>
           <p class="eyebrow" data-i18n="hero.eyebrow">Restaurante espanol en Calella</p>
-          <h1 data-i18n="hero.title">Buena mesa, momentos memorables.</h1>
+          <h1 data-i18n="hero.title">Restaurante en Calella — cocina mediterránea y tapas</h1>
           <p class="hero-text" data-i18n="hero.text">
             Cocina mediterranea con alma espanola, producto de temporada y una
             atmosfera serena para disfrutar sin prisa.
@@ -496,7 +626,7 @@
             </div>
             <div>
               <span data-i18n="contact.address_label">Direccion</span>
-              <p data-i18n="contact.address">Calella, Barcelona</p>
+              <p data-i18n="contact.address">Carrer de Monturiol, 90, 08370 Calella, Spain</p>
             </div>
             <div>
               <span data-i18n="contact.contact_label">Contacto</span>
