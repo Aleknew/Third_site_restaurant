@@ -333,7 +333,7 @@ a {
   inset: 0;
   background-image: url("assets/new_fon.webp");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   background-position: center center;
   will-change: transform;
 }
