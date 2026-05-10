@@ -42,6 +42,14 @@
   "menu": {
     "eyebrow": "Gesamte Speisekarte",
     "title": "Die Rio de Gusto Karte.",
+    "tabs": {
+      "tapas": "Tapas",
+      "combinados": "Kombigerichte",
+      "pizzas": "Pizzen",
+      "pasta": "Pasta",
+      "especiales": "Spezialitäten",
+      "bebidas": "Getränke"
+    },
     "combinats": {
       "title": "Kombinierte Gerichte",
       "desc": "Mit Pommes frites; Salat als Alternative erhältlich."

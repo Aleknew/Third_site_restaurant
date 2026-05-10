@@ -42,6 +42,14 @@
   "menu": {
     "eyebrow": "Полное меню",
     "title": "Меню Rio de Gusto.",
+    "tabs": {
+      "tapas": "Тапас",
+      "combinados": "Комбо",
+      "pizzas": "Пицца",
+      "pasta": "Паста",
+      "especiales": "Особое",
+      "bebidas": "Напитки"
+    },
     "combinats": {
       "title": "Комбинированные блюда",
       "desc": "С картофелем фри; салат доступен как альтернатива."

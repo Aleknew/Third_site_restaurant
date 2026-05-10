@@ -42,6 +42,14 @@
   "menu": {
     "eyebrow": "Menu complet",
     "title": "La carte de Rio de Gusto.",
+    "tabs": {
+      "tapas": "Tapas",
+      "combinados": "Plats combinés",
+      "pizzas": "Pizzas",
+      "pasta": "Pâtes",
+      "especiales": "Spécialités",
+      "bebidas": "Boissons"
+    },
     "combinats": {
       "title": "Plats combinés",
       "desc": "Avec frites ; salade disponible en alternative."

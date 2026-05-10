@@ -40,8 +40,16 @@
     }
   },
   "menu": {
-    "eyebrow": "Menú completo",
+    "eyebrow": "La carta completo",
     "title": "La carta de Rio de Gusto.",
+    "tabs": {
+      "tapas": "Tapas",
+      "combinados": "Platos combinados",
+      "pizzas": "Pizzas",
+      "pasta": "Pasta",
+      "especiales": "Especiales",
+      "bebidas": "Bebidas"
+    },
     "combinats": {
       "title": "Plats combinats",
       "desc": "Con patatas fritas; ensalada disponible como alternativa."

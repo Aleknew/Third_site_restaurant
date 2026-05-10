@@ -11,6 +11,11 @@ const trackedSections = Array.from(navLinks)
 const menuModal = document.querySelector("[data-menu-modal]");
 const openMenuButton = document.querySelector("[data-open-menu]");
 const closeMenuButtons = document.querySelectorAll("[data-close-menu]");
+const menuTabs = document.querySelector("[data-menu-tabs]");
+const menuTabLinks = document.querySelectorAll("[data-menu-tabs] a[href^='#']");
+const menuCategories = Array.from(menuTabLinks)
+  .map((link) => document.querySelector(link.getAttribute("href")))
+  .filter(Boolean);
 const dishAccordion = document.querySelector("[data-dish-accordion]");
 const dishPanels = document.querySelectorAll("[data-dish-panel]");
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -127,6 +132,67 @@ if (trackedSections.length && navLinks.length) {
   );
 
   trackedSections.forEach((section) => sectionObserver.observe(section));
+}
+
+// --- Menu category tabs ---
+if (menuTabs && menuTabLinks.length && menuCategories.length) {
+  const centerMenuTab = (link) => {
+    const left = link.offsetLeft - (menuTabs.clientWidth - link.clientWidth) / 2;
+    if (typeof menuTabs.scrollTo === "function") {
+      menuTabs.scrollTo({ left, behavior: reduceMotion ? "auto" : "smooth" });
+    } else {
+      menuTabs.scrollLeft = left;
+    }
+  };
+
+  const scrollToMenuCategory = (target) => {
+    const headerHeight = header ? header.getBoundingClientRect().height : 0;
+    const tabsHeight = menuTabs.getBoundingClientRect().height;
+    const offset = headerHeight + tabsHeight + 18;
+    const top = target.getBoundingClientRect().top + window.scrollY - offset;
+
+    window.scrollTo({ top, behavior: reduceMotion ? "auto" : "smooth" });
+  };
+
+  const setActiveMenuTab = (id) => {
+    menuTabLinks.forEach((link) => {
+      const isActive = link.getAttribute("href") === `#${id}`;
+      link.classList.toggle("is-active", isActive);
+      link.toggleAttribute("aria-current", isActive);
+      if (isActive) {
+        centerMenuTab(link);
+      }
+    });
+  };
+
+  menuTabLinks.forEach((link) => {
+    link.addEventListener("click", (event) => {
+      event.preventDefault();
+      const id = link.getAttribute("href").slice(1);
+      const target = document.getElementById(id);
+
+      if (!target) return;
+
+      setActiveMenuTab(id);
+      scrollToMenuCategory(target);
+      history.pushState(null, "", `#${id}`);
+    });
+  });
+
+  const menuCategoryObserver = new IntersectionObserver(
+    (entries) => {
+      const visibleEntries = entries
+        .filter((entry) => entry.isIntersecting)
+        .sort((a, b) => b.intersectionRatio - a.intersectionRatio);
+
+      if (visibleEntries[0]) {
+        setActiveMenuTab(visibleEntries[0].target.id);
+      }
+    },
+    { rootMargin: "-34% 0px -50% 0px", threshold: [0.08, 0.2, 0.45] }
+  );
+
+  menuCategories.forEach((category) => menuCategoryObserver.observe(category));
 }
 
 // --- Menu modal ---

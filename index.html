@@ -262,8 +262,17 @@
           <h2 data-i18n="menu.title">La carta de Rio de Gusto.</h2>
         </div>
 
+        <nav class="menu-tabs" data-menu-tabs aria-label="Secciones de la carta">
+          <a class="menu-tab is-active" href="#menu-tapas" aria-current="true" data-i18n="menu.tabs.tapas">Tapas</a>
+          <a class="menu-tab" href="#menu-combinados" data-i18n="menu.tabs.combinados">Platos combinados</a>
+          <a class="menu-tab" href="#menu-pizzas" data-i18n="menu.tabs.pizzas">Pizzas</a>
+          <a class="menu-tab" href="#menu-pasta" data-i18n="menu.tabs.pasta">Pasta</a>
+          <a class="menu-tab" href="#menu-especiales" data-i18n="menu.tabs.especiales">Especiales</a>
+          <a class="menu-tab" href="#menu-bebidas" data-i18n="menu.tabs.bebidas">Bebidas</a>
+        </nav>
+
         <div class="menu-catalog">
-          <div class="menu-group" data-reveal>
+          <div class="menu-group" id="menu-combinados" data-menu-category data-reveal>
             <div class="menu-group-heading">
               <span data-i18n="menu.combinats.title">Plats combinats</span>
               <p data-i18n="menu.combinats.desc">Con patatas fritas; ensalada disponible como alternativa.</p>
@@ -313,7 +322,7 @@
             </div>
           </div>
 
-          <div class="menu-group tapas-group" data-reveal>
+          <div class="menu-group tapas-group" id="menu-tapas" data-menu-category data-reveal>
             <div class="menu-group-heading">
               <span data-i18n="menu.tapas.title">Tapes</span>
               <p data-i18n="menu.tapas.desc">Tapas clasicas para compartir antes de la comida o con una copa.</p>
@@ -398,7 +407,7 @@
             </div>
 
             <!-- Pizzas -->
-            <div class="combined-category">
+            <div class="combined-category" id="menu-pizzas" data-menu-category>
               <div class="combined-category-heading" data-i18n="menu.pizza.title">Pizzas</div>
               <div class="combined-items">
                 <span class="combined-item"><span data-i18n="menu.dishes.pizza-margarita.name">Pizza Margarita</span><strong>7.40€</strong></span>
@@ -409,7 +418,7 @@
             </div>
 
             <!-- Pasta -->
-            <div class="combined-category">
+            <div class="combined-category" id="menu-pasta" data-menu-category>
               <div class="combined-category-heading" data-i18n="menu.pasta.title">Pasta</div>
               <div class="combined-items">
                 <span class="combined-item"><span data-i18n="menu.dishes.pasta-napolitana.name">Pasta Napolitana</span><strong>5.50€</strong></span>
@@ -458,7 +467,7 @@
               </div>
             </div>
 
-            <div class="menu-group" data-reveal>
+            <div class="menu-group" id="menu-especiales" data-menu-category data-reveal>
               <div class="menu-group-heading">
                 <span data-i18n="menu.principales.title">Especiales de la casa</span>
                 <p data-i18n="menu.principales.desc">Selección de platos estrella.</p>
@@ -474,7 +483,7 @@
               </div>
             </div>
 
-            <div class="menu-group" data-reveal>
+            <div class="menu-group" id="menu-bebidas" data-menu-category data-reveal>
             <div class="menu-group-heading">
               <span data-i18n="menu.cocktails.title">Cócteles y chupitos</span>
               <p data-i18n="menu.cocktails.desc">Para acompañar la cena.</p>

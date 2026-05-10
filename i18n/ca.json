@@ -40,8 +40,16 @@
     }
   },
   "menu": {
-    "eyebrow": "Menú complet",
+    "eyebrow": "La carta complet",
     "title": "La carta de Rio de Gusto.",
+    "tabs": {
+      "tapas": "Tapes",
+      "combinados": "Plats combinats",
+      "pizzas": "Pizzes",
+      "pasta": "Pasta",
+      "especiales": "Especials",
+      "bebidas": "Begudes"
+    },
     "combinats": {
       "title": "Plats combinats",
       "desc": "Amb patates fregides; amanida disponible com a alternativa."

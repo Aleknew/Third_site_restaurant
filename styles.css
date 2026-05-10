@@ -577,6 +577,66 @@ h3 {
   margin-bottom: 42px;
 }
 
+.menu-tabs {
+  position: sticky;
+  top: 92px;
+  z-index: 12;
+  display: flex;
+  gap: 8px;
+  margin: -12px 0 34px;
+  padding: 8px;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+  background: rgba(251, 250, 247, 0.86);
+  border: 1px solid var(--line);
+  backdrop-filter: blur(18px);
+  box-shadow: 0 18px 44px rgba(17, 17, 17, 0.08);
+}
+
+.menu-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.menu-tab {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 0 auto;
+  min-height: 42px;
+  padding: 0 18px;
+  color: var(--espresso);
+  border: 1px solid transparent;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transition: color 180ms ease, background 180ms ease, border-color 180ms ease, transform 180ms ease;
+}
+
+.menu-tab:hover,
+.menu-tab.is-active {
+  color: var(--rich-black);
+  background: rgba(200, 169, 106, 0.14);
+  border-color: rgba(200, 169, 106, 0.46);
+}
+
+.menu-tab.is-active::after {
+  position: absolute;
+  right: 14px;
+  bottom: 7px;
+  left: 14px;
+  height: 1px;
+  content: "";
+  background: var(--gold);
+}
+
+[data-menu-category] {
+  scroll-margin-top: 166px;
+}
+
 .menu-catalog {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -1356,6 +1416,10 @@ h3 {
     grid-template-columns: 1fr;
   }
 
+  .tapas-group {
+    order: -1;
+  }
+
   .feature {
     min-height: auto;
   }
@@ -1426,6 +1490,28 @@ h3 {
 
   .menu-group {
     padding: 20px 14px;
+  }
+
+  .menu-tabs {
+    top: 82px;
+    width: calc(100% + 28px);
+    margin: -18px -14px 28px;
+    padding: 8px 14px;
+    border-right: 0;
+    border-left: 0;
+    box-shadow: 0 12px 28px rgba(17, 17, 17, 0.08);
+  }
+
+  .menu-tab {
+    flex-basis: auto;
+    min-height: 40px;
+    padding: 0 14px;
+    font-size: 0.66rem;
+    letter-spacing: 0.1em;
+  }
+
+  [data-menu-category] {
+    scroll-margin-top: 146px;
   }
 
   .menu-group-heading {

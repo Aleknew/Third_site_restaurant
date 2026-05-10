@@ -42,6 +42,14 @@
   "menu": {
     "eyebrow": "Full menu",
     "title": "The Rio de Gusto menu.",
+    "tabs": {
+      "tapas": "Tapas",
+      "combinados": "Combined dishes",
+      "pizzas": "Pizzas",
+      "pasta": "Pasta",
+      "especiales": "Specials",
+      "bebidas": "Drinks"
+    },
     "combinats": {
       "title": "Combined dishes",
       "desc": "With french fries; salad available as alternative."
